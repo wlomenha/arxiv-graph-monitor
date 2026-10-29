@@ -8,7 +8,7 @@ from datetime import datetime
 # Configuração para Produção via Groq Cloud
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
-MODEL_NAME = "openai/gpt-oss-20b"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 # Lista de URLs do arXiv para monitoramento
 TARGET_URLS = [
