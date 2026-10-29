@@ -24,14 +24,15 @@ Your task is to generate a clean, highly-structured Markdown bulletin for GitHub
 CRITICAL RULES:
 1. Process EVERY paper provided in the input list individually.
 2. DO NOT write a high-level general overview or summary of the page.
-3. Respond in clean GitHub-flavored Markdown.
+3. Keep the exact ArXiv URL provided in the input for each paper.
+4. Keep the exact Authors provided in the input for each paper.
+5. EVERY paper MUST include a non-empty 'Main Result/Innovation' section based on its abstract.
 
 For EACH paper, use the following exact structure:
 
 ### 🚀 [Paper Number]. [Title of the Paper]
-- 👤 **Authors**: [Author Names if available, or 'arXiv preprint']
-- 🏷️ **Category**: `Graph Theory / Combinatorics`
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org)
+- 👤 **Authors**: [Exact Authors provided in input]
+- 🔗 **ArXiv**: [Access Paper](EXACT_URL_PROVIDED)
 
 #### 📝 Executive Summary & Innovations
 - **Main Result**: 2 to 3 concise sentences explaining the primary finding or theorem proved in the abstract.
@@ -65,7 +66,7 @@ def is_graph_paper(title, abstract):
     return any(keyword in text_to_check for keyword in GRAPH_KEYWORDS)
 
 def fetch_graph_papers_from_urls(urls):
-    """Raspa e filtra artigos de grafos de múltiplas URLs do arXiv, eliminando duplicatas."""
+    """Raspa e filtra artigos de grafos do arXiv com links diretos e autores."""
     all_papers = []
     seen_titles = set()
     
@@ -82,14 +83,27 @@ def fetch_graph_papers_from_urls(urls):
             dd_list = soup.find_all("dd")
             
             for dt, dd in zip(dt_list, dd_list):
+                # 1. Extração do Link Direto do Artigo
+                link_tag = dt.find("a", title="Abstract")
+                paper_url = f"https://arxiv.org{link_tag['href']}" if link_tag else url
+
+                # 2. Extração do Título
                 title_div = dd.find("div", class_="list-title")
                 title = title_div.text.replace("Title:", "").strip() if title_div else "No title"
                 
-                # Normaliza o título para deduplicação
+                # Deduplicação por título
                 normalized_title = title.lower().strip()
                 if normalized_title in seen_titles:
                     continue
                 
+                # 3. Extração dos Autores
+                authors_div = dd.find("div", class_="list-authors")
+                if authors_div:
+                    authors = ", ".join([a.text.strip() for a in authors_div.find_all("a")])
+                else:
+                    authors = "Unknown Authors"
+
+                # 4. Extração do Resumo (Abstract)
                 abstract_p = dd.find("p", class_="mathjax")
                 abstract = abstract_p.text.strip() if abstract_p else "No abstract available"
                 
@@ -97,6 +111,8 @@ def fetch_graph_papers_from_urls(urls):
                     seen_titles.add(normalized_title)
                     all_papers.append({
                         "title": title,
+                        "authors": authors,
+                        "url": paper_url,
                         "abstract": abstract
                     })
         except Exception as e:
@@ -124,7 +140,8 @@ def summarize_batch(batch_text):
     )
     return response.choices[0].message.content
 
-def summarize_all_in_batches(urls, batch_size=3):  # <--- Reduz para 3 artigos por lote
+def summarize_all_in_batches(urls, batch_size=3):
+    """Orquestra a raspagem, processamento em lotes e junção do relatório."""
     papers = fetch_graph_papers_from_urls(urls)
     total = len(papers)
     
@@ -141,39 +158,42 @@ def summarize_all_in_batches(urls, batch_size=3):  # <--- Reduz para 3 artigos p
         
         batch_text = ""
         for idx, paper in enumerate(batch, start=i+1):
-            batch_text += f"Paper {idx}:\nTITLE: {paper['title']}\nABSTRACT: {paper['abstract']}\n\n"
+            batch_text += (
+                f"Paper {idx}:\n"
+                f"TITLE: {paper['title']}\n"
+                f"AUTHORS: {paper['authors']}\n"
+                f"URL: {paper['url']}\n"
+                f"ABSTRACT: {paper['abstract']}\n\n"
+            )
             
         print(f"Sending batch {i//batch_size + 1} (Papers {i+1} to {min(i+batch_size, total)})...")
         
         summary = summarize_batch(batch_text)
         full_report.append(summary)
         
-        # Pausa de 15 segundos entre as chamadas para respeitar o limite de Rate Limit (TPM) da Groq
         if i + batch_size < total:
-            print("Aguardando 15s para evitar Rate Limit...")
+            print("Aguardando 15s para respeitar o Rate Limit...")
             time.sleep(15)
         
     return "\n\n".join(full_report)
 
 def save_summary_to_file(summary_text):
-    """Salva o relatório no formato Markdown em reports/ e atualiza o LATEST.md."""
+    """Salva o relatório em reports/ e atualiza o LATEST.md."""
     os.makedirs("reports", exist_ok=True)
     
     date_str = datetime.now().strftime("%Y-%m-%d")
     filename = f"reports/arxiv-{date_str}.md"
     
-    # Salva o arquivo histórico do dia
     with open(filename, "w", encoding="utf-8") as f:
         f.write(summary_text)
     
-    # Atualiza a versão principal do LATEST.md
     with open("LATEST.md", "w", encoding="utf-8") as f:
         f.write(summary_text)
         
     print(f"\n[SUCCESS] Report successfully saved to '{filename}' and 'LATEST.md'!")
 
 def main():
-    report = summarize_all_in_batches(TARGET_URLS, batch_size=5)
+    report = summarize_all_in_batches(TARGET_URLS, batch_size=3)
     save_summary_to_file(report)
 
 if __name__ == "__main__":
