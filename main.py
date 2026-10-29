@@ -57,7 +57,8 @@ GRAPH_KEYWORDS = [
     "bipartite", "hypergraph", "tree", "trees", "path convexity",
     "eulerian", "hamiltonian", "spectral", "laplacian", "coloring", "decomposition", "degree",
     "subgraph", "hypergraphs", "connectivity", "matching", "domination", 
-    "ramsey", "planar", "extremal", "isomorphism", "colorability", "colourability" 
+    "ramsey", "planar", "extremal", "isomorphism", "colorability", "colourability",
+    "linear", "arboricity", "nonrepetitive", "non-repetitive"
 ]
 
 def is_graph_paper(title, abstract):
