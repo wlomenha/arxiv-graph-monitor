@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
@@ -123,8 +124,7 @@ def summarize_batch(batch_text):
     )
     return response.choices[0].message.content
 
-def summarize_all_in_batches(urls, batch_size=5):
-    """Orquestra a raspagem de múltiplas fontes, fatiamento em lotes e junção das respostas."""
+def summarize_all_in_batches(urls, batch_size=3):  # <--- Reduz para 3 artigos por lote
     papers = fetch_graph_papers_from_urls(urls)
     total = len(papers)
     
@@ -147,6 +147,11 @@ def summarize_all_in_batches(urls, batch_size=5):
         
         summary = summarize_batch(batch_text)
         full_report.append(summary)
+        
+        # Pausa de 15 segundos entre as chamadas para respeitar o limite de Rate Limit (TPM) da Groq
+        if i + batch_size < total:
+            print("Aguardando 15s para evitar Rate Limit...")
+            time.sleep(15)
         
     return "\n\n".join(full_report)
 
