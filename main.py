@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
-from IPython.display import Markdown, display
+from datetime import datetime
 
 # Configuração para Produção via Groq Cloud
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -18,24 +18,30 @@ TARGET_URLS = [
 
 system_prompt = """
 You are a senior academic researcher specialized in Graph Theory and Combinatorics.
-Your task is to generate a clean, structured bulletin from a list of arXiv preprints focused specifically on Graph Theory.
+Your task is to generate a clean, highly-structured Markdown bulletin for GitHub from a list of arXiv preprints.
 
 CRITICAL RULES:
 1. Process EVERY paper provided in the input list individually.
 2. DO NOT write a high-level general overview or summary of the page.
-3. Respond in clear Markdown with headers.
+3. Respond in clean GitHub-flavored Markdown.
 
-For EACH paper, format as follows:
-### [Number] Title of the Paper
-- **Main Result/Innovation**: 2 to 3 concise sentences explaining the primary finding or theorem proved in the abstract.
-- **Key Concepts / Graph Topics**: List specific graph types, parameters, or techniques involved (e.g., Chromatic Number, Planar Graphs, Spectral Graph Theory, Extremal Graphs).
+For EACH paper, use the following exact structure:
+
+### 🚀 [Paper Number]. [Title of the Paper]
+- 👤 **Authors**: [Author Names if available, or 'arXiv preprint']
+- 🏷️ **Category**: `Graph Theory / Combinatorics`
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: 2 to 3 concise sentences explaining the primary finding or theorem proved in the abstract.
+- **Key Graph Concepts**: List specific graph types, parameters, or techniques involved (e.g., Chromatic Number, Planar Graphs, Spectral Graph Theory, Extremal Graphs).
 
 ---
 """
 
 user_prompt_prefix = """
 Here is the filtered list of new arXiv papers related to Graph Theory.
-Process each paper individually and format the executive summary in English:
+Process each paper individually and format the executive summary:
 
 """
 
@@ -78,7 +84,7 @@ def fetch_graph_papers_from_urls(urls):
                 title_div = dd.find("div", class_="list-title")
                 title = title_div.text.replace("Title:", "").strip() if title_div else "No title"
                 
-                # Normaliza o título para desduplicação
+                # Normaliza o título para deduplicação
                 normalized_title = title.lower().strip()
                 if normalized_title in seen_titles:
                     continue
@@ -123,12 +129,12 @@ def summarize_all_in_batches(urls, batch_size=5):
     total = len(papers)
     
     if total == 0:
-        return "No Graph Theory papers were found across the provided arXiv categories today."
+        return "# 📊 ArXiv Graph Theory Daily Bulletin\n\n> 💡 No Graph Theory papers were found across the monitored arXiv categories today."
         
     print(f"\nFound {total} unique Graph Theory papers across all sources.")
     print(f"Processing in batches of {batch_size} via Groq ({MODEL_NAME})...\n")
     
-    full_report = []
+    full_report = [f"# 📊 ArXiv Graph Theory Daily Bulletin — {datetime.now().strftime('%Y-%m-%d')}\n\n> 💡 **Executive Overview**: Below are today's featured Graph Theory preprints scraped and summarized automatically.\n\n---"]
     
     for i in range(0, total, batch_size):
         batch = papers[i : i + batch_size]
@@ -142,16 +148,28 @@ def summarize_all_in_batches(urls, batch_size=5):
         summary = summarize_batch(batch_text)
         full_report.append(summary)
         
-    return "\n\n---\n\n".join(full_report)
+    return "\n\n".join(full_report)
 
-def display_summary(urls):
-    summary = summarize_all_in_batches(urls, batch_size=5)
-    display(Markdown(summary))
+def save_summary_to_file(summary_text):
+    """Salva o relatório no formato Markdown em reports/ e atualiza o LATEST.md."""
+    os.makedirs("reports", exist_ok=True)
+    
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    filename = f"reports/arxiv-{date_str}.md"
+    
+    # Salva o arquivo histórico do dia
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(summary_text)
+    
+    # Atualiza a versão principal do LATEST.md
+    with open("LATEST.md", "w", encoding="utf-8") as f:
+        f.write(summary_text)
+        
+    print(f"\n[SUCCESS] Report successfully saved to '{filename}' and 'LATEST.md'!")
 
 def main():
     report = summarize_all_in_batches(TARGET_URLS, batch_size=5)
-    print("\n=== FINAL BULLETIN ===\n")
-    print(report)
+    save_summary_to_file(report)
 
 if __name__ == "__main__":
     main()

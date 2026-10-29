@@ -2,8 +2,11 @@ name: Daily ArXiv Graph Papers Monitor
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # Roda diariamente às 08:00 (Horário de Brasília)
-  workflow_dispatch:      # Permite disparar o teste manualmente
+    - cron: '0 11 * * *'  # Roda diariamente às 08:00 (Brasília)
+  workflow_dispatch:      # Permite disparar manualmente
+
+permissions:
+  contents: write         # Permissão necessária para o bot fazer commits de arquivos
 
 jobs:
   run-pipeline:
@@ -11,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -27,3 +30,11 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python main.py
+
+      - name: Commit and Push Reports
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ LATEST.md
+          git commit -m "docs: adiciona novo boletim diario [skip ci]" || echo "Sem alteracoes para commit"
+          git push
