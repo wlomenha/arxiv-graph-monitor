@@ -1,1718 +1,1177 @@
-# 📊 ArXiv Graph Theory Daily Bulletin — 2026-11-17
+# 📊 ArXiv Graph Theory Daily Bulletin — 2026-11-18
 
 > 💡 **Executive Overview**: Below are today's featured Graph Theory preprints scraped and summarized automatically.
 
 ---
 
-### 🚀 1. Delaunay Combinatorics of the Moduli and Teichmüller Space of Closed Genus‑Two Riemann Surfaces
-- 👤 **Authors**: Armando Rodado Amaris  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18684)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper classifies all trivalent Delaunay graphs arising from the six Weierstrass points of a genus‑two hyperelliptic surface, showing that the simple dual triangulations fall into exactly two types (octahedral and stacked) and that, when bigons are allowed, the White‑Whitehead flip orbit contains twenty distinct types.  A seven‑level hierarchy of graph types is obtained via iterated edge contraction, culminating in the unique 2‑vertex, 6‑parallel‑edge map, and the full set of 280 sphere maps with six vertices and no degree‑one vertices is recovered by closing under both contraction and expansion.  All enumerations, automorphism groups, and flip orbits are formally verified in Lean 4 and cross‑checked by an independent program.
-- **Key Graph Concepts**: Trivalent Graphs, Delaunay Decomposition, Voronoi Diagram, Edge Contraction/Expansion, Whitehead (Diagonal‑Flip) Orbit, Automorphism Groups, Maps on the Sphere, Hierarchical Graph Classification, Teichmüller Space (dimension 6).
-
----
-
-### 🚀 2. The cop number of the flower snarks, and the generalized Petersen graphs with cop number two
-- 👤 **Authors**: Aarav Ghai  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18787)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: It is proved that every flower snark \(J_n\) with \(n\ge 5\) has cop number 3 (and lazy cop number 3), while \(J_3\) has cop number 2; the proof relies on a “rolling wall’’ three‑cop strategy that works for any graph whose vertices can be arranged in a cyclic column structure.  Moreover, the conjecture of Morris, Runte and Skelton is settled: the only generalized Petersen graphs with cop number 2 are \(\mathrm{GP}(n,1)\) together with \(\mathrm{GP}(6,2)\), \(\mathrm{GP}(8,2)\), \(\mathrm{GP}(9,3)\) and \(\mathrm{GP}(12,3)\); explicit robber strategies show that two cops fail on \(\mathrm{GP}(3k,k)\) and \(\mathrm{GP}(4k,k)\) for \(k\ge4\).  All lower‑bound arguments are formally verified in Lean 4.
-- **Key Graph Concepts**: Cop Number, Lazy Cop Number, Flower Snarks, Generalized Petersen Graphs, Cops‑and‑Robbers Game, Rolling‑Wall Strategy, Robber Strategies, Graph Automorphisms (implicit in Petersen families).
-
----
-
-### 🚀 3. The Walsh spectrum of the Dobbertin APN function
-- 👤 **Authors**: Lukas Kölsch  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18907)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The complete Walsh spectrum of the Dobbertin APN monomial is determined, thereby resolving the long‑standing open problem of its linearity; the analysis shows that this monomial attains the maximal possible linearity among known APN monomials.  As a corollary, the result yields the asymptotically largest known Sidon sets in elementary abelian \(2\)-groups and produces binary linear codes of minimum distance 5 that are almost optimal.
-- **Key Graph Concepts**: (While the paper is primarily about Boolean functions, the combinatorial structures involved include) Walsh Spectrum, APN (Almost‑Perfect‑Nonlinear) Functions, Sidon Sets, Binary Linear Codes, Spectral Analysis of Boolean Functions.
-
-### 🚀 4. Proper implies improper for the chromatic symmetric function
-- 👤 **Authors**: Rosa Orellana, Mario Tomba  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18940)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that an affirmative answer to Stanley’s tree‑distinguishing question for the subclass of *k‑weighted* proper trees is equivalent to an affirmative answer for **all** trees. Moreover, within the k‑weighted class they exhibit a closed‑form formula that recovers the “redundant’’ coefficients of the chromatic symmetric function from the remaining coefficients.
-- **Key Graph Concepts**: Chromatic Symmetric Function, Proper Trees, *k‑weighted* Trees, Tree Invariants, Coefficient Redundancy, Stanley’s Tree‑Distinguishing Problem  
-
----  
-
-### 🚀 5. Intervals in affine Bruhat order
-- 👤 **Authors**: Elizabeth Milićević, Petra Schwer, Anne Thomas  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19137)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: By translating folded galleries into an *Iwahori order* on the coweight lattice, the paper gives closed‑form descriptions of all Iwahori intervals via the quantum Bruhat graph. It then decomposes any affine Bruhat interval into a “core’’ (largely determined by an Iwahori interval) and a “crust’’; under a super‑regularity hypothesis the crust is tiled by explicit locally‑defined shapes. All results hold uniformly across ranks and types.
-- **Key Graph Concepts**: Affine Bruhat Order, Coxeter Systems, Folded Galleries, Iwahori Order, Quantum Bruhat Graph, Pseudo‑Weyl Polytopes, Core‑Crust Decomposition, Tesselating Shapes  
-
----  
-
-### 🚀 6. The length of the longest path in random acyclic orientations of a complete multipartite graph
-- 👤 **Authors**: Aiden Corcoran, Erik Lundberg, Elisabeth Rodriguez  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19164)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors derive an explicit probability‑generating function for the length of the longest directed path in a uniformly random acyclic orientation of a complete multipartite graph. Using analytic combinatorics in several variables, they obtain precise asymptotics for the expected longest‑path length when the number of parts is fixed and the part size tends to infinity.
-- **Key Graph Concepts**: Random Acyclic Orientations, Complete Multipartite Graphs, Longest Directed Path, Probability‑Generating Function, Analytic Combinatorics in Several Variables, Asymptotic Mean Path Length  
-
----  
-
-### 🚀 7. Quadratic Embedding Constants of Block Graphs and Characterization of Cactus‑like Graphs
-- 👤 **Authors**: Wojciech Młotkowski, Nobuaki Obata  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19224)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that a finite connected graph with at least two vertices is cactus‑like **iff** its quadratic embedding constant satisfies \(\mathrm{QEC}(G)<-1/2\).  They also derive explicit upper and lower bounds for \(\mathrm{QEC}(G)\) expressed in terms of the clique degree of a block graph.  The proofs rely on a novel construction of conditionally negative definite kernels by concatenating local kernels along geodesics in the block graph.
-- **Key Graph Concepts**:  
-  - Cactus‑like graphs / block graphs  
-  - Clique graph (tree structure)  
-  - Quadratic Embedding Constant (QEC)  
-  - Conditionally negative definite kernels  
-  - Clique degree, maximal cliques  
-  - Free products of complete graphs, trees  
-
----
-
-### 🚀 8. Independent Sets in \(C_4\)-Free Planar Graphs: Sharp Claw‑Free Bounds and Structural Reductions
-- 👤 **Authors**: Zhou Guofei  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19256)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For every claw‑free, \(C_4\)-free planar graph \(G\) the authors establish the sharp weighted bound \(\alpha_w(G)\ge \frac{10}{31}\sum_{v} w(v)\), equivalently \(\chi_f(G)\le \frac{31}{10}\).  They further show that in any 2‑connected \(C_4\)-free graph with minimum degree \(\ge 4\), an independent selection of claw centers leaves a compatible subgraph of non‑centers whose fractional chromatic number is at most three (planarity not required).  The proof combines a line‑graph representation, the matching polytope, planar duality, and degree‑four neighborhood analysis in triangulations.
-- **Key Graph Concepts**:  
-  - Claw‑free graphs, \(C_4\)-free planar graphs  
-  - Independent sets, weighted independence number \(\alpha_w\)  
-  - Fractional chromatic number \(\chi_f\)  
-  - Line‑graph representation, matching polytope  
-  - Planar duality, triangulations, degree‑four neighborhoods  
-
----
-
-### 🚀 9. Hadwiger‑Debrunner Numbers from Rainbow Turán Numbers and Beyond
-- 👤 **Authors**: Wenchong Chen, Gennian Ge, Yang Shu  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19281)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper presents three complementary constructions that raise the lower bounds for Hadwiger‑Debrunner numbers \(\operatorname{HD}_d(p,q)\).  For any fixed \(q>d\ge2\), a randomly sparsified family of hyperplanes analyzed via hypergraph containers yields \(\operatorname{HD}_d(p,q)\ge p^{\frac{d+q-2}{\,q-1\,}+o(1)}\) as \(p\to\infty\).  Additionally, a transfer argument links upper bounds on general‑position subsets of high‑dimensional integer grids to lower bounds for \(\operatorname{HD}_d(p,q)\), employing rainbow Turán theory and full‑spark linear reductions.
-- **Key Graph Concepts**:  
-  - Hadwiger‑Debrunner numbers \(\operatorname{HD}_d(p,q)\) (piercing numbers)  
-  - Convex sets, hyperplane families, hypergraph containers  
-  - Rainbow Turán numbers, suspension operations  
-  - General‑position integer grids, full‑spark linear reduction  
-  - Combinatorial geometry, extremal set theory  
-
----
-
-### 🚀 10. The Common-Color Spectrum of Endpoint Set-Coloring Ramsey Numbers
-- 👤 **Authors**: Guantao Chen, Qiong Fan, Chunxiang Wang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19312)
+### 🚀 1. Counting formulas and refined generating functions for inversion‑sequence Classes 152 and 207
+- 👤 **Authors**: Haobo Ma, Toufik Mansour, Wenlin Zhang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21657)
 
 #### 📝 Executive Summary & Innovations
 - **Main Result**:  
-  For fixed integers \(r\ge 2\) and \(1\le t<r\), the authors prove that as \(n\to\infty\) the function \(f(t)=\frac{1}{n}\log R(n;r,r-1,t)\) satisfies  
+  1. For both Class 152 pattern sets the number of inversion sequences of length \(n\ge 1\) is proved to be  
+     \[
+     a_n = 1+\sum_{j=1}^{n-1}\binom{2j}{j}.
+     \]  
+  2. For Class 207 the three natural total‑count series are shown to coincide, and their common generating function is given explicitly as a Lambert‑series after the substitution \(z=q/(1+q)^2\).  The proof uses first‑descent/last‑zero decompositions, weighted Dyck‑path encodings, and a cubic limit of a balanced non‑terminating \({}_3\phi_2\) \(q\)-Saalschütz summation.
+
+- **Key Graph Concepts**:  
+  - Inversion sequences (pattern avoidance)  
+  - Dyck paths and weighted Dyck‑path decompositions  
+  - Lambert series, \(q\)-product orbit sums, and basic hypergeometric series  
+  - Catalytic and legal‑site recurrences  
+
+---
+
+### 🚀 2. Co‑edge‑regular graphs with two \(λ\)-values and four distinct eigenvalues
+- 👤 **Authors**: Suil O  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21664)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**:  
+  For any integer \(t\ge 2\) there exists a threshold \(n_t\) such that a connected co‑edge‑regular \(k\)-regular graph on \(n\ge n_t\) vertices, with smallest eigenvalue \(\ge -t\) and \(k < n-2-(t-1)^2/4\), must be either  
+  1. a clique extension of a strongly regular graph,  
+  2. a \(p\times q\) grid with \(p\neq q\), or  
+  3. the block graph of a resolvable Steiner \(2\)-design whose parallel classes are turned into cliques.  
+  This settles the question of whether Neumaier’s theorem extends to co‑edge‑regular graphs having exactly four distinct eigenvalues and two edge‑λ values.
+
+- **Key Graph Concepts**:  
+  - Co‑edge‑regular graphs, λ‑values on edges  
+  - Strongly regular graphs, clique extensions, Hoffman coloring  
+  - Eigenvalue constraints (four distinct eigenvalues, smallest eigenvalue)  
+  - Grid graphs, block graphs of resolvable Steiner \(2\)-designs  
+
+---
+
+### 🚀 3. Resistance‑regular graphs need not be regular
+- 👤 **Authors**: Murad ul Islam Khan, Ghulam Haidar  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21670)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**:  
+  The paper disproves the conjecture that every resistance‑regular graph must be regular by constructing infinite families of non‑regular resistance‑regular graphs.  It also shows that a connected graph is walk‑regular iff the first \(m-1\) powers of its Laplacian pseudoinverse have constant diagonal (where \(m\) is the number of distinct non‑zero Laplacian eigenvalues), and derives sharp degree‑distribution constraints for resistance‑regular graphs (e.g., at most two degrees when \(m=3\), minimum degree \(\ge 3\), and at least 13 vertices for any non‑regular example).
+
+- **Key Graph Concepts**:  
+  - Resistance‑regular graphs, effective resistance, Moore‑Penrose Laplacian inverse  
+  - Walk‑regular graphs, Laplacian spectrum, pseudoinverse powers  
+  - Spectral graph theory, degree sequences, graph complements  
+  - Explicit constructions via module blow‑ups, grids of size \(4p\), and degree‑gap bounds  
+
+---
+
+### 🚀 4. Gallai's path decomposition conjecture for $K_5$-minor-free graphs
+- 👤 **Authors**: Junhao Zhang, Qinghai Liu, Yanmei Hong  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21673)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove that every connected $K_5$‑minor‑free graph on $n$ vertices, except the two small graphs $K_3$ and $K_5-e$, admits a partition of its edges into at most $\lfloor n/2\rfloor$ paths, thereby strengthening Gallai’s conjectured bound $\lceil n/2\rceil$. The two exceptional graphs require exactly $\lceil n/2\rceil$ paths. The proof hinges on a structural analysis of a minimal counterexample, revealing a $4$‑connected planar subgraph with four degree‑5 vertices whose neighborhoods meet the outer face in at most one vertex, allowing the use of the planar configurations of Blanché, Bonamy, and Bonichon.
+- **Key Graph Concepts**: Gallai’s Path Decomposition, $K_5$‑minor‑free graphs, planar graphs, $4$‑connected planar substructures, graph minors, edge‑path partitions, extremal configurations.
+
+---
+
+### 🚀 5. Forbidden Substructures Preserved by the Blob Graph Operation
+- 👤 **Authors**: Jakub Pączka, Agnieszka Przeździecka, Piotr Tyrakowski  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21961)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper gives a complete characterisation of all graphs $H$ for which the exclusion of $H$ from a host graph $G$ guarantees the exclusion of $H$ from the blob graph $G^\circ$, under six standard containment relations (subgraph, minor, topological minor, induced subgraph, induced topological minor, induced minor). The classifications are:  
+  * Subgraphs, minors, topological minors – preservation iff $|V(H)|\le 2$.  
+  * Induced subgraphs – preservation iff $H$ is a linear forest.  
+  * Induced topological minors – preservation iff $H$ is triangle‑free with $\Delta(H)\le 2$.  
+  * Induced minors – preservation iff $H$ is triangle‑free and every neighbor of a vertex of degree $\ge 3$ has degree exactly $2$.  
+  These results unify and extend earlier ad‑hoc preservation theorems used in algorithmic reductions.
+- **Key Graph Concepts**: Blob graph construction, forbidden subgraph characterisation, subgraph/minor/topological‑minor containment, induced subgraphs, linear forests, triangle‑free graphs, degree constraints, graph reductions.
+
+---
+
+### 🚀 6. Supersaturation and reconfiguration diameter of independent transversals
+- 👤 **Authors**: Wouter Cames van Batenburg, Penny Haxell, Ross J. Kang, Ronen Wdowinski  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21966)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: For a vertex‑partitioned graph with maximum degree $\Delta$, the authors show that if each part has size at least $2\Delta$, then the family of independent transversals is exponentially large. Moreover, when each part has size at least $4\Delta$, any two independent transversals can be reconfigured into each other by a sequence of single‑vertex moves of length at most linear in the number of parts. This improves the previously known connectivity threshold of $2\Delta+1$ and provides tight supersaturation and diameter bounds.
+- **Key Graph Concepts**: Independent transversals, vertex partitions, maximum degree $\Delta$, supersaturation, reconfiguration graphs, diameter bounds, combinatorial optimization, graph coloring analogues.
+
+### 🚀 7. Laplacian Eigenvectors of Generically Weighted Graphs Have Pairwise Distinct Coordinates
+- 👤 **Authors**: Santiago Pineda Montoya, Edisson Gallego González, Jaiberth Porras Barrera, Johan Heriberto Rúa Muñoz  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21979)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove that for a generic choice of non‑zero edge weights on any connected graph, every non‑constant eigenvector of the weighted Laplacian (in particular the Fiedler vector) has pairwise distinct coordinates.  They exhibit a homogeneous integer polynomial—of degree \( \frac{n(n-1)(n^{2}-n+2)}{4}\) for an \(n\)-vertex graph—whose zero set exactly captures the exceptional weightings that cause repeated eigenvalues, zero coordinates, or equal coordinates in a non‑constant eigenvector; thus these exceptions lie on an algebraic hypersurface.
+- **Key Graph Concepts**: Weighted Laplacian, Fiedler vector, Laplacian eigenvectors, generic edge weights, Krylov determinants, algebraic hypersurface, homogeneous integer polynomial, tree induction, non‑constant eigenvectors.
+
+---
+
+### 🚀 8. Perfect matching complexes of antiprism graphs and independence complexes of generalized Petersen graphs \(GP(n,2)\)
+- 👤 **Authors**: Youngsoo Kim  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22021)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper establishes that the perfect matching complexes of antiprism graphs and the independence complexes of the generalized Petersen graphs \(GP(n,2)\) are each homotopy equivalent to a wedge of spheres.  Moreover, the exact number of spheres and their dimensions are determined, and for antiprism graphs the authors compute the initial values of Adamaszek’s recursion governing independence complexes of cubes of cycles.
+- **Key Graph Concepts**: Perfect matching complex, antiprism graph, independence complex, generalized Petersen graph \(GP(n,2)\), homotopy type, wedges of spheres, combinatorial topology, Adamaszek recursion, cubes of cycles.
+
+---
+
+### 🚀 9. An improved bound on the strong chromatic index via local flag algebras
+- 👤 **Authors**: Runze Wang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22031)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: Using a local flag‑algebra framework, the author proves that for every graph with sufficiently large maximum degree \(\Delta\), the strong chromatic index satisfies \(\chi'_s(G) \le 1.642\,\Delta^{2}\).  This improves the previous best universal bound of \(1.73\,\Delta^{2}\) due to Davey, Hurley, de Joannis de Verclos, Kang, and Volec.
+- **Key Graph Concepts**: Strong edge coloring, strong chromatic index \(\chi'_s\), maximum degree \(\Delta\), flag algebras, extremal graph theory, local method, edge‑coloring bounds.
+
+### 🚀 10. FunSearch and Structured SAT Search for Weak Schur Partitions
+- 👤 **Authors**: Rebecca Vicenzi, Pablo Christofferson, Caleb Hartman, Jingxuan Feng, Suleman Khan, Omar M. Elshinawy, Eric Ramos  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22032)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors combine an evolutionary program‑search method (FunSearch) with a SAT‑based approach to construct weak Schur partitions.  Their FunSearch implementation reproduces the exact values for 2, 3, 4 classes and yields a new lower bound \(WS(5)\ge 195\); the SAT search further improves this to \(WS(5)\ge 207\), surpassing the previous best bound of 196.  The work highlights the complementary strengths of greedy evolutionary search versus global SAT reasoning.
+- **Key Graph Concepts**: Weak Schur partitions, sum‑free sets, greedy construction, SAT encoding, evolutionary program search, combinatorial constructions.
+
+---
+
+### 🚀 11. Cubic graphs with circumference ratio 21/22 and cyclic connectivity 5
+- 👤 **Authors**: Ján Mazák  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22037)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: For every integer \(m\ge 3\) the paper presents a cyclically 5‑connected cubic graph on \(22m\) vertices whose longest cycle has length \(21m\).  Consequently, the shortness coefficient of cyclically 5‑connected cubic graphs is bounded above by \(21/22\), improving the prior bound \(24/25\).  The construction also illustrates how I‑reductions can certify cyclic connectivity.
+- **Key Graph Concepts**: Cubic graphs, cyclic connectivity, circumference (longest cycle), shortness coefficient, I‑reduction, constructive graph families.
+
+---
+
+### 🚀 12. Toroidal Obstructions with No \(K_5\) Minor
+- 👤 **Authors**: Austin Ulrigg  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22089)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The author determines the complete list of toroidal minor obstructions that do **not** contain a \(K_5\) minor, proving there are exactly 74 such graphs (each on 10–14 vertices).  Together with the known \(K_{3,3}\)-free toroidal obstructions, this yields a full classification of toroidal obstructions that exclude one of the two planar forbidden minors.  The proof relies on three‑vertex cuts, analysis of independent triples, and exhaustive enumeration, also producing 381 corresponding topological obstructions.
+- **Key Graph Concepts**: Toroidal graphs, forbidden minors, \(K_5\) minor, three‑vertex cuts, independent triples, topological obstructions, graph enumeration.
+
+### 🚀 13. Directed triangles in oriented graphs without a directed cycle of length $3t$
+- 👤 **Authors**: Shuchao Li, Mingli Wang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22104)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper proves that for every fixed integer $t\ge 3$ the extremal function  
   \[
-  \tfrac12\log\frac{r}{r-t}+o(1)\;\le\; f(t)\;\le\;\frac{r}{r-t}\log\frac{r}{r-t}+C+O_{r,t}\!\Bigl(\frac{\log n}{n}\Bigr),
+  \operatorname{ex}(n,\Cdir_3,\Cdir_{3t})=\frac{t-1}{4}\,n^{2}+o(n^{2}),
   \]  
-  where \(C>0\) is absolute.  Moreover, they analyse the increments \(\Delta_t=f(t+1)-f(t)\), showing that for large \(r\) many indices \(t\) have \(\Delta_t\) bounded below by \(\frac{1}{2r}(1-o(1))\), and that the final few increments dominate the total growth of \(f\).  
-- **Key Graph Concepts**:  
-  - Set‑coloring Ramsey numbers \(R(n;r,s,t)\)  
-  - Edge‑labelled complete graphs  
-  - Common‑color spectrum \(f(t)\)  
-  - Asymptotic analysis (logarithmic bounds)  
-  - Increment analysis \(\Delta_t\)  
+  confirming the conjecture of Grzesik, Jaworska, Kielak, Kuc and Ślusarczyk. This extends the previously known case $t=2$ to all $t\ge 3$.
+- **Key Graph Concepts**: Oriented graphs, directed cycles, directed triangle ($\Cdir_3$), directed $3t$‑cycle ($\Cdir_{3t}$), generalized Turán problem, extremal graph theory, asymptotic density.
 
 ---
 
-### 🚀 11. On the multiplicity of the Laplacian eigenvalue 1 of a graph
-- 👤 **Authors**: Fei Wen, Kai Wang, Tao Wang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19326)
+### 🚀 14. Real-Rootedness and Log-Concavity of Zigzag Eulerian Polynomials
+- 👤 **Authors**: Ethan Torres  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22110)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The author establishes that zigzag Eulerian polynomials have only real, negative, simple zeros, which immediately implies that their coefficient sequences are strictly log‑concave. This settles the first two parts of the Petersen–Zhuang conjecture.
+- **Key Graph Concepts**: Zigzag Eulerian polynomials, real‑rootedness, log‑concavity, transfer‑matrix method, complex analysis (Rouché’s theorem), eigenvalue spectra, combinatorial polynomials defined by local constraints.
+
+---
+
+### 🚀 15. On Threshold Probabilities for the Stability of the Independence Number of a Random Subgraph
+- 👤 **Authors**: Vsevolod A. Pokhachevskiy, Andrei Raigorodskii  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22185)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors derive a general upper bound for the independence number $\alpha(G_{n,p})$ of a random spanning subgraph $G_{n,p}$ and obtain sufficient conditions under which $\alpha(G_{n,p})=(1+o(1))\alpha(G_n)$ holds a.a.s. Moreover, under structural assumptions on $G_n$, they determine threshold probabilities (up to constant factors) for both asymptotic and exact stability, with applications to Kneser graphs, multipartite graphs, Steiner‑system block graphs, and $q$‑analogues of Kneser graphs.
+- **Key Graph Concepts**: Independence number, random subgraph $G_{n,p}$, threshold probability, stability (asymptotic and exact), Kneser graphs, multipartite graphs, Steiner systems, $q$‑analogues, extremal combinatorics.
+
+### 🚀 16. More lower bounds for Hales--Jewett and van der Waerden numbers
+- 👤 **Authors**: Younes Mouhib  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22205)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper presents explicit colourings that raise the known lower bounds for several Hales–Jewett numbers (e.g., \(HJ(4,3)\ge 164\), \(HJ(5,4)\ge 7418\), \(HJ(5,6)\ge 34034\)) and improve the one‑weight bracket ceiling \(\kappa_{\text{ow}}(t,r)\). It also yields new lower bounds for van der Waerden numbers such as \(W(8,3)>522\), \(W(11,3)>1193\), and \(W(17,3)>3620\). All certificates are verified by direct enumeration.
+- **Key Graph Concepts**: Hales–Jewett numbers, van der Waerden numbers, power‑residue colourings, combinatorial lines, algebraic certificates, extremal combinatorics, period‑\(p\) constructions, one‑weight bracket ceiling.
+
+---
+
+### 🚀 17. Between proper and strong edge‑colorings of graphs with maximum degree at most four
+- 👤 **Authors**: Aistis Atminas, Xujun Liu, Zihui Xu  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22254)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove that every graph with maximum degree \(\Delta\le 4\) admits a \((1,2^{17})\)-packing edge‑coloring, improving the previous bound \((1,2^{19})\). As a direct corollary, every such graph also has a \((1^{2},2^{16})\)-packing edge‑coloring.  
+- **Key Graph Concepts**: Proper edge‑coloring, strong edge‑coloring, \((1^{j},2^{k})\)-packing edge‑coloring, matchings, induced matchings, maximum degree four, subcubic graph techniques.
+
+---
+
+### 🚀 18. Minimum degree thresholds for even cycle residues
+- 👤 **Authors**: Hojin Chu, Masaki Kashima, Shun‑ichi Maezawa, Boram Park  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22346)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: For any integer \(k\ge 2\), the authors show that a graph with minimum degree at least \(2k-1\) contains a cycle whose length is congruent to every even residue \(r\) modulo \(2k\) except \(r\equiv 2\pmod{2k}\); this bound is sharp. In bipartite graphs, a minimum degree of \(k\) (for \(k\ge 4\)) guarantees the same set of residues, and the paper characterizes the end‑blocks when a residue‑\(2\) cycle is absent.  
+- **Key Graph Concepts**: Minimum degree conditions, cycle length residues, even cycles, Dirac‑type thresholds, bipartite graphs, extremal graph theory, end‑block structure.
+
+### 🚀 19. A sharp minimum degree condition for Hamiltonicity in line graphs of 3‑hypergraphs
+- 👤 **Authors**: Kenta Ozeki, Leilei Zhang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22507)
 
 #### 📝 Executive Summary & Innovations
 - **Main Result**:  
-  For a connected \(k\)-cyclic graph \(G\) of order \(n\) with \(n\ge\big\lceil\frac{3+\sqrt{8k+1}}{2}\big\rceil\), the multiplicity \(m_G(1)\) of the Laplacian eigenvalue \(1\) satisfies  
+  For a 3‑connected line graph \(G\) of a 3‑hypergraph with order \(n\ge 4936\), the condition  
   \[
-  m_G(1)\;\le\; n-\Big\lceil\frac{3+\sqrt{8k+1}}{2}\Big\rceil .
-  \]  
-  The paper also provides a complete characterization of all extremal graphs that attain this upper bound.  
-
+  \delta(G)\ge\frac{n+5}{10}
+  \]
+  guarantees that \(G\) is Hamiltonian, except for an explicitly described family of extremal graphs. The coefficient \(1/10\) and the additive constant \(5\) are both best possible.  
 - **Key Graph Concepts**:  
-  - Laplacian matrix \(L(G)=D(G)-A(G)\)  
-  - Laplacian eigenvalue multiplicity (specifically eigenvalue 1)  
-  - \(k\)-cyclic graphs (\(\varepsilon-n+1=k\))  
-  - Spectral graph theory  
-  - Extremal graph characterization  
+  - Line graphs of 3‑hypergraphs  
+  - Hamiltonian cycles  
+  - Minimum degree conditions (sharp bound)  
+  - 3‑connectivity  
+  - Claw‑free versus induced claws  
+  - Extremal graph families  
 
 ---
 
-### 🚀 12. Distance‑2 isolation of connected graphs
-- 👤 **Authors**: Peter Borg, Pawaton Kaemawichanurat  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19361)
+### 🚀 20. Asymptotic enumeration of histories and limit laws in two random graph evolution models
+- 👤 **Authors**: Nadja Azzouz, Olivier Bodini, Francis Durand, Bernhard Gittenberger  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22535)
 
 #### 📝 Executive Summary & Innovations
 - **Main Result**:  
-  The authors establish sharp bounds for the distance‑2 isolation number \(\iota_2(G,\mathcal{F})\) of a connected \(n\)-vertex graph \(G\) with respect to families \(\mathcal{E}_k\) of graphs having at least \(k\) edges.  In particular, they prove \(\iota_2(G,\mathcal{E}_1)\le n/4\) (except for small exceptional graphs), \(\iota_2(G,\mathcal{E}_2)\le n/5\) under mild conditions, and \(\iota_2(G,\mathcal{E}_3)\le n/5\) unless \(G\) belongs to a few small exceptional families.  These bounds improve earlier results of Meir–Moon and Hua–Liu and are shown to be best possible.  
-
+  The paper derives precise asymptotic formulas for the number of “histories’’ in two independent growth models—UIG (undirected) and DIG (directed). In the UIG‑model a discrete Laplace method yields the asymptotic count and a central limit theorem for the number of vertices in a random history. In the DIG‑model a rescaled Borel transform leads to a Hayman‑admissible entire function, again giving asymptotics and a normal limit law. An algorithm based on Boltzmann samplers is also provided for uniform random generation.  
 - **Key Graph Concepts**:  
-  - Distance‑2 isolation number \(\iota_2(G,\mathcal{F})\)  
-  - Second closed neighbourhood \(N^2[D]\)  
-  - Families \(\mathcal{E}_k\) (graphs with ≥ \(k\) edges) and \(\mathcal{C}\) (cycles)  
-  - Sharp extremal bounds (e.g., \(n/4\), \(n/5\))  
-  - Structural graph families (paths, cycles, universal vertices)  
+  - Random graph evolution (vertex/edge creation)  
+  - Histories and time‑stamp encoding  
+  - Generating functions with zero radius of convergence  
+  - Discrete Laplace method, Borel transform, Hayman admissibility  
+  - Central limit theorem (normal limit law)  
+  - Generalized Legendre‑Stirling numbers  
+  - Boltzmann sampling, set partitions with even block sizes  
 
 ---
 
-### 🚀 13. Existence of alternating Hamiltonian paths on specific bicolored point sets
-- 👤 **Authors**: Jan Soukup  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19433)
+### 🚀 21. On (Pathwidth, Clique)-boundedness
+- 👤 **Authors**: Amir Nikabadi  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22552)
 
 #### 📝 Executive Summary & Innovations
 - **Main Result**:  
-  1. If a bicolored point set \(P\) (with \(n\) red and \(n\) blue points in general position) can be partitioned into bicolored pairs \((a_i,b_i)\) such that removing either point of a pair leaves the same order type, then \(P\) admits a non‑crossing alternating Hamiltonian path.  
-  2. When the points lie on a circle and every circular interval contains at most two more points of one colour than the other (\(c=2\)), a non‑crossing alternating Hamiltonian path always exists.  
-  3. For the relaxed imbalance \(c=3\) the authors construct configurations whose longest non‑crossing alternating path has length at most \((2-\tfrac1{25})n+O(1)\).
-
+  It is proved that any graph class that is simultaneously bounded in pathwidth and clique number \((\pw,\omega)\)-bounded has a uniformly bounded tree‑independence number, confirming a question of Bešter Štorgel et al. The proof proceeds via a bound on the tree‑independence number for graphs excluding both a complete binary tree \(B_\rho\) and a complete bipartite graph \(K_{\sigma,\sigma}\) as induced minors. Consequences include an asymptotically sharp bound on the path‑independence number for such classes, counterexamples to a conjecture of Hickingbotham and Joret, and strengthened results on forests, induced thetas, and prisms.  
 - **Key Graph Concepts**:  
-  - Non‑crossing geometric graphs  
-  - Alternating Hamiltonian paths  
-  - Bicolored point sets & order type  
-  - Planar straight‑line embeddings  
-  - Circular point arrangements  
+  - Pathwidth (\(\pw\)) and clique number (\(\omega\)) boundedness  
+  - Tree‑independence number and path‑independence number  
+  - Induced minors \(B_\rho\) (binary tree) and \(K_{\sigma,\sigma}\) (complete bipartite)  
+  - Excluding induced theta, long prisms, and specific forests  
+  - Connections to conjectures of Chudnovsky–Hajebi–Trotignon and Hickingbotham–Joret  
+  - Structural characterizations involving induced subgraphs and minors  
 
 ---
 
-### 🚀 14. Ramsey goodness of large generalized fans
-- 👤 **Authors**: Shaonan Mi, Ye Wang  
-- 🔗 **ArArXiv**: [Access Paper](https://arxiv.org/abs/2611.19434)
+### 🚀 22. The Cooperstein conjecture and additive alternating \(d\)-codes
+- 👤 **Authors**: Paolo Santonastaso  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22622)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  For any graph \(G\) with chromatic number \(\chi(G)=k+1\ge 2\) and minimum colour‑class size \(s(G)=1\), the authors determine precisely when the graph \(K_1+nH\) is \(G\)-good (i.e., attains Burr’s lower bound for the Ramsey number) for sufficiently large \(n\). The characterization depends on the parity of \(nh\): if \(nh\) is odd, \(G\) must embed into \(mK_2+K_{k-1}(m)\); if \(nh\) is even, \(G\) must embed into \((mK_2\cup K_{1,2})+K_{k-1}(m)\) for some integer \(m\).
-
-- **Key Graph Concepts**:  
-  - Ramsey numbers \(r(G,H)\)  
-  - Ramsey goodness (Burr’s bound)  
-  - Chromatic number \(\chi(G)\) and colour‑class size \(s(G)\)  
-  - Generalized fan graphs \(K_1+nH\)  
-  - Structural embeddings of \(G\) into disjoint unions of matchings and complete graphs  
+- **Main Result**: The paper settles the Cooperstein conjecture for alternating matrices of even order and, more generally, establishes its additive analogue: for every admissible rank parameter it determines the exact maximal size of an additive subgroup of alternating matrices in which every non‑zero element has rank at least that parameter. The proof hinges on Pfaffian equations, graded free resolutions of Pfaffian rings, and trace‑function constructions that achieve the bound.  
+- **Key Graph Concepts**: Alternating matrices, rank constraints, Pfaffian rings, Cohen–Macaulay property, \(a\)-invariant, additive subgroups of matrices, exterior powers over finite fields, trace functions, combinatorial matrix theory.
 
 ---
 
-### 🚀 15. On \(z_{2M}(21,4)\): the Hole Extensions of the Chen–Chen Configuration Are Reducible, and the Extremal Configurations of \(z_2(21,4)\) Are Not Unique
-- 👤 **Authors**: Carles Marín, Liqun Qi, Gaohang Yu  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19437)
+### 🚀 23. Golomb rulers with real marks: the real and integer optima agree up to ten marks
+- 👤 **Authors**: Esther Notik  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22656)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. All 56 possible hole‑extensions of the Chen–Chen extremal configuration for the Zarankiewicz problem \(z_2(21,4)\) are shown to be reducible: each extension has SOS rank at most 55 (32 via product relations, 24 via Xu–Yan‑type contraction certificates).  
-  2. An exhaustive computer‑assisted search reveals that the extremal \(C_4\)-free bipartite graphs attaining \(z_2(21,4)\) fall into at least six non‑isomorphic classes, disproving uniqueness.  
-  3. A “six‑to‑four” reduction is proved, and a bound on the multiplicity of a shared half‑edge in irreducible configurations is established (at most \(n(n-1)\), i.e., 12 for the \(21\times4\) case).
-
-- **Key Graph Concepts**:  
-  - Zarankiewicz numbers \(z_{2M}(m,n)\) and \(z_2(m,n)\)  
-  - Extremal \(C_4\)-free bipartite graphs  
-  - SOS (sum‑of‑squares) rank and algebraic certificates  
-  - Computer‑verified combinatorial proofs (Isabelle/HOL)  
-  - Isomorphism classes of extremal configurations  
+- **Main Result**: By a branch‑and‑bound exploration of the polyhedral chambers defined by ordered differences, the author proves that the optimal length of a real‑mark Golomb ruler equals the classical integer optimum \(G_Z(n)\) for every \(n\le 10\). The proof is fully certified with exact rational certificates and independently verified. Additionally, asymptotic bounds \(n(\sqrt{n}-1)^2 \le G_R(n) \le G_Z(n)\) are shown, confirming \(G_R(n)\sim G_Z(n)\sim n^2\).  
+- **Key Graph Concepts**: Golomb rulers, real vs. integer mark sets, polyhedral chambers, combinatorial optimization, branch‑and‑bound algorithms, exact arithmetic certification, Singer constructions, difference graphs.
 
 ---
 
-### 🚀 16. A Proof of The Twin-Star Hypothesis in Dimension Five
-- 👤 **Authors**: Patrick Nyadjo Fonga  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19473)
+### 🚀 24. The minimum degree of minimally \(k\)-extendable graphs for some \(k\)
+- 👤 **Authors**: Zhiyong Gan, Yi Huang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22690)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The paper establishes the twin‑star hypothesis for \(d=5\); every cycle‑free \(5\)-partition of the complete graph \(K_{10}\) is weakly equivalent to one containing a twin‑star graph \(TS_5\). As a corollary, the determinant‑like map \(\det^{S^2}\) is shown to be unique up to a scalar in dimension five.
-- **Key Graph Concepts**: Complete Graphs \(K_{2d}\); Cycle‑free \(d\)-partitions; Twin‑Star Graph \(TS_d\); Weak Equivalence of Partitions; Determinant‑like Maps \(\det^{S^2}\).
+- **Main Result**: The authors determine the exact minimum degree of minimally \(k\)-extendable graphs for \(k=2\) and \(k=3\), thereby confirming the Lou–Yu conjecture in these cases. For \(k=2\) the minimum degree belongs to \(\{3,4,5\}\); for \(k=3\) it is \(\{4,7\}\) on 8‑ and 10‑vertex graphs and \(\{4,6,7\}\) on 12‑vertex graphs. All predicted values are realized by explicit constructions, using complement graphs, Tutte’s perfect‑matching theorem, and a classification of small‑vertex obstructions.  
+- **Key Graph Concepts**: \(k\)-extendable graphs, minimally \(k\)-extendable graphs, minimum degree, connectivity, Tutte’s matching theorem, graph complements, obstruction theory, extremal graph constructions.
+
+### 🚀 25. Positivity of Signed Odd-Multiplicity Partitions
+- 👤 **Authors**: Mircea Merca  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22720)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper proves that the coefficients \(a_k(n)\) of the signed partition \(q\)-series \(A_k(q)\) are non‑negative for every \(k,n\ge 0\), confirming a conjecture on signed odd‑multiplicity partitions. Moreover, it shows strict positivity \(a_k(n)>0\) whenever \(k\ge 2\) and \(n\ge \binom{k+1}{2}\). The proof combines a positive theta–MacMahon factorisation for odd‑size parts with a dyadic product decomposition that extends the result to arbitrary part sizes.  
+- **Key Graph Concepts**: *Not applicable to graph theory* – the work employs **partition theory**, **\(q\)-series**, **theta‑MacMahon factorisation**, and **dyadic product decompositions**.
 
 ---
 
-### 🚀 17. Large caps in \(\mathbb{F}_3^9\) and \(\mathbb{F}_3^{11}\)
-- 👤 **Authors**: Matthew Holden  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19543)
+### 🚀 26. Sharp lower bounds for weighted bisections of graphs with bounded maximum degree
+- 👤 **Authors**: Stefanie Gerke, Gregory Gutin, Anders Yeo, Yacong Zhou  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22760)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: New explicit constructions yield a \(1104\)-point cap in \(\mathbb{F}_3^9\) and a \(5744\)-point cap in \(\mathbb{F}_3^{11}\), both free of three collinear points, improving previous records by \(240\) points in the latter dimension. The constructions combine a reflection lift of the Calderbank–Fishburn \(236\)-cap with layered caps and a coordinate‑substitution technique applied to Hill’s \(112\)-cap.
-- **Key Graph Concepts**: Finite Affine Spaces \(\mathbb{F}_3^n\); Cap Sets (no three collinear points); Layered Cap Constructions; Linear Equivalence of Caps; Reflection Lifts and Coordinate Substitutions.
+- **Main Result**: For any finite simple graph whose maximum degree is an odd integer \(k\) and whose edges carry non‑negative real weights, the authors establish a bisection whose total weight is at least \(\frac{k+1}{2k}\) of the graph’s total edge weight; the analogous bound \(\frac{k+2}{2(k+1)}\) holds for even \(k\). Both constants are proved to be best possible, matching the sharp coefficients known for maximum weighted cuts despite the additional balance constraint.  
+- **Key Graph Concepts**: **Bisection**, **Maximum (weighted) cut**, **Maximum degree**, **Edge‑weight balancing**, **Extremal graph theory**, **Sharp coefficient analysis**.
 
 ---
 
-### 🚀 18. A New Record for the Katz‑Tao Sum‑Difference Exponent
-- 👤 **Authors**: Atrin Farnamfar  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19594)
+### 🚀 27. Heap‑type permutation generation with a prescribed final arrangement
+- 👤 **Authors**: Luís M. S. Russo  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22780)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The author proves a new upper bound \(C_{3b}\le 1.8263483657186\ldots\) for the Katz‑Tao sum‑difference exponent, breaking the classical \(11/6\) barrier, and establishes a universal bound \(C_{\mathrm{all}}=1.8264161855212\ldots\) for all abelian groups without \(2\)-torsion. The proofs are generated by the CASPAC engine and verified by independent exact checkers, employing stacked entropy certificates and rational identities.
-- **Key Graph Concepts**: Abelian Groups (no \(2\)-torsion); Sum‑Difference Sets; Katz‑Tao Constant; Shannon Entropy Inequalities; Computational Proof Verification (CASPAC).  
+- **Main Result**: The study characterises the net permutation produced by each complete recursive call of Heap’s algorithm: a transposition for odd \(n\ge 3\) and a full‑cycle for even \(n\). It proves that any prescribed ordering of items placed in the last position corresponds to a unique valid schedule, and that this ordering determines the net permutation of the call. Two variants are derived— a cyclic variant that rotates an even‑sized array by one position, and an extremal variant that, for even \(n\), ends at the lexicographically largest reachable arrangement (the reversal when \(n\equiv2\pmod4\)).  
+- **Key Graph Concepts**: *Not a graph‑theoretic paper* – the work focuses on **permutation groups**, **symmetric group**, **transpositions**, **cycles**, and **algorithmic combinatorics**.
 
----
-
-### 🚀 19. The Deepest Pairs of Points Are Not as Deep as Conjectured
-- 👤 **Authors**: Herbert Edelsbrunner, Alexey Garber, Morteza Saghafian, Emo Welzl  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19600)
+### 🚀 28. An extremal question of Erdős et al. on cycles
+- 👤 **Authors**: Zhiyong Gan, Zhiliang Tan, Yi Huang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22824)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The authors disprove Urrutia’s conjecture that the optimal depth constant for a pair of points in the plane is \( \tfrac14 \). They improve the known lower bound to \( \tfrac{3}{14}\approx0.214\ldots\). Moreover, they settle a related conjecture in \(\mathbb{R}^3\) and prove the first linear lower bound for finite point sets in arbitrary (possibly non‑convex) position, with constant \(\tfrac{2-\sqrt2}{6}\approx0.097\).
-- **Key Graph Concepts**: Geometric depth of point pairs, circles through two points, extremal combinatorial geometry, convex position vs. non‑convex position, point‑set extremal problems.
-
----
-
-### 🚀 20. Ramsey Numbers of Most Even‑Linked Double Stars
-- 👤 **Authors**: Chaitanya Karamchedu, Mithra Karamchedu, Maria Klawe, Andrés R. Vindas‑Meléndez  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19632)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For even‑linked double stars \(S_{2p}(n,m)\) with \(m \ge p-2 \ge 0\), the Ramsey number is exactly  
+- **Main Result**: The authors establish a new unified sufficient condition for the existence of a cycle of length at least \(k+1\) in an \(n\)-vertex simple graph \(G\) based on the number \(\theta_+^G\) of vertices of degree at least \(d\). For odd \(k=d\) the bound coincides with Woodall’s sharp threshold, while for all other admissible parameters the condition  
   \[
-  r\!\bigl(S_{2p}(n,m)\bigr)=\max\bigl(2n+2p-1,\; n+2m+3p-1\bigr).
-  \]  
-  The authors provide a matching lower‑bound construction for all \(n,m,p\ge 2\) and conjecture that this formula holds for every even‑linked double star with \(p\ge 2\).
-- **Key Graph Concepts**: Ramsey numbers, linked double stars, even‑linked paths, extremal graph theory, star graphs \(K_{1,n}\), polarized pair technique.
+  \theta_+^G \ge \Big\lfloor\frac{k}{2}\Big\rfloor\frac{n-1}{d}
+  +\frac{(n-d-1)\big\lfloor k/2\big\rfloor}{d\big(d-\lfloor k/2\rfloor\big)}+1
+  \]
+  guarantees a \(C_{\ge k+1}\); the authors also construct extremal \(C_{\ge k+1}\)-free graphs showing the bound is tight for every admissible \(k\). This resolves the long‑standing Erdős‑Faudree‑Schelp‑Simonovits extremal problem concerning high‑degree vertices and long cycles.  
+- **Key Graph Concepts**:  
+  - Extremal graph theory  
+  - Long cycles (\(C_{\ge k+1}\))  
+  - High‑degree vertex count \(\theta_+^G\)  
+  - Erdős–Faudree–Schelp–Simonovits conjecture (1989)  
+  - Woodall’s bound for cycles  
+  - Sharpness constructions / extremal examples  
 
 ---
 
-### 🚀 21. Constructive and Computational Methods for Extremal and Near‑Extremal Box Colorings
-- 👤 **Authors**: Jeremy F. Alm, Alex Miller  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19635)
+### 🚀 29. Independent sets in the 2-token graph of a cycle and kings on the torus
+- 👤 **Authors**: Luis Manuel Rivera  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22830)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The paper determines the exact minimum number \(\rho(a,b)\) of monochromatic rectangles for several small \(a\times b\) grids and translates these values into sharp upper bounds on the number of layers \(c\) for which an \(a\times b\times c\) grid can be 2‑colored without a monochromatic axis‑parallel box. Explicit constructions achieve the bounds for many cases (e.g., \(5\times5\times100\), \(5\times6\times75\), \(6\times6\times75\)). Additionally, they locate the largest box‑free cube to have side length between 10 and 20, providing box‑free colorings up to \(10^3\) and proving that any \(21^3\) cube contains at least 21 monochromatic boxes.
-- **Key Graph Concepts**: Grid graphs, 2‑colorings, axis‑parallel boxes, extremal combinatorics, box‑free colorings, computational certificates, hypergraph Ramsey‑type problems.
+- **Main Result**: An explicit bijection is given between any maximum independent set of the king graph on the \(n\times n\) torus and a maximum independent set of the 2‑token graph of the cycle \(C_n\); the bijection maps a pair of tokens to a king placed at the row of one token and the column equal to the sum of the two token indices. Consequently, the 2‑token graph of \(C_n\) has exactly one maximum independent set (or exactly \(n\) of them when \(n\equiv3\pmod4\)), all related by rotation, providing a new proof of its independence number.  
+- **Key Graph Concepts**:  
+  - Independence number  
+  - 2‑token graph of a cycle \(C_n\)  
+  - King graph on the torus  
+  - Bijection between independent sets  
+  - Rotational symmetry / graph automorphisms  
+  - Combinatorial proof techniques  
 
-### 🚀 22. A Quantitative Kuratowski Theorem
-- 👤 **Authors**: É. Czabarka, A. Helm, G. Tóth  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19641)
+---
+
+### 🚀 30. Equivalence of Small and Large Quasi‑kernels
+- 👤 **Authors**: Sam Spiro  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22881)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that if a graph \(G\) contains exactly \(k\) distinct subdivisions of either \(K_{5}\) or \(K_{3,3}\), then its crossing number satisfies \(\operatorname{cr}(G)\le \binom{3k+7}{2}\). Moreover, for the small‑case regime \(k\le 2\) they obtain the sharper bound \(\operatorname{cr}(G)\le k\).  
-- **Key Graph Concepts**: Crossing Number, Subdivisions, Kuratowski Subgraphs, \(K_{5}\), \(K_{3,3}\), Planarity, Extremal Graph Theory  
+- **Main Result**: For any exponent \(\frac12<\beta<1\) the paper proves an equivalence: every \(n\)-vertex source‑free digraph containing a quasi‑kernel of size at most \(n-\Omega(n^{\beta})\) is equivalent to every \(n\)-vertex digraph possessing a quasi‑kernel whose closed out‑neighbourhood has size at least \(\Omega\!\big(n^{2-\frac1\beta}\big)\). This bridges sublinear bounds for the Small and Large Quasi‑kernel Conjectures, and together with a refinement of Rutschmann’s breakthrough yields the best known bounds \(n-\Omega(n^{3/4})\) for the Small version and \(\Omega(n^{2/3})\) for the Large version.  
+- **Key Graph Concepts**:  
+  - Quasi‑kernel of a digraph  
+  - Source‑free digraphs  
+  - Independent sets with distance‑2 reachability  
+  - Small Quasi‑kernel Conjecture (\(|Q|\le n/2\))  
+  - Large Quasi‑kernel Conjecture (\(|N^{+}[Q]|\ge n/2\))  
+  - Sublinear bound equivalence  
+  - Directed graph reachability  
+
+---
+
+### 🚀 31. Minimum outdegree forcing directed cycles
+- 👤 **Authors**: Andrzej Grzesik, Justyna Jaworska, Piotr Kuc  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22909)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors determine the optimal minimum outdegree that guarantees a directed cycle of a prescribed length ℓ in any sufficiently large oriented graph on n vertices. This resolves the outdegree version of the Kelly‑Kühn‑Osthus conjecture for all large ℓ, up to an unavoidable additive correction term.  
+- **Key Graph Concepts**: Oriented graphs, Minimum outdegree, Directed cycles of prescribed length, Caccetta‑Häggkvist conjecture, Semidegree, Directed diameter.
+
+---
+
+### 🚀 32. Complete characterization of graphs with common maximal abelian cover
+- 👤 **Authors**: Frederico Cançado, Gabriel Coutinho, Thomás Jung Spier  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22993)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper provides a full classification of finite connected graphs whose maximal abelian covers are isomorphic. It shows that for trees and for graphs containing at least two cycles the cover uniquely determines the base graph, while for cycle‑rank‑one graphs the cover determines the primitive cyclic pattern of rooted trees attached to the unique cycle. Additionally, the authors give necessary and sufficient conditions for every automorphism to descend to the base and present an orbit‑size criterion for splitting the canonical lift extension.  
+- **Key Graph Concepts**: Maximal abelian cover, Universal cover, Fundamental group, Cycle rank, Graph isomorphism, Automorphism descent, Cover lifting.
+
+---
+
+### 🚀 33. An infinite family of bipartite hypotraceable graphs
+- 👤 **Authors**: Jorik Jooken  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23018)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The author proves that bipartite hypotraceable graphs exist for every sufficiently large even order, achieving an edge density of \((\tfrac14+o(1))n^{2}\), which is asymptotically optimal for bipartite graphs. Moreover, there are at least \(2^{(\tfrac14+o(1))n^{2}}\) non‑isomorphic examples of order n, and every bipartite graph appears as an induced subgraph of some bipartite hypotraceable graph.  
+- **Key Graph Concepts**: Bipartite graphs, Hypotraceability, Hamiltonian path, Extremal edge count, Induced subgraphs, Asymptotic enumeration.
+
+### 🚀 34. Divisible design graphs from a construction of antipodal distance‑regular graphs based on Ree groups and Suzuki groups
+- 👤 **Authors**: Bart De Bruyn, Sergey Goryainov, Yilin Xie  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23077)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors introduce a novel construction that inserts a difference set into the classic antipodal distance‑regular graph construction (diameter 3) derived from Ree and Suzuki groups. This yields families of divisible design graphs with previously unattained parameter sets, expanding the catalogue of known examples.  
+- **Key Graph Concepts**: Divisible Design Graphs, Antipodal Distance‑Regular Graphs (diameter 3), Difference Sets, Ree Groups, Suzuki Groups, Graph Parameters.
+
+---
+
+### 🚀 35. New bounds on simplex‑avoiding sets in two dimensions
+- 👤 **Authors**: Domonkos Czifra, Ákos Dúcz, Péter Madarasi, Dániel Varga, Pál Zsámboki  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23097)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: Two sharp upper bounds are proved: (1) any measurable subset of the sphere \(S^{2}\) containing no orthonormal basis has spherical measure at most \(7/11\); (2) any measurable subset of \(\mathbb{R}^{2}\) containing no unit equilateral triangle has upper Banach density at most \(9/16\). The first bound improves on the trivial averaging bound, and the second beats the previously best known estimate.  
+- **Key Graph Concepts**: Simplex‑Avoiding Sets, Extremal Density, Spherical Measure, Upper Banach Density, Geometric Fractional Chromatic Number, Orthogonal Basis Avoidance, Equilateral Triangle Avoidance, Compact Homogeneous Spaces, Euclidean Spaces.
+
+---
+
+### 🚀 36. Determining Compatible Groups in \(Γ\)-Zonal Labelings
+- 👤 **Authors**: Andrew Bowling, Richard M. Low  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23164)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper characterises, via the Smith normal form of the face‑incidence matrix, exactly which finite abelian groups \(\Gamma\) admit generative (and strong) \(\Gamma\)-zonal labelings for any 2‑connected plane multigraph or simple graph. These restrictions delineate the compatible groups for the families of 2‑connected graphs considered.  
+- **Key Graph Concepts**: \(\Gamma\)-Zonal Labelings, Plane Graphs, Face Incidence Matrix, Smith Normal Form, Generative Labeling, Strong Labeling, 2‑Connected Multigraphs, 2‑Connected Simple Graphs, Abelian Groups.
+
+### 🚀 37. Sidorenko Inequalities in Oriented Graphs
+- 👤 **Authors**: Veronica Bitonti, Emma Hogan, Jonathan A. Noel, Dmitry Tsarev  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23222)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors introduce *relative* Sidorenko and anti‑Sidorenko inequalities for oriented graphs, extending the classical tournament notions to arbitrary host graphs. They give a complete characterisation of connected relatively Sidorenko oriented graphs via weakly norming graphs and exhibit several infinite families that satisfy (or violate) the new inequalities.  
+- **Key Graph Concepts**: Oriented graphs, tournaments, Sidorenko inequality, anti‑Sidorenko inequality, weakly norming graphs, homomorphism counts, host graph generalisation.
+
+---
+
+### 🚀 38. A Proof of the Achlioptas‑Friedgut Convergence Conjecture
+- 👤 **Authors**: Gaia Carenini  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21665)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: For every fixed integer \(q\ge 3\), the paper proves that the \(q\)-colourability threshold in the sparse Erdős–Rényi random graph \(G(n,m)\) converges to a deterministic edge‑density limit, thereby confirming the Achlioptas‑Friedgut convergence conjecture. The proof adapts a recent method originally developed for the random \(k\)-SAT satisfiability threshold.  
+- **Key Graph Concepts**: Sparse random graphs, \(q\)-colourability threshold, edge‑density limit, probabilistic combinatorics, phase transition, convergence of thresholds.
+
+---
+
+### 🚀 39. The system of length sets of transfer Krull monoids over \(C_3 \oplus C_3 \oplus C_3\)
+- 👤 **Authors**: Alfred Geroldinger, Benjamin Hackl, Qinghai Zhong  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21699)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors determine explicitly the system of length sets for transfer Krull monoids whose class group is the elementary abelian group \(C_3 \oplus C_3 \oplus C_3\), completing the classification for all groups whose set of distances lies in \(\{1,2\}\). This fills the last missing case in the known catalogue of length‑set structures for such monoids.  
+- **Key Graph Concepts**: Krull monoids, class groups, zero‑sum sequences, length sets, system of distances, additive combinatorics on \(C_3^3\).
+
+### 🚀 40. Optimal Network Design under Node Failures
+- 👤 **Authors**: Michele Lombardi, Francesco Umutcan, Enjun Liu  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21856)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove that, for four or more nodes, there exists a non‑trivial cost interval where every welfare‑optimal network lies strictly between the star and the complete graph. At the lower end of this interval the optimal networks are exactly those obtained by deleting a matching from the complete graph, and they give a dynamic‑programming algorithm (running in \(O(n^{4})\) time) that finds an optimal network within the class of complete multipartite graphs. They also characterize pairwise‑stable networks in this class and quantify the welfare loss caused by mis‑estimating node‑failure probabilities.  
+- **Key Graph Concepts**: Complete graph, Star graph, Matching removal, Complete multipartite graphs, Pairwise‑stable networks, Welfare‑optimal network design, Dynamic programming on graph families, Reliability under node failures.
+
+---
+
+### 🚀 41. Permutation groups, derangements and connections
+- 👤 **Authors**: Scott Harper  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21894)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: This survey consolidates modern methods for studying derangements in permutation groups, presenting recent breakthroughs and a curated list of open problems. It highlights how derangement theory intertwines with combinatorics, graph theory (e.g., via automorphism groups and Cayley graphs), number theory, representation theory, and topology, thereby providing a roadmap for future interdisciplinary research.  
+- **Key Graph Concepts**: Permutation groups, Derangements, Graph automorphisms, Cayley graphs, Connections to extremal graph theory, Applications of group actions on graphs.
+
+---
+
+### 🚀 42. Single-Vertex Metropolis on Minor‑Free Graphs: A General EPTAS
+- 👤 **Authors**: Daniel Skachkov, Yuriy Dorn  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22023)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper establishes that the single‑vertex Metropolis process yields a randomized efficient polynomial‑time approximation scheme (EPTAS) for any induced‑subgraph maximization problem satisfying natural closure properties on graphs excluding a fixed minor \(H\). Starting from any feasible solution, the algorithm reaches a \((1-\varepsilon)\)-approximation in \(\exp(O_H(\varepsilon^{-2}))\, n (n+\log(1/\delta))\) steps with probability at least \(1-\delta\). The proof hinges on a recursive separator‑based exchange scheme that bounds temporary loss and counts improving move sequences.  
+- **Key Graph Concepts**: Minor‑free graphs, Graph minors, Induced subgraph problems (maximum independent set, induced forest, bipartite subgraph, degree‑≤ 1 subgraph), Graph separators, PTAS/EPTAS, Single‑vertex Metropolis dynamics, Bounded weight imbalance, Weighted‑star obstruction.
+
+---
+
+### 🚀 43. Enumerating orbits of finite classical groups on their Lie algebras
+- 👤 **Authors**: Jason Fulman, Robert M. Guralnick, Richard Stong  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22082)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors give exact generating functions for the number of orbits of each finite classical group (GL, GU, Sp, O) acting adjointly on its Lie algebra, together with sharp upper bounds. In even characteristic they obtain particularly simple closed formulas for the number of nilpotent orbits, both over finite fields and over algebraically closed fields, and relate these counts to commuting varieties.  
+- **Key Graph Concepts**: Finite classical groups, Lie algebras, Nilpotent orbits, Adjoint action, Commuting varieties, Generating functions, Even/odd characteristic.
+
+---
+
+### 🚀 44. On representation‑theoretic and homological properties of distance algebras of finite graphs
+- 👤 **Authors**: Aaron Chan, Bohan Xing  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22478)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper provides a complete graph‑theoretic classification of when the distance algebra \(\Sigma_G\) of a finite connected graph \(G\) is representation‑finite, multiserial, biserial, or self‑injective, and computes its finitistic, self‑injective, and dominant dimensions for several natural families. Moreover, it shows that for a finite modular lattice \(L\) the associated distance algebra is Auslander–Gorenstein iff \(L\) is a direct product of chains, and exhibits punctured hypercubes as a family of minimal Auslander–Gorenstein algebras with arbitrarily large finitistic (hence self‑injective and dominant) dimension.  
+- **Key Graph Concepts**: Finite connected graphs, Distance algebra, Magnitude homology, Hasse graph of a lattice, Punctured hypercubes, Representation‑finite, Multiserial, Biserial, Self‑injective, Auslander–Gorenstein, Finitistic dimension.
+
+---
+
+### 🚀 45. Derandomized Sunflowers and Radical Lower Bounds
+- 👤 **Authors**: Bruno Cavalar, Théo Borém Fabris, Partha Mukhopadhyay, Srikanth Srinivasan, Amir Yehudayoff  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23109)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove a derandomization of robust sunflower lemmas that works for \(O(w)\)-wise independent distributions (and even for locally independent, approximately identical marginals), extending previous results that required \(O(w^{2})\)-wise independence. Using this tool they construct an explicit family of multilinear polynomials that admit small non‑monotone arithmetic circuits but whose powers resist sub‑exponential monotone circuits, yielding the first explicit super‑polynomial separation between non‑monotone and monotone arithmetic circuit complexity.  
+- **Key Graph Concepts**: Monotone DNF, Sunflower lemma, \(O(w)\)-wise independence, Derandomization via method of moments, Non‑monotone vs. monotone arithmetic circuits, Nisan–Wigderson designs.
+
+### 🚀 46. Complexity Framework For Forbidden Subgraphs V: Beyond Simple Graphs
+- 👤 **Authors**: Tala Eagling‑Vose, Barnaby Martin, Daniel Paulusma, Siani Smith  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2502.07769)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: We prove that **Pseudograph Matching Cut** and **Pseudograph d‑Cut** are C123‑problems, which yields a complete complexity dichotomy for these problems on \(H\!H\)-subgraph‑free pseudographs for any finite set \(H\) of simple graphs. In contrast, **Pseudograph Stable Cut** is not a C123‑problem, yet it follows the C123 classification for graph classes defined by a single forbidden subgraph (the correspondence breaks for two‑element forbidden sets). Finally, for every \(k\ge 6\) we show that surjective homomorphism to a partially reflexive \(k\)-cycle is NP‑complete on triangle‑free pseudographs, while it becomes polynomial‑time solvable on any bounded‑degree graph class.  
+- **Key Graph Concepts**:  
+  - Pseudographs (self‑loops, multi‑edges)  
+  - Monotone graph classes, \(H\!H\)-subgraph‑free graphs  
+  - C123‑framework (complexity classification)  
+  - Matching Cut, \(d\)-Cut, Stable Cut  
+  - Surjective homomorphisms to partially reflexive cycles  
+  - Triangle‑free graphs, bounded‑degree graphs  
+
+---
+
+### 🚀 47. A polynomial-time algorithm to compute the co‑boxicity of block‑structured graphs
+- 👤 **Authors**: Marco Caoduro, Will Evans, Tao Gaede  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2510.02199)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: We present a polynomial‑time algorithm that computes the **co‑boxicity** of any graph whose blocks are either complete, cycles, or have at most \(k\) vertices (for any fixed \(k\ge 3\)). The algorithm combines the co‑boxicity of each block with the effect of turning selected vertex subsets into cut‑vertices, and consequently runs in polynomial time for trees, graphs of bounded block order, block graphs, and cactus graphs.  
+- **Key Graph Concepts**:  
+  - Boxicity / co‑boxicity  
+  - Block decomposition, cut‑vertices, block order  
+  - Complete graphs, cycles, bounded‑size blocks  
+  - Interval‑graph complements, graph cover problems  
+  - Trees, block graphs, cactus graphs  
+
+---
+
+### 🚀 48. Seaweed algebras with restricted part sizes
+- 👤 **Authors**: Kassie Archer, Aaron Geary, Robert P. Laudone  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2512.05890)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: We give explicit enumeration formulas for all seaweed Lie algebras of a fixed index whose defining compositions have parts drawn from *acyclic* sets, i.e., restricted part sizes. Moreover, we construct a bijection between indecomposable seaweed algebras with such restricted meanders and permutations whose displacements are bounded, allowing the index to be read off from a simple statistic on the associated permutation.  
+- **Key Graph Concepts**:  
+  - Seaweed algebras (Lie algebras)  
+  - Meanders as planar graphs representing compositions  
+  - Index of a Lie algebra  
+  - Restricted composition part sizes, acyclic sets  
+  - Bijection with permutations, restricted displacement  
+  - Permutation statistics for index computation  
+
+---
+
+### 🚀 49. Grundy Values of Node‑Kayles on Level‑Regular Trees
+- 👤 **Authors**: Nuttanon Songsuwan  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2512.24221)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper determines the Grundy values of Node‑Kayles on all level‑regular trees of depth ≤ 2 and proves the universal bound \(\mathcal{G}(\mathcal{T}_a)\le d+1\). It shows \(\mathcal{G}(\mathcal{T}_a)>0\) whenever the product \(a_1a_2a_3\) is even, introduces a Leaf‑Pair Lemma (parity of the last branching parameter) and a Twin Lemma (isomorphic pair subgraphs), and establishes a 34‑periodicity criterion that explains eventual periodicity for families such as \(\mathcal{T}_{1^k,2}\) and \(\mathcal{T}_{2,1^k,2}\). Computational evidence leads to a conjecture that Grundy values become eventually 2‑periodic in each branching parameter and in the length of runs of ones.  
+- **Key Graph Concepts**: Node‑Kayles, Grundy (Sprague‑Grundy) values, level‑regular trees, impartial combinatorial games, mirror strategy, periodicity of Grundy sequences, leaf‑pair and twin lemmas, boundedness vs. eventual periodicity.
+
+---
+
+### 🚀 50. Plane partitions and spin adapted quantum states
+- 👤 **Authors**: Abigail Price, Ada Stelzer, Svala Sverrisdóttir  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2601.06295)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: An explicit basis for the \(\operatorname{SU}(2)\)-invariant subspace of the exterior power \(\wedge_{2k}\mathbb{C}^{2m}\) is constructed via the combinatorics of plane partitions. By identifying this invariant space with an Artinian “excitation ring,” the authors compute a Gröbner basis and enumerate its standard monomials through a bijection with Dyck paths counted by Narayana numbers, thereby providing a concrete description of spin‑adapted quantum states for \(m\) spin orbitals and \(k\) electron pairs.  
+- **Key Graph Concepts**: Plane partitions, \(\operatorname{SU}(2)\) invariants, exterior algebra, excitation ring (commutative Artinian ring), Gröbner bases, Dyck paths, Narayana numbers, spin‑adapted quantum states.
+
+---
+
+### 🚀 51. The Inverse Symplectic Eigenvalue Problem of a Graph
+- 👤 **Authors**: Himanshu Gupta, Leslie Hogben, Bryan Shader, Tony Wong  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2601.11912)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors formulate the inverse symplectic eigenvalue problem for positive‑definite matrices whose zero‑nonzero pattern is prescribed by a labeled graph, and solve it completely for all graphs of order four and for several infinite families. They introduce the Strong Symplectic Spectral Property (SSSP), develop graph‑coupling techniques and coupled graph zero‑forcing, and prove a sharp lower bound on the number of nonzero entries (equivalently, edges) of an irreducible symplectic positive‑definite matrix, derived from a bound on the sum of nonzero entries of a matrix and its inverse.  
+- **Key Graph Concepts**: Symplectic eigenvalues, positive‑definite matrices, graph‑labeled matrices, inverse eigenvalue problem, Strong Symplectic Spectral Property (SSSP), graph couplings, coupled graph zero forcing, edge count lower bounds, symplectic geometry.
+
+### 🚀 52. Bicyclic graphs with the smallest and largest numbers of connected sets
+- 👤 **Authors**: Audace A. V. Dossou‑Olory  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2603.26812)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper determines, within the family $\mathbb{B}_n$ of $n$‑vertex bicyclic graphs, the exact structures that attain the minimum, the maximum, and the second‑largest values of $N(G)$, the number of non‑empty vertex subsets inducing a connected subgraph. It also provides closed‑form expressions for these extremal values of $N(G)$ as functions of $n$.
+- **Key Graph Concepts**: Bicyclic graphs; connected induced subgraphs (connected sets); extremal graph enumeration; structural characterisation of extremal bicyclic graphs.
+
+---
+
+### 🚀 53. Subhypergraph counts and proofs of two conjectures of Alon
+- 👤 **Authors**: Peiru Kuang, Shuang Sun, Yan Wang, Jiasheng Zeng  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2606.18321)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: For any fixed $r\ge 2$ and $r$‑uniform hypergraph $H$ without isolated vertices, the authors prove the precise asymptotic formula  
+  \[
+  N_r(m,H)=\bigl(\lambda_r(H)+o(1)\bigr)m^{\rho^{*}(H)}\quad (m\to\infty),
+  \]
+  where $\rho^{*}(H)$ is the fractional edge‑cover number and $\lambda_r(H)>0$ is given by a variational problem over finite hypergraphs. In the graph case $r=2$, this resolves Alon’s 1986 conjecture on the leading constant, and they also confirm Alon’s second conjecture by showing that extremal graphs for a prescribed number of edges in a star‑forest family can be taken to be star forests.
+- **Key Graph Concepts**: $r$‑uniform hypergraphs; fractional edge‑cover number; extremal hypergraph theory; rainbow compression and color‑coding; graph cores; star forests; asymptotic enumeration of subhypergraphs.
+
+---
+
+### 🚀 54. A General Inequality for Walks in Graphs
+- 👤 **Authors**: Chase Wilson  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.11846)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The author establishes a simple necessary and sufficient condition on two sequences of non‑negative integers $a_1,\dots,a_n$ and $b_1,\dots,b_n$ (with equal total sum) that guarantees the inequality  
+  \[
+  w_{a_1}(G)\cdots w_{a_n}(G)\;\ge\; w_{b_1}(G)\cdots w_{b_n}(G)
+  \]
+  holds for **every** graph $G$, where $w_k(G)$ denotes the number of walks of length $k$ in $G$.
+- **Key Graph Concepts**: Walk enumeration ($w_k(G)$); walk length sequences; universal graph inequalities; combinatorial conditions on integer sequences; graph walk products.
+
+### 🚀 55. Two families of Hermite normal form simplices  
+- 👤 **Authors**: Feihu Liu, Jinlong Tang, Sihao Tao, Zihao Zhang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.36818)
+
+#### 📝 Executive Summary & Innovations  
+- **Main Result**:  
+  1. For the family \(T_{d,N}\) the authors prove that the Ehrhart coefficients are unimodal in every dimension and completely determine when these coefficients are log‑concave or give rise to real‑rooted Ehrhart polynomials.  
+  2. For the subfamily \(S_{\mathbf a}\) with \(\mathbf a=(N-q,\dots ,N-q,N)\) they give a congruence condition (via a negative continued fraction) that is necessary and sufficient for both the integer decomposition property and the existence of a regular unimodular triangulation; they also supply an arithmetic test for the IDP and finite‑triangulation criteria for arbitrary \(\mathbf a\).  
+  These results settle three open questions posed by Bruckamp, Caicedo, and Juhnke.  
+
+- **Key Graph Concepts**:  
+  - Unimodular triangulations of simplices  
+  - Integer Decomposition Property (IDP)  
+  - Ehrhart theory (Ehrhart coefficients, unimodality, log‑concavity, real‑rootedness)  
+  - Hermite normal form simplices  
 
 ---  
 
-### 🚀 23. Associahedra are 8-colourable
-- 👤 **Authors**: David R Wood  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19659)
+### 🚀 56. Non-isomorphic graphs have distinct vertex‑Ramsey classes  
+- 👤 **Authors**: Maria Axenovich, Patrick Schmitteckert  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.03704)
 
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Building on Tan’s recent 12‑colourability proof, this paper refines the argument to show that the graph of any associahedron admits a proper vertex‑colouring with only eight colours. This constitutes the best known constant upper bound for the chromatic number of associahedra to date.  
-- **Key Graph Concepts**: Associahedron (graph of the Stasheff polytope), Chromatic Number, Graph Colouring, Polytope Graphs, Combinatorial Geometry  
+#### 📝 Executive Summary & Innovations  
+- **Main Result**:  
+  1. For any fixed number of colours \(k\ge 1\), the \(k\)-colour vertex‑Ramsey class uniquely identifies a graph up to isomorphism; that is, two non‑isomorphic graphs cannot share the same vertex‑Ramsey class.  
+  2. The authors also show that this uniqueness phenomenon breaks down when one replaces single graphs by families of graphs, providing explicit counter‑examples.  
+
+- **Key Graph Concepts**:  
+  - Vertex‑Ramsey classes (k‑colour vertex Ramsey)  
+  - Induced monochromatic copies  
+  - Graph isomorphism vs. non‑isomorphism  
+  - Families of graphs vs. individual graphs  
 
 ---  
 
-### 🚀 24. Enumerating Solutions to Type (2,3) Composition Identities of Finite Endofunctions
-- 👤 **Authors**: Max A. Alekseyev  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19668)
+### 🚀 57. Infinite Derivatives and Local Extrema of the Delange Function of Every Base  
+- 👤 **Authors**: Chengyi Zhu  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.21265)
 
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper derives explicit enumeration formulas for ordered pairs \((f,g)\) of endofunctions on a finite labelled set that satisfy a type \((2,3)\) composition identity (two factors on one side, three on the other). For all sixteen inequivalent identity forms, the authors provide finite‑sum and generating‑function expressions, including determinant formulas obtained via a decomposition of functional digraphs into trees and cycles.  
-- **Key Graph Concepts**: Functional Digraphs, Endofunctions, Composition Identities, Generating Functions, Trees and Cycles in Digraphs, Inclusion–Exclusion, Determinantal Expressions  
+#### 📝 Executive Summary & Innovations  
+- **Main Result**:  
+  1. The paper gives a digit‑based criterion (in terms of the base‑\(q\) expansion of \(x\)) that exactly characterises when the right or left derivative of the Delange function \(T_q\) is \(+\infty\) or \(-\infty\); it also identifies all local minima (the \(q\)-adic rationals) and all local maxima, distinguishing the strictness of maxima for odd and even bases.  
+  2. Using the connection between \(T_q\) and edge boundaries in the Hamming graph \(\{0,\dots,q-1\}^n\), the author determines the maximal value of \(T_q\) on each dyadic interval, computes the minimum number of edges whose removal separates the graph into components of prescribed size, and describes the measure‑theoretic size of typical level sets (almost every level set is finite, while almost every point lies in an uncountable level set).  
 
----
-
-### 🚀 25. On Semi-interval and Para-interval Graphs
-- 👤 **Authors**: Chenxi Lv, Yiming Lei, Chunlei Xu  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19711)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors give a negative answer to Bau–Johnson’s question by exhibiting a tree that cannot be represented with a single‑vertex extremal set. They prove that a finite connected graph (with at least two vertices) is a semi‑interval graph **iff** it is bipartite, and they provide necessary and sufficient conditions on distance matrices that characterize para‑interval graphs. Further, they completely describe para‑interval trees, relate para‑interval graphs to shortest‑path interval graphs via identification of an extremal vertex, and study leveled graphs together with the Hasse diagrams of finite posets.  
-- **Key Graph Concepts**: Semi‑interval graphs, Para‑interval graphs, Bipartite graphs, Distance matrix, Trees, Shortest‑path interval graphs, Leveled graphs, Hasse diagrams, Partially ordered sets.
+- **Key Graph Concepts**:  
+  - Hamming graph \(\{0,1,\dots,q-1\}^n\) (q‑ary hypercube)  
+  - Edge boundary / isoperimetric cuts in Hamming graphs  
+  - Connectivity and minimum cut size for given component cardinalities  
+  - Relationship between digital expansions and graph‑theoretic boundary problems  
 
 ---
 
-### 🚀 26. Asymptotic Order of the Minimum Number of Graph‑Saturating Edges
+### 🚀 58. Optimal self-orthogonal binary linear codes
+- 👤 **Authors**: Sascha Kurz  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.39870)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper completes the determination of the smallest possible length of eight‑dimensional binary self‑orthogonal codes for any prescribed minimum distance, and provides exact values and tight bounds for nine‑dimensional codes when the minimum distance does not exceed 64. It also delivers a streamlined, computer‑free classification for dimensions up to seven, proves the non‑existence of a \([93,9,44]_2\) code, and establishes several new divisibility constraints for putative optimal nine‑dimensional binary codes.  
+- **Key Graph Concepts**:  
+  - Binary Self‑Orthogonal Codes  
+  - Minimum Distance & Code Length  
+  - Geometric reformulation as multisets of points  
+  - Divisibility results for code parameters  
+
+---
+
+### 🚀 59. Rotating Walks, Derandomized Squares, and Permutation Conjugated Walks
+- 👤 **Authors**: Vedat Levi Alev, Shravas Rao  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.13693)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors confirm the Cohen et al. conjecture on the average‑case behavior of derandomized squaring for random graphs and show that the existential bounds for rotating random walks hold with high probability on random graphs. They further give a polynomial‑time construction of graph families and rotations that nearly saturate these bounds for all vertex‑transitive auxiliary graphs of fixed degree, and prove quantitative weak convergence of independent random permutation conjugates of regular graph adjacency matrices to freely independent tree adjacency operators. A covering argument yields deterministic spectral lower bounds for non‑negative coefficient polynomials, recovering the Cohen et al. lower bound for rotating walks.  
+- **Key Graph Concepts**:  
+  - Rotating Random Walks  
+  - Derandomized Squares  
+  - Vertex‑Transitive Graphs (fixed degree)  
+  - Spectral Lower Bounds & Polynomial Spectra  
+  - Free Independence & Tree Adjacency Operators  
+  - Girth → Infinity Limits  
+
+---
+
+### 🚀 60. Bipartite Matchings, Matrix Permanents, and Zeon Power Series
+- 👤 **Authors**: Muhammad Waqar Ul Hassan, G. Stacey Staples  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14802)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: By representing bipartite graphs in the zeon algebra, the authors derive recursive zeon sequences whose “\(\Omega\)-exponentials” encode the numbers of perfect matchings of the underlying graphs. This establishes a direct link between matrix permanents of structured biadjacency matrices and integer sequences generated via formal power‑series methods, providing a new algebraic tool for enumerating perfect matchings.  
+- **Key Graph Concepts**:  
+  - Bipartite Graphs & Perfect Matchings  
+  - Matrix Permanent  
+  - Zeon Algebra & Zeon Power Series  
+  - \(\Omega\)-Exponentials  
+  - Recursive Integer Sequences  
+
+---
+
+### 🚀 61. $Z_\infty$-algebras: Zinbielification of $B_\infty$ and quasi-shuffle algebras
+- 👤 **Authors**: Adam Keilthy  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17133)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper proves that every $Z_\infty$‑algebra is canonically isomorphic to the half‑shuffle Zinbiel algebra, which in turn yields a canonical isomorphism to the classical shuffle algebra for those $B_\infty$‑algebras that arise from $Z_\infty$‑algebras.  Moreover, it gives a complete classification of simple “Zinbielifications’’ of $B_\infty$‑algebras via explicit semigroup cocycles, illustrated through a range of quasi‑shuffle examples.  
+- **Key Graph Concepts**: Zinbiel algebras, $B_\infty$‑algebras, shuffle and quasi‑shuffle algebras, algebraic combinatorics, semigroup cocycles  
+
+---  
+
+### 🚀 62. Asymptotic Order of the Minimum Number of Graph‑Saturating Edges I
 - 👤 **Authors**: Xianglei Chen, Changxiang He  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19750)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: For any fixed graph \(H\) with \(\chi(H)>\chi\) and \(\chi(H-e)>\chi\) for every edge \(e\), and for any edge‑critical graph \(R\) with \(\chi(R)=\chi+1\), the authors completely classify the asymptotic behavior of  
+- **Main Result**: The authors determine the asymptotic order of the function $f_H\!\bigl(n,\operatorname{ex}(n,R)+1\bigr)$ for any fixed graph $H$ with chromatic number at least that of a fixed edge‑critical graph $R$.  This resolves the conjecture of He *et al.* (J. Combin. Theory Ser. B 159 (2023), 42‑60) by giving a full characterization of the minimum number of $H$‑saturating non‑edges in extremal $H$‑free graphs with one edge above the Turán number of $R$.  
+- **Key Graph Concepts**: Extremal graph theory, $H$‑saturating edges, edge‑critical graphs, chromatic number, Turán function $\operatorname{ex}(n,R)$, minimum saturation number  
+
+---  
+
+### 🚀 63. Cohomological VC‑density: Bounds and Applications
+- 👤 **Authors**: Saugata Basu, Deepam Patel  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2411.09670)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: Introducing the degree‑$p$ VC‑density $\mathrm{vcd}^p_{\mathcal X}$ and its higher‑order analogue $\mathrm{vcd}^{p,q}_{\mathcal X}$, the authors prove universal upper bounds $\mathrm{vcd}^p_{\mathcal X}\le (p+1)\dim X$ and $\mathrm{vcd}^{p,q}_{\mathcal X}\le (p+q)\dim X$ for families $\mathcal X$ definable in a wide range of topological structures (e.g., o‑minimal, analytic, étale).  The bounds are shown to be optimal, and the framework yields new topological versions of classic combinatorial results such as $\varepsilon$‑nets and the fractional Helly theorem.  
+- **Key Graph Concepts**: VC‑dimension, VC‑density, higher‑order VC‑density, topological combinatorics, o‑minimal structures, $\varepsilon$‑nets, fractional Helly theorem, cohomological methods  
+
+---
+
+### 🚀 64. Super-Arrhenius relaxation of the triangular plaquette model in any dimension
+- 👤 **Authors**: Laurent Bartholdi, Ivailo Hartarsky, Ivan Mitrofanov  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2606.16259)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The authors prove that for the Glauber dynamics of the triangular plaquette model in any dimension \(d\ge 2\), the infinite‑volume relaxation time satisfies  
   \[
-  f_H\bigl(n,\operatorname{ex}(n,R)+1\bigr),
+  e^{\beta^{2}/C}/C \;\le\; T_{\mathrm{rel}}\;\le\; C\,e^{e^{C\beta}}
   \]  
-  the minimum number of \(H\)-saturating non‑edges in an \(n\)-vertex \(H\)-free graph with \(\operatorname{ex}(n,R)+1\) edges. They show the quantity is either quadratic, asymptotic to \(\frac{2n}{\chi}\), or identically zero, depending on the existence and structure of \(\chi\)-critical two‑edge sets of \(H\). This settles the conjecture of He *et al.* (J. Combin. Theory Ser. B 159 (2023), 42‑60).  
-- **Key Graph Concepts**: \(H\)-saturating edges, Extremal number \(\operatorname{ex}(n,R)\), Edge‑critical graphs, Chromatic number, \(\chi\)-critical two‑edge sets, Asymptotic extremal graph theory.
-
----
-
-### 🚀 27. Asymptotics of the three‑color Hadwiger‑Ramsey numbers
-- 👤 **Authors**: Sergey Norin, Neil Rahman  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19834)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper determines the precise asymptotic growth of the three‑color Hadwiger‑Ramsey number:  
-  \[
-  R_h(k;3)=\bigl(\beta^{-1}+o(1)\bigr)\,k\sqrt{\ln k},
-  \]  
-  where \(\beta^{-1}=2/\sqrt{-\ln(10-4\sqrt6)}=1.58149\ldots\). This resolves the first open case of the problem posed by Axenovich and Steiner, extending their two‑color result to three colors.  
-- **Key Graph Concepts**: Hadwiger‑Ramsey numbers, Edge‑colorings of complete graphs, Graph minors (\(K_k\) minor), Asymptotic analysis, Multi‑color Ramsey theory.
-
-### 🚀 28. Saturation and Semi-Saturation Numbers of Joins with Complete Graphs
-- 👤 **Authors**: Changqing Xu, Yan Yang, Junxue Zhang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19835)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper derives exact formulas for the saturation number of the join \(K_t\vee\mathcal F\) under explicit structural conditions on \(\mathcal F\), namely  
-  \[
-  \operatorname{sat}(n,K_t\vee\mathcal F)=\binom{t}{2}+t(n-t)+\operatorname{sat}(n-t,\mathcal F),
-  \]  
-  and provides analogous semi‑saturation bounds. These identities are proved for families of long cycles and for joins with single cycles \(C_k\) when \(n\) is sufficiently large.  
-- **Key Graph Concepts**: Saturation / semi‑saturation numbers, graph joins, complete graph \(K_t\), cycle families \(\mathcal C_{\ge r}\), subdivisions of cycles, extremal graph characterisation, minimum degree constraints.
-
----
-
-### 🚀 29. Uniquely balanced polyhedral complexes are highly connected
-- 👤 **Authors**: Kisun Lee  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19866)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: After factoring out the common lineality space, every skeleton of a polyhedral complex that possesses a unique positive balanced top‑cycle is shown to satisfy a higher‑connectivity property; the number of connected components that can survive any collection of facet deletions is bounded by the dimension of the top‑cycle space.  
-- **Key Graph Concepts**: Polyhedral complexes, skeletons, higher connectivity, balanced top‑cycle, tropical linear spaces, valuated matroids, Bergman fans, homological and linear‑algebraic techniques.
-
----
-
-### 🚀 30. Weighted bisections of triangle‑free subcubic graphs
-- 👤 **Authors**: Shufei Wu, Qinghou Zeng  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19881)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors confirm the Gerke–Gutin–Yeo–Zhou conjecture: every finite triangle‑free subcubic graph (except the claw) admits a vertex bisection whose total edge weight is at least \(11/15\) of the graph’s total edge weight, a bound that is tight as demonstrated by the Petersen graph.  
-- **Key Graph Concepts**: Triangle‑free subcubic graphs, weighted edge bisections, Petersen graph extremality, matching‑based local distributions, weighted induction, convex separation, cut guarantees.
-
-### 🚀 31. The maximum length of a Hamiltonian path in the grid graph $P_m \times P_n$
-- 👤 **Authors**: Jiajun Yuan
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19908)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The exact value of \(M(P_m \times P_n)\) is determined, confirming McNeil’s conjecture that \(M(P_n \times P_n)=n^{3}-3\) for even \(n\) and \(n^{3}-n-1\) for odd \(n\). The proof refines Fried’s cut‑counting bound by providing a version that works for every multiplicity, with an extra correction term that appears only in dimensions higher than two.  
-- **Key Graph Concepts**: Grid graphs \(P_m \times P_n\); Hamiltonian paths; Manhattan metric length; cut‑counting bound for multisets; planar vs. higher‑dimensional graph analysis.
-
----
-
-### 🚀 32. On Win's Conjecture for Edge-Disjoint Perfect Matchings
-- 👤 **Authors**: Yufei Chang, Yangyang Cheng, Zhilan Wang, Shuo Wei
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20093)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For all sufficiently large even \(n\), any graph satisfying Win’s degree‑sum condition contains \(\lfloor k/2\rfloor\) edge‑disjoint Hamilton cycles and, when \(k\) is odd, an additional edge‑disjoint perfect matching. This settles Win’s conjecture for large even orders with a threshold independent of \(k\).  
-- **Key Graph Concepts**: Edge‑disjoint perfect matchings; Hamilton cycles; degree‑sum condition \(d(x)+d(y)\ge n+k-2\); Win’s conjecture; large even‑order graphs.
-
----
-
-### 🚀 33. Maximal Independent Sets in Set Systems
-- 👤 **Authors**: Jeroen Schillewaert, Jacques Verstraete
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20167)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: A general theorem guarantees the existence of small maximal independent sets in set systems that meet natural local density constraints, with an explicit asymptotic size formula as degrees grow. The authors also provide a polynomial‑time algorithm to construct such sets, yielding new bounds for independent sets in linear uniform hypergraphs and applications to complete arcs in finite projective spaces.  
-- **Key Graph Concepts**: Maximal independent sets; set systems and antichains; uniform and linear hypergraphs; degree conditions; finite projective spaces; complete arcs; extremal combinatorics.  
-
----
-
-### 🚀 34. Integral zero-sum incidence identities and Davenport constants in rank three
-- 👤 **Authors**: Claudiu G. Pop, George C. Rad, George C. Ţurcaş  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20197)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors construct integral zero‑sum incidence identities of length \(L(t)=m(t+3)-2\) for the groups \(C_m^3\) (with \(m\in\{2,3,4\}\)) and prove these thresholds are optimal over fields of characteristic 0 or not dividing \(m\).  Using these identities they obtain the exact Davenport constant  
-  \[
-  D\!\big(C_{mp^a}\oplus C_{mp^b}\oplus C_{mp^c}\big)=m(p^a+p^b+p^c)-2,
-  \]  
-  in particular confirming \(D(C_{15}^3)=43\) and \(D(C_{20}^3)=58\), the smallest unresolved cases of the conjecture \(D(C_n^3)=3n-2\).  All proofs have been formalised in Lean 4.
-- **Key Graph Concepts**: Davenport constant, zero‑sum subsequences, finite abelian \(p\)-groups, integral incidence identities, indicator polynomials, combinatorial number theory, formal verification (Lean 4).
-
----
-
-### 🚀 35. A Proof of Stein's Equidissection Conjecture
-- 👤 **Authors**: Dmitry Krachun  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20240)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Building on Rudenko’s rational‑coordinate approach, the paper resolves Stein’s equidissection conjecture in full: every balanced polygon cannot be dissected into an odd number of equal‑area triangles, regardless of the vertex coordinates.  The proof streamlines the 2‑adic colouring method originally introduced by Monsky and adapts it to the general balanced‑polygon setting.
-- **Key Graph Concepts**: Equidissection, balanced polygons, 2‑adic valuation colouring, Sperner’s lemma, combinatorial geometry, parity arguments.
-
----
-
-### 🚀 36. Ramsey sets are canonically Ramsey
-- 👤 **Authors**: Arsenii Sagdeev  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20270)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author proves that every Ramsey set \(A\) is *canonically* Ramsey: for any number of colours \(r\), a sufficiently high‑dimensional Euclidean space coloured with \(r\) colours always contains either a monochromatic or a rainbow (all‑different‑coloured) congruent copy of \(A\).  This settles a long‑standing question that has appeared in essentially every prior work on Euclidean Ramsey theory.
-- **Key Graph Concepts**: Euclidean Ramsey theory, Ramsey sets, monochromatic configurations, rainbow configurations, high‑dimensional geometry, canonical Ramsey property.
-
-### 🚀 37. Structural properties of semi-cutting sets
-- 👤 **Authors**: Bartłomiej Bosek, Oriol Serra, Lluís Vena  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20287)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove the sharp lower bound \(|F|\ge |T|-1\) for any semi‑cutting edge set \(F\) with respect to a terminal set \(T\) in a finite simple graph. The proof identifies semi‑cutting sets as edge transversals of all shortest \(T\)-to‑\(T\) paths and derives the bound via a contraction step, a terminal‑deletion lemma, and a lexicographic induction on \((|T|,|V|)\).  
-- **Key Graph Concepts**: Semi‑cutting sets, edge transversals, shortest terminal‑terminal paths, graph contraction, terminal‑deletion lemma, lexicographic induction on \((|T|,|V|)\).
-
----
-
-### 🚀 38. Canonical activation patterns and ReLU pattern varieties
-- 👤 **Authors**: Bella Finkel, Yaoying Fu, Chenxi Wu  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20346)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper introduces *pattern stability* for ReLU networks and fully characterizes it (and combinatorial stability) for shallow, unbiased architectures. When the associated wall graph is connected and contains an edge of every neuron label, the defining ideal of the pattern variety is determined explicitly, resolving a problem of Alexandr and Montúfar. Moreover, for any shallow architecture the functional dimension equals the dimension of the canonical pattern variety on a full‑measure open dense set, with an exact formula given for non‑degenerate shallow networks.  
-- **Key Graph Concepts**: Wall graph, activation patterns, ReLU pattern variety, canonical pattern set, combinatorial stability, functional dimension, shallow neural network architecture.
-
----
-
-### 🚀 39. A proof of a conjecture on bipartite correspondence packing
-- 👤 **Authors**: Xin Zhang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20504)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author confirms the conjecture of Cambie et al. by showing that for every sufficiently large integer \(D\) there exists \(k(D) = \big\lceil D/(\log D - 2\log\log D - 6)\big\rceil\) such that any correspondence cover of a finite bipartite graph with at most \(D\) forbidden partners per color and \(k(D)\) colors per vertex admits a full correspondence packing. This yields the asymptotic bound \(k(D) = (1+o(1))D/\log D\) for large \(D\).  
-- **Key Graph Concepts**: Correspondence coloring, full correspondence packing, bipartite graphs, forbidden color pairs, degree bound \(D\), asymptotic packing threshold \(k(D)\).
-
-### 🚀 40. Graph Intersections and Hypergraph Discrepancy
-- 👤 **Authors**: Zhanping Yang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20539)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. For two graphs on \(n\) vertices with fixed edge‑densities \(p,q\in(0,1)\), the minimum possible \(L^{2}\) norm of the deviation of their intersection size from its expectation equals  
-  \[
-  \Bigl(\sqrt{\frac{p(1-p)q(1-q)}{2}\cdot\frac{1-\sqrt R}{1+\sqrt R}}\Bigr)n+o(n),
-  \]  
-  where \(R=\max\{p,1-p,q,1-q\}\); the linear coefficient is shown to be optimal.  
-  2. For two \(\tfrac{n}{2}\)-uniform hypergraphs with \(\tfrac12\binom{n}{n/2}\) edges, the minimum product of the positive and negative discrepancies is \(0\) when \(4\mid\binom{n}{n/2}\) and \(1/4\) otherwise.
-
+  for some constant \(C>0\).  Moreover, on a torus of side‑length \(2^{k}\) with \(\beta\to\infty\) and \(k/\beta\to0\), they obtain the sharp asymptotic \(T_{\mathrm{rel}}=e^{2\beta k(1+o(1))}\), while on non‑periodic domains of size \(n\le e^{\beta/C}\) they show \(\ln T_{\mathrm{rel}}=\beta n^{\Theta(1)}\).  These bounds confirm long‑standing conjectures about super‑Arrhenius behaviour and imply uniqueness of the Gibbs measure.
 - **Key Graph Concepts**:  
-  - Graph intersection under random relabelling  
-  - Edge density (\(p,q\))  
-  - \(L^{2}\) deviation norm  
-  - Positive/negative discrepancy of hypergraphs  
-  - Uniform hypergraphs, combinatorial discrepancy  
+  - Extremal and enumerative combinatorics (used to count configurations)  
+  - Renormalisation techniques on lattice graphs  
+  - Ledrappier subshift (symbolic dynamics on \(\mathbb{Z}^{d}\) graphs)  
+  - Connections to geometric group theory (complexity of the word problem for the Baumslag group)  
 
 ---
 
-### 🚀 41. Treewidth and Separation Number: An Optimal Linear Bound
-- 👤 **Authors**: Rong Chen  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20777)
+### 🚀 65. Twisted Conjugacy and the Construction of Induced Centrosymmetric Alternant Codes
+- 👤 **Authors**: Ousmane Ndiaye, Massamba Sow  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2608.11056)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  The paper proves the sharp linear relationship \(\operatorname{tw}(G)\le 4\,\operatorname{sn}(G)-2\) for every non‑empty graph \(G\), improving the previous bound \(\operatorname{tw}(G)\le 15\,\operatorname{sn}(G)\). Moreover, for each integer \(k\ge 2\) there exists a graph \(G_k\) with \(\operatorname{tw}(G_k)=4k+2\) and \(\operatorname{sn}(G_k)=k+1\), showing the constant \(4\) is best possible.
-
+- **Main Result**: The paper introduces a twisted conjugacy relation arising from projective semilinear transformations and proves that, in the quadratic extension case, every admissible transformation inducing centrosymmetry has trivial Shintani norm and thus belongs to a single conjugacy class in the semilinear coset.  Using this, the authors give an explicit description of all such transformations and a transport theorem that describes how twisted conjugation acts on the supports and multipliers of Generalized Reed–Solomon (GRS) codes, thereby providing a systematic construction of induced centrosymmetric alternant codes.
 - **Key Graph Concepts**:  
-  - Treewidth (\(\operatorname{tw}\))  
-  - Separation number (\(\operatorname{sn}\))  
-  - Graph separators of order \(|A\cap B|\)  
-  - Linear bounds between width parameters  
-  - Extremal constructions for tightness  
+  - Projective semilinear groups acting on code coordinate graphs  
+  - Conjugacy classes and twisted conjugacy in group‑theoretic graph actions  
+  - Algebraic structures underlying alternant code graphs  
 
 ---
 
-### 🚀 42. On homogeneous hypertournaments
-- 👤 **Authors**: Matěj Konečný  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20784)
+### 🚀 66. Two problems about bases and independent sets in free groups
+- 👤 **Authors**: Lucy Koch‑Hyde, Éamonn Olive  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.00382)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. For any family \(\mathcal F\) of pair‑cancelling \(n\)-hypertournaments, the class of linearly ordered finite \(\mathcal F\)-free \(n\)-hypertournaments is Ramsey and enjoys the ordering property; this resolves a question about freely ordered \(\mathbf{H}_4\)-free 3‑hypertournaments.  
-  2. The paper provides explicit Ramsey expansions with the expansion property for odd \(n\ge 3\) (by naming an \((n-1)\)-hypertournament) and for even \(n\) (by adding a free linear order).  
-  3. It shows that for \(n\ge 6\) no unbounded hereditary strong amalgamation class of finite \(n\)-hypertournaments has EPPA, and establishes EPPA failure for all of Sullivan’s classes with \(n\ge 4\) and for even 5‑hypertournaments, supporting a conjecture that the described families exhaust the countably infinite homogeneous \(n\)-hypertournaments.
-
+- **Main Result**: The authors resolve Dotsenko’s problem by establishing a tight upper bound on the rank of a subgroup of a free group when the maximal length of its generators is prescribed.  They then apply the same combinatorial machinery—Stallings foldings and elementary graph‑theoretic arguments—to settle a long‑standing question of Grigorchuk from the 10th edition of the Kourovka notebook concerning independent sets in free groups.  Both results are obtained via explicit constructions on the associated core graphs.
 - **Key Graph Concepts**:  
-  - Homogeneous \(n\)-hypertournaments  
-  - Pair‑cancelling configurations  
-  - Ramsey property & ordering property  
-  - EPPA (Extension Property for Partial Automorphisms)  
-  - Strong amalgamation, hereditary classes, Ramsey expansions  
+  - Free groups and their subgroup graphs (Stallings graphs)  
+  - Stallings folding operations  
+  - Rank, bases, and independent sets of subgroups viewed as graph invariants  
+  - Graph‑theoretic techniques for subgroup enumeration  
 
 ---
 
-### 🚀 43. Collapsibility of Vietoris--Rips complexes of hypercube graphs in codimension two  
-- 👤 **Authors**: S Selvaraja  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20820)
+### 🚀 67. Hull Games of Induced Path Convexities in Graphs
+- 👤 **Authors**: Eurinardo Costa, Leon Almeida, Rudini Sampaio  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.30302)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves Shukla’s conjecture that the collapsibility number of the Vietoris–Rips complex $\mathrm{VR}(I_n;r)$ of the $n$‑dimensional hypercube equals $2^{r}$ for the first new infinite family $n=r+2$ (all $r\ge 0$), providing the first cases with $r\ge4$ beyond the cross‑polytope.  It also shows that the induced‑matching number of the auxiliary graph $H_{n,r}$ is $2^{r}$ for every $n>r$, that $\mathrm{VR}(I_n;r)$ is vertex‑decomposable only for $r=1$ or $n=r+1$, and derives the bound $\operatorname{coll}(\mathrm{VR}(I_n;r))\le 2^{r+1}-4$ for all $n>r\ge2$ (assuming a recent skew Hamming set‑pair theorem).  
-- **Key Graph Concepts**: Vietoris–Rips complexes, hypercube graph $I_n$, collapsibility number, independence complex, co‑chordal cover number, $\theta$‑number (Bıyıkoğlu–Civan), induced matching number, vertex‑decomposable complexes, top‑degree homology, coconnectivity, skew Hamming set‑pair theorem.
-
----  
-
-### 🚀 44. Creation Sequences for Numerical Semigroups and Exact Counts of Semigroup Partitions  
-- 👤 **Authors**: Rameez Raja, Zeenat Rashid  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20832)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors establish a bijection between threshold graphs containing an isolated vertex and numerical sets, interpreting creation sequences as lattice paths that yield integer partitions via the Keith–Nath correspondence.  They prove structural constraints on the blocks of ones and zeros in the creation sequence of a numerical semigroup of multiplicity $m$, classify partitions with up to four parts, and show that every such partition lies inside the staircase $(g,g-1,\dots,1)$ (its creation sequence begins with a Dyck path).  Finally, they derive exact formulas for the number of partitions of $n$ corresponding to numerical semigroups of given genus $g$, multiplicity $m$, and Frobenius number $f$ in the sharp ranges $g\ge n/2$, $m>n/3$, and $f\ge n-\frac{n-1}{4}$, thereby solving several open counting problems.  
-- **Key Graph Concepts**: Threshold graphs, creation sequences, lattice‑path representation, integer partitions, Keith–Nath correspondence, numerical semigroups, genus, multiplicity, Frobenius number, Dyck paths, staircase partition, Weierstrass weight.
-
----  
-
-### 🚀 45. Characterization of Cubic Graphs with Exactly Two Lonely Edges  
-- 👤 **Authors**: Zewei Qian, Pingshan Li  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20843)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper delivers a complete structural characterization of the family $\mathcal{U}_2$ of 3‑connected cubic graphs that contain exactly two “lonely edges” (edges appearing in a unique perfect matching).  It identifies a finite set of minimally non‑contractible “primitive kernels” for $\mathcal{U}_2$ and provides explicit constructive operations that generate every graph in $\mathcal{U}_2$ from these kernels, thereby completing the classification begun in earlier work on $\mathcal{U}_k$ for $k\ge3$ and on the case where the two lonely edges lie in the same perfect matching.  
-- **Key Graph Concepts**: Cubic graphs, perfect matchings, lonely edges, 3‑connectivity, primitive kernels, constructive graph operations, structural characterization, $\mathcal{U}_k$ families.
-
----
-
-### 🚀 46. Linear Algebra over Bands
-- 👤 **Authors**: Yifan Guo, Victoria Schleis  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20923)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors introduce Eckmann‑Hilton operators on bands, which enable matroid‑theoretic constructions such as matroid unions and stable intersections. Using these tools they define general linear monoids over bands and show that matroid stable intersection simultaneously generalises transverse intersection of linear spaces over fields and stable intersection of tropical linear spaces.  
-- **Key Graph Concepts**: Bands, Matroid Unions, Matroid Stable Intersection, Linear Monoids, Tropical Linear Spaces, Intersection Theory on Bands  
-
----
-
-### 🚀 47. List colouring of circular-arc graphs
-- 👤 **Authors**: Rongchuan Tao  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20947)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: It is proved that for every circular‑arc graph the chromatic number coincides with its list chromatic number. The proof exploits Schauz’s coefficient formula within the Alon‑Tarsi framework and the Combinatorial Nullstellensatz.  
-- **Key Graph Concepts**: Circular‑Arc Graphs, Chromatic Number, List Chromatic Number, Alon‑Tarsi Theorem, Combinatorial Nullstellensatz, Coefficient Formula  
-
----
-
-### 🚀 48. Triples in matroid circuits
-- 👤 **Authors**: Jim Geelen, Bert Gerards, Geoff Whittle  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20960)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For a four‑element independent set \(X\) in a vertically 5‑connected representable matroid \(M\), either a circuit of \(M\) contains at least three elements of \(X\), or \(M\) admits a representation where every column has at most two non‑zero entries and the columns indexed by \(X\) each have exactly one non‑zero entry. A version without the connectivity hypothesis is also established.  
-- **Key Graph Concepts**: Representable Matroids, Vertically 5‑Connected Matroids, Matroid Circuits, Sparse Matrix Representations, Independent Sets, Connectivity Conditions  
-
-### 🚀 49. Symmetric Chemical Reaction Networks: Realizations and Steady States
-- 👤 **Authors**: Sebastian Debus, Kurt Klement Gottwald, Nils Gubela  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21191)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that any equivariant mass‑action ordinary differential equation (ODE) arising from a symmetry that permutes species can be realized by a symmetric chemical reaction network, and they construct the sparsest such realization. Using the half‑degree principle they further show that whenever a symmetric CRN admits a steady state, it also admits one in which only a few distinct species concentrations appear.  
-- **Key Graph Concepts**: Reaction‑network graphs, Symmetric (equivariant) networks, Species‑permutation symmetry, Sparsity in network realizations, Equivariant dynamical systems.
-
----
-
-### 🚀 50. Odd faces as a parameter for maximum independent set in embedded graphs
-- 👤 **Authors**: Samuel Fiorini, Stefan Kober, Caleb McFarland  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21256)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: A polynomial‑time algorithm is presented for computing a maximum‑weight independent set in graphs embedded on a surface of bounded genus that contain a bounded number of vertex‑disjoint odd faces. The method yields algorithms for even‑faced torus embeddings and for planar graphs with a limited number of odd faces, and it works by reducing the problem to a minimum‑cost non‑negative integer circulation with homology constraints in the dual of a suitable double cover.  
-- **Key Graph Concepts**: Embedded graphs, Surface genus, Odd faces, Maximum independent set, Homology constraints, Dual graph, Integer circulation, Double cover constructions.
-
----
-
-### 🚀 51. Arithmetic Universality and Integer Decomposition in Disjunctions of Three Staircase Simplices
-- 👤 **Authors**: Yushan Qu, Jon Lee  
-- 🔗 **ArArXiv**: [Access Paper](https://arxiv.org/abs/2611.21345)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper shows that the disjunctive hull (Cayley polytope) of three staircase simplices can realize any finite abelian group as a residue group of a facet, establishing tight dimension bounds for this phenomenon. It proves strong NP‑completeness for deciding whether a lattice point is a sum of vertices and coNP‑completeness for recognizing the integer decomposition property (IDP) of a designated facet, while also characterizing when the whole hull retains IDP (always for dimension ≤ 5). A complete Hilbert basis is determined for a family of triples defined by three‑letter words.  
-- **Key Graph Concepts**: Staircase simplices, Cayley polytope, Integer Decomposition Property (IDP), Hilbert basis, Polyhedral combinatorics, Lattice polytopes, Arithmetic universality.
-
-### 🚀 52. \(A_\alpha\)-Wronskian Vertices of Paths and Controllability of Path‑Rooted Products
-- 👤 **Authors**: Xiaoqi Liu, Haiying Shan  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21385)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors completely classify the \(A_{\alpha}\)-Wronskian vertices of every path \(P_n\) (\(n\ge 2\)), showing that the central vertex of an odd‑order path is never Wronskian and providing an explicit finite set of algebraic exceptional parameters for all other vertices.  For even‑order paths rooted at a central vertex they compute the root resultant and walk‑determinant polynomial, yielding a controllability criterion that combines \(A_{\alpha}\)-controllability of the base graph with at most three explicit spectral exclusions.  Moreover, for each \(\alpha\) they identify a pair of complementary base graphs that guarantee controllable path‑rooted products for every even‑order path and both central roots, with a simplified spectral test when \(1/2\le\alpha<1\).
-- **Key Graph Concepts**: \(A_{\alpha}\) matrix, Wronskian vertices, paths, rooted product of graphs, controllability, spectral exclusions, Chebyshev polynomials, adjacency matrix, signless Laplacian, gcd criteria, algebraic parameters.
-
----
-
-### 🚀 53. Polynomial bounds for quasiplanar graphs
-- 👤 **Authors**: Aleksa Milojević, Patryk Morawski, Benny Sudakov, Istvan Tomon  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21416)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves that any \(k\)-quasiplanar graph on \(n\) vertices has at most \(O(k^{2}n)\) edges, dramatically improving the previous bound of \(k^{O(k)}n\).  The proof relies on a new geometric charging scheme together with Erdős–Szekeres‑type combinatorial arguments, establishing a near‑linear dependence on the quasiplanar parameter \(k\).  
-- **Key Graph Concepts**: \(k\)-quasiplanar graphs, planar drawings, edge crossing restrictions, extremal graph theory, geometric charging method, Erdős–Szekeres theorem, combinatorial geometry.
-
----
-
-### 🚀 54. Perfect 3‑colorings of the generalized Petersen graphs \(GP(n,2)\)
-- 👤 **Authors**: Hamed Karami  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21435)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author enumerates all possible parameter matrices for perfect 3‑colorings of the generalized Petersen graphs \(GP(n,2)\) (\(n\ge5\)) and shows that exactly five distinct matrices can occur.  Two of these matrices appear iff \(5\mid n\), two appear iff \(3\mid n\), and the remaining one appears iff \(10\mid n\), giving a complete divisibility‑based classification.  
-- **Key Graph Concepts**: Perfect (equitable) colorings, generalized Petersen graphs, parameter matrix, graph coloring, divisibility conditions, combinatorial enumeration.  
-
----
-
-### 🚀 55. Counting Matrices of Prescribed Jordan Type in Incidence Algebras
-- 👤 **Authors**: Keivan Mallahi‑Karai, Samrith Ram, Hadi Salmasian  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21451)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The number of nilpotent matrices in the incidence algebra of a finite poset that lie in a given Jordan conjugacy class depends solely on the comparability graph of the poset. For the newly introduced class of *shuffle‑prefix posets* (which contains all finite interval orders) the authors give explicit polynomial formulas (with integer coefficients) for these counts, valid over every finite field. Moreover, a Fourier‑duality principle links conjugacy‑class counts in complementary coordinate subspaces whenever one subspace consists entirely of nilpotent matrices.  
+- **Main Result**: The authors prove that the hull games \( \mathrm{CHG}_{\mathrm{m}} \) and \( \mathrm{CHG}_{\ell_k} \) (and their misère versions) are PSPACE‑complete for every \( k\ge 2 \), even on graphs of diameter at most 3.  Using Sprague‑Grundy theory they obtain a polynomial‑time algorithm for deciding the winner on disjoint unions of paths and cycles, and they completely characterize the winning positions for \( \mathrm{CHG}_{\ell_k} \) on single paths and cycles for many values of \(k\).  
 - **Key Graph Concepts**:  
-  - Incidence algebra of a finite **poset**  
-  - **Comparability graph** of a poset  
-  - **Shuffle‑prefix posets** / interval orders  
-  - Nilpotent **Jordan type** (conjugacy class)  
-  - Polynomial counting functions in the **field size**  
+  - Induced‑path (monophonic) convexity, \( \ell_k \)-convexity  
+  - Hull games, misère variants, PSPACE‑completeness  
+  - Sprague‑Grundy theory, nimbers, periodic nimber sequences  
+  - Paths \( P_n \) and cycles \( C_n \) (graph families)  
 
 ---
 
-### 🚀 56. Crossing Numbers of Complete Graphs: the independent odd crossing number
-- 👤 **Authors**: Marcus Schaefer, Daniel Stefankovic  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21516)
+### 🚀 68. Symplectic extension graphs and Ribet's lemma
+- 👤 **Authors**: Aniruddha Sudarshan  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.19434)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The classical Harary–Hill bound for the crossing number of the complete graph \(K_n\) and the Zarankiewicz bound for the complete bipartite graph \(K_{m,n}\) (both recently proved by OpenAI) are shown to hold unchanged for the *independent odd crossing number*. Consequently, the same asymptotic bounds apply to several related variants, including the independent algebraic crossing number and the independent pair crossing number.  
+- **Main Result**: Introducing the **symplectic extension graph** \( \Gamma_\rho^{\mathrm{GSp}} \) attached to an irreducible, residually multiplicity‑free symplectic representation, the paper shows—via the Euclidean Bruhat–Tits building of \( \mathrm{GSp}_{2n}(\mathbb Q_p) \)—that \( \Gamma_\rho^{\mathrm{GSp}} \) decomposes into a disjoint union of non‑empty strongly connected subgraphs, and that certain directed paths always exist under natural hypotheses.  Explicit examples demonstrate that these connectivity statements are optimal.  
 - **Key Graph Concepts**:  
-  - **Crossing number** variants (independent odd, algebraic, pair)  
-  - **Complete graphs** \(K_n\) and **complete bipartite graphs** \(K_{m,n}\)  
-  - Harary–Hill bound, Zarankiewicz bound  
-  - Edge‑independence and parity constraints in drawings  
+  - Directed (extension) graphs, strong connectivity, strongly connected components  
+  - Symplectic extension graph \( \Gamma_\rho^{\mathrm{GSp}} \)  
+  - Bruhat–Tits building (as a combinatorial/geometric structure)  
 
 ---
 
-### 🚀 57. Regular subgroups of wreath products and Cayley Cartesian products
-- 👤 **Authors**: Zhaochen Ding, Ted Dobson, Ademir Hujdurović, Yakun Wang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21555)
+### 🚀 69. Weak Hurwitz stability of extended Turán expressions for Stirling–Whitney–Riordan and Laguerre polynomials
+- 👤 **Authors**: Wenle Shi  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.35783)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: For a transitive permutation group \(G\) of degree \(2p\) or \(4p\) (with \(p\) prime), the wreath product \(G\wr S_2\) contains a regular subgroup if and only if \(G\) does; the authors also construct counterexamples for degree \(8p\) when \(p\equiv3\pmod4\). By adapting this construction they produce an infinite family of connected non‑Cayley graphs whose Cartesian squares are Cayley graphs, giving a negative answer to the converse “Cartesian product of Cayley graphs ⇒ each factor Cayley”. The smallest such graph has 120 vertices and valency 27. Additionally, they prove that a connected vertex‑transitive graph of order \(pq\) (primes \(p,q\)) has a Cayley Cartesian power precisely when the graph itself is Cayley.  
+- **Main Result**: The paper establishes a general sufficient condition guaranteeing **weak Hurwitz stability** for extended Turán expressions of polynomial families that satisfy a first‑order differential recurrence.  Applying this criterion, the author proves weak Hurwitz stability for the Turán expressions of Stirling–Whitney–Riordan polynomials, several Eulerian families, Bell polynomials, and reflected generalized Laguerre polynomials, thereby resolving two conjectures of Chasse, Grabarek, and Visontai.  
 - **Key Graph Concepts**:  
-  - **Cartesian product** of graphs / **Cayley graphs**  
-  - **Regular subgroups** of **wreath products** \(G\wr S_2\) (product action)  
-  - **Transitive permutation groups** of degree \(2p,4p,8p\)  
-  - **Vertex‑transitive** and **non‑Cayley** graphs  
-  - **Prime‑order** graph orders (\(pq\)) and Cartesian powers  
+  - (While the work is primarily analytic/combinatorial, the relevant structures are) Turán expressions, Hurwitz stability, first‑order differential recurrences, Stirling–Whitney–Riordan polynomials, Eulerian polynomials, Bell polynomials, Laguerre polynomials.  
 
 ---
 
-### 🚀 58. Peak state transfer in trees and the cost of distance
-- 👤 **Authors**: Andrew Osborne, Andrew A. Houck  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21567)
+### 🚀 70. The cohomology of finite simple groups is unbounded
+- 👤 **Authors**: Chris Bowman, Damian de la Fuente, Nicolas Libedinsky, David Plaza  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.11677)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. Peak state transfer at distance \(d\) forces at least \(\frac{d^{3}}{24}(1+o(1))\) edges in the adjacency‑matrix model (tight up to the leading constant) and \(\Omega(d^{2})\) edges in the Laplacian model.  
-  2. The authors exhibit a family of graphs achieving Laplacian peak state transfer at distance \(d\) with only \(\Theta(d^{5})\) edges, showing polynomial‑size feasibility, while Laplacian perfect state transfer under an almost‑equitable distance partition requires \(\Omega(2^{d/2})\) edges.  
-  3. For trees, Laplacian peak state transfer demands \(\Omega(d!)\) edges, and the paper completely characterises all trees of diameter \(\le 4\) that admit it, answering questions of Coutinho, Guo, and Schmeits.
-
-- **Key Graph Concepts**:  
-  - Peak state transfer (PST)  
-  - Perfect state transfer (perfect PST)  
-  - Adjacency matrix vs. Laplacian matrix  
-  - Distance‑\(d\) graphs, graph size (edge count)  
-  - Trees, diameter, equitable partitions  
-  - Spectral decomposition, triangle inequality in quantum walks  
+- **Main Result**: In every fixed positive degree, the cohomology groups of finite simple groups, algebraic groups, and quantum groups (with coefficients in simple modules) can attain arbitrarily large dimensions. This settles the long‑standing Guralnick conjecture in the negative.  
+- **Key Graph Concepts**: Cohomology of groups, Simple modules, Finite simple groups, Algebraic groups, Quantum groups, Representation theory (relevant to combinatorial structures on groups).
 
 ---
 
-### 🚀 59. Minimum cores in lattice graphs: zonotope structure and quartic growth
-- 👤 **Authors**: Navid Mehrdad  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18633)
+### 🚀 71. Computational Hardness of Online Stochastic Matching
+- 👤 **Authors**: Yifeng Teng, Zongjun Yang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.23157)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. In the two‑dimensional sup‑norm lattice graph \(\mathbb{Z}^{2}\) with connection radius \(n\), the minimum size of a core satisfies \(c_{2,n}= \Theta(n^{4})\); the convex hull of any core contains the explicit lattice zonotope \(H_{n}^{(2)}\) as a Minkowski summand, and all lattice points of this zonotope form a core.  
-  2. The authors construct a shell of \(O(n^{4})\) vertices achieving this bound, compute the exact minima \(c_{2,1}=12\) and \(c_{2,2}=96\) (unique up to translation), and provide forced‑set/deficit certificates for further minima.  
-  3. A reduction from **Clique** shows that deciding the existence of a core of a given size is NP‑complete on general finite graphs, settling a conjecture of Hassanpour.
-
-- **Key Graph Concepts**:  
-  - Core (majority‑inside set) in graphs  
-  - Lattice graphs \(\mathbb{Z}^{m}\) with sup‑norm edges  
-  - Zonotope \(H_{n}^{(m)}\) and Minkowski sums  
-  - Convex hull, coordinate width, asymptotic growth  
-  - NP‑completeness, reduction from Clique  
+- **Main Result**: The abstract is not provided, so the precise computational hardness claim cannot be extracted from the submission.  
+- **Key Graph Concepts**: Online algorithms, Stochastic matching, Hardness of approximation, Randomized graph processes.
 
 ---
 
-### 🚀 60. Triadic and assortative structure of absorbing states in the Axelrod model
-- 👤 **Authors**: Moses Boudourides  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18719)
+### 🚀 72. Binary Affine Optimization with Nearly‑Graphic Constraint Matrices
+- 👤 **Authors**: Qiming Fang, Sihong Shao, Yuxuan Wu  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.22944)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. The paper classifies all absorbing configurations of the Axelrod cultural‑dissemination model on any finite graph: a vertex partition arises from an absorbing state iff the quotient graph is properly \(q\)-colourable.  
-  2. The number of absorbing configurations for a given domain partition equals a sum of chromatic polynomials over connected partitions, yielding closed formulas for trees, cycles, and the simple expression \(2^{\,n+F-1}\) when \(q=2\).  
-  3. Structural constraints are proved (no triangle with exactly one boundary edge, open‑wedge mass inequality, ordered Newman assortativity coefficients), and martingale arguments give an absorption‑time bound of order \(n^{2}\), which is tight on path graphs.
+- **Main Result**: The abstract is not provided, so the specific algorithmic or complexity results for binary affine optimization with nearly‑graphic matrices are not detailed here.  
+- **Key Graph Concepts**: Binary affine optimization, Nearly‑graphic matrices, Graphic matroids, Integer programming, Combinatorial optimization.
 
-- **Key Graph Concepts**:  
-  - Axelrod model as a finite‑state Markov chain on graphs  
-  - Absorbing states, interior vs. boundary edges  
-  - Domain partition, quotient graph, proper \(q\)-colourability  
-  - Chromatic polynomial, connected partitions, trees, cycles  
-  - Assortativity coefficients, open‑wedge mass, martingales, absorption time  
-
----
-
-### 🚀 61. No complete set of mutually unbiased bases in C⁶ without Fourier vanishing  
-- 👤 **Authors**: Jinze Yang, Yile Liu, Yangyang Li, Xiu‑Hao Deng  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19809)
-
-#### 📝 Executive Summary & Innovations  
-- **Main Result**: The authors present a streamlined exact certificate that C⁶ cannot host a complete family of seven mutually unbiased bases. Their proof dispenses with the Fourier‑vanishing conjecture, relying only on orthonormality, unbiasedness, the 2‑design identity, and the trivial bound \(|\text{moment}|\le 1\); a standard‑library program verifies the certificate in under 90 seconds.  
-- **Key Graph Concepts**: *Not applicable* (the work is centered on quantum information and Fourier analysis rather than graph theory).
-
----  
-
-### 🚀 62. Cyclic Hasse diagrams of manifolds and noncommutative path cohomology  
-- 👤 **Authors**: Sergei O. Ivanov, Hequn Zhang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19813)
-
-#### 📝 Executive Summary & Innovations  
-- **Main Result**: The paper gives a complete description of the path‑cohomology algebra \(PH^{*}(G_{P}^{\mathrm{cyc}})\) of the cyclic Hasse diagram of any connected oriented closed manifold in terms of its Betti numbers, proving that the algebra is non‑graded‑commutative whenever \(\dim H^{*}(M)\ge 4\). This settles Grigor’yan’s conjecture negatively and yields a digraph whose categorical product violates the Künneth formula.  
-- **Key Graph Concepts**:  
-  - Directed Hasse diagram and its cyclic augmentation  
-  - GLMY (Grigor’yan‑Lin‑Muranov‑Yau) path cohomology  
-  - Graded (non‑)commutativity of cohomology algebras  
-  - Digraph categorical product and Künneth formula failure  
-
----  
-
-### 🚀 63. The Erdős similarity problem for polynomials and analytic maps  
-- 👤 **Authors**: Alex Burgin, Chi Hoi Yip  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19824)
-
-#### 📝 Executive Summary & Innovations  
-- **Main Result**: The authors extend the Erdős similarity problem to polynomial and analytic images, constructing explicit Cantor‑type witnesses that show large classes of sequences are not polynomially universal. Moreover, they prove that for any sequence \(A\) accumulating at 0, the \((d+3)\)-fold sumset \((d+3)A\) fails to be polynomially universal for polynomials of degree ≤ \(d\).  
-- **Key Graph Concepts**: *Not applicable* (the research focuses on additive combinatorics and analytic maps rather than graph‑theoretic structures).  
-
----
-
-### 🚀 64. Borel $(2n+1)$-coloring for bounded degree function graphs
-- 👤 **Authors**: Junhao Chen  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19846)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves that any Borel graph generated by \(n\) bounded‑to‑one Borel functions admits a Borel proper coloring with exactly \(2n+1\) colors. This resolves the long‑standing problem posed by Kechris, Solecki, and Todorčević.  
-- **Key Graph Concepts**: Borel graphs, bounded‑to‑one functions, proper coloring, descriptive set theory, combinatorial graph coloring.
-
----
-
-### 🚀 65. Planar PArcK is PSPACE-complete
-- 👤 **Authors**: Craig Tennenhouse, Kanae Yoshiwatari  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20138)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors establish that the partizan game PArcK remains PSPACE‑complete even when restricted to planar graphs of maximum degree three, via a reduction from Generalized Hex. This strengthens previous hardness results that required bipartite graphs.  
-- **Key Graph Concepts**: Planar graphs, degree‑bounded graphs, partizan combinatorial games, PSPACE‑completeness, reduction techniques, edge‑colored graphs.
-
----
-
-### 🚀 66. Independent set reconfiguration is hard at treewidth four
-- 👤 **Authors**: Hussein Abbas, Haydar Hamieh, Amer E. Mouawad, Ali Slim  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20205)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper shows that both token‑sliding and token‑jumping variants of Independent Set Reconfiguration are NP‑hard on graphs whose treewidth is four, narrowing the previously unknown hardness threshold. This answers the open question about the smallest treewidth guaranteeing computational difficulty.  
-- **Key Graph Concepts**: Independent set reconfiguration, treewidth, token sliding, token jumping, NP‑hardness, parameterized complexity.
-
-### 🚀 67. A study guide for Bourgain's 2003 sum‑product theorem and 2010 discretized projection theorem
-- 👤 **Authors**: Yudong Liang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20639)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The notes give a self‑contained exposition of Bourgain’s discretized sum‑product theorem, showing how one can construct multiscale porous trees from sets with small additive doubling via quantitative Freiman theory or the Plünnecke‑Ruzsa inequality, and then amplify these trees multiplicatively.  Using these constructions the author derives exceptional‑set estimates for orthogonal projections, rules out Borel subrings of intermediate Hausdorff dimension, and obtains Fourier‑decay results for multiplicative convolutions of measures.  
-- **Key Graph Concepts**:  
-  - Multiscale porous **tree** structures (combinatorial graphs)  
-  - Additive **doubling** and **Freiman**‑type geometry  
-  - **Plünnecke‑Ruzsa** inequality (graph‑theoretic flow arguments)  
-  - Discretized **sum‑product** phenomena (incidence‑graph methods)  
-  - Applications to **projection** theorems and **Fourier decay**  
-
----
-
-### 🚀 68. Near‑synchronous multiphoton quantum interference
-- 👤 **Authors**: Xiangshuai Dong, Tingzeng Wu  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20667)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: By representing the internal‑state overlap matrix of photons with immanants, the authors obtain explicit asymptotic formulas for the weights of exchange‑symmetry components in near‑synchronous multiphoton interference and show that these weights can be computed in polynomial time via an integer minimum‑cost flow algorithm.  They further provide a network‑independent total‑variation error bound linking photon spectral width, synchronization precision, and deviation of the output photon‑number distribution.  
-- **Key Graph Concepts**:  
-  - **Immanant** representation (generalizes determinant/permanent on graphs)  
-  - **Exchange‑symmetry** components as weighted subgraphs of the photon‑pair overlap graph  
-  - **Integer minimum‑cost flow** on a bipartite graph for weight computation  
-  - **Total‑variation distance** bounds derived from combinatorial graph flows  
-
----
-
-### 🚀 69. Relationship between generic Hecke algebra modules and $0$‑Hecke algebra modules
-- 👤 **Authors**: Young‑Hun Kim, So‑Yeon Lee, Young‑Tak Oh  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20790)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper introduces specialization functors that connect finitely generated modules over the generic Hecke algebra $H_{\mathbb{C}[v^{1/2}];v}(\mathfrak{S}_n)$ with those over the $0$‑Hecke algebra $H_{\mathbb{C};0}(\mathfrak{S}_n)$.  Using these functors the authors construct explicit module families linking skew Specht modules to $0$‑Hecke skew Specht modules and Kazhdan–Lusztig cell modules to dual plactic class modules, and they translate Frobenius characteristics to quasisymmetric characteristics, yielding new branching‑rule correspondences and a classification of dual plactic class modules.  
-- **Key Graph Concepts**:  
-  - **Hecke algebra** and **$0$‑Hecke algebra** (Coxeter‑graph based structures)  
-  - **Skew Specht modules** and **Kazhdan–Lusztig cells** (indexed by Young diagrams/graphs)  
-  - **Dual plactic class modules** (related to crystal graphs)  
-  - **Regular Schur‑labeled skew‑shape posets** (poset‑graph connections)  
-  - **Frobenius** and **quasisymmetric** characteristics (symmetric‑function/graph combinatorics)  
-
----
-
-### 🚀 70. Centralizers in Catalan Monoids
-- 👤 **Authors**: Janusz Konieczny, Emrah Korkmaz  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21071)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors give a complete description of the centralizer \(C(\beta)\) in the Catalan monoid \(\mathcal{C}_n\) for three fundamental cases: an idempotent \(\varepsilon\), a nilpotent \(\mu\), and an arbitrary element \(\beta\).  They obtain explicit formulas for \(|C(\varepsilon)|\) and for the numbers of idempotents and nilpotents inside \(C(\varepsilon)\), linking these counts to Dyck paths and Narayana numbers; for nilpotents they provide constructive algorithms that produce \(C(\mu)\) and its idempotent and nilpotent subsemigroups, together with exact cardinalities.  The proofs rely on representing each \(\beta\) as a sequence of rooted, level‑ordered trees whose vertex sets partition the chain \(X_n\).
-- **Key Graph Concepts**: Catalan monoid, decreasing order‑preserving transformations, centralizers, idempotents, nilpotents, rooted tree representation, Dyck paths, Narayana numbers, partition of a chain.
-
----
-
-### 🚀 71. Full‑Cover and Non‑Overlapping Uni‑domination in Graphs: Bounds and Complexity
-- 👤 **Authors**: Florent Foucaud, Yan Gerard, Christian Laforest, Le Vu Pham  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21210)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper settles the Hedetniemi–Rall conjecture for trees by proving that every tree \(T\) of order \(n\) satisfies \(\mathrm{ud}^*(T)\ge \frac45 n\), and the extremal set can be found in linear time; this set is also a dominating set.  Two refined parameters are introduced—Full‑Cover \(\mathrm{ud}^*_0\) and Non‑Overlapping \(\mathrm{ud}^*_+\)—for which the authors establish contrasting asymptotic behaviours, give tight bounds, and prove that the corresponding decision problems are polynomial‑time solvable for constant thresholds but become NP‑complete for thresholds \(\lceil n^{1/c}\rceil\) (Full‑Cover) and \(4\sqrt{n}\) (Non‑Overlapping), the latter remaining hard even on split graphs.  Moreover, they show that neither parameter dominates the other.
-- **Key Graph Concepts**: Uni‑domination number, efficient dominating set, dominating set, Full‑Cover variant \(\mathrm{ud}^*_0\), Non‑Overlapping variant \(\mathrm{ud}^*_+\), trees, split graphs, NP‑completeness, linear‑time algorithm.
-
----
-
-### 🚀 72. Expansion in Powers of Simple Groups of Lie Type
-- 👤 **Authors**: Alexander Lubotzky, Yotam Shomroni  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21492)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: An expansion theorem is proved for direct powers \(G^{m}\) of any non‑abelian finite simple group of Lie type (excluding alternating groups and the Suzuki groups \({}^2B_2(q)\)).  If \(G^{m}\) is generated by \(d\ge 2\) elements, there exists a symmetric generating multiset of size at most \(C d\) whose normalized spectral gap is at least \(C^{-1} d^{-\log_2 3}\), where \(C>0\) is an absolute constant.  This resolves a question of Sabatini concerning the expansion of \(\mathrm{PSL}_2(\mathbb{F}_p)^{p}\) and combines the Lubotzky–Samuels–Vishne expanders (rank‑1 case) with an amplification technique, while the high‑rank case uses the Ershov–Jaikin‑Zaporozhets property (T) theorem.
-- **Key Graph Concepts**: Expander graphs, spectral gap, direct powers of groups, finite simple groups of Lie type, generating sets, property (T), \(\mathrm{PSL}_2(\mathbb{F}_q)\), combinatorial group theory.
-
-### 🚀 73. Generic splitting types and Terao's conjecture for seventeen and eighteen lines
-- 👤 **Authors**: Cristian Anghel, Rares Stan  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21506)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that for any line arrangement of at most eighteen lines in the complex projective plane, the generic splitting type of its logarithmic bundle is completely determined by the intersection lattice. Consequently, Terao’s freeness conjecture holds for arrangements of seventeen and eighteen lines (and for any number of lines whose smaller exponent does not exceed eight). The proof combines a defect‑analysis of minimal sections with a computer‑assisted uniformity check on lattices of seventeen lines.  
-- **Key Graph Concepts**:  
-  - Intersection lattice of line arrangements  
-  - Logarithmic bundle and generic splitting type  
-  - Terao’s freeness conjecture (hyperplane‑arrangement analogue of matroid‑theoretic freeness)  
-  - Jacobian‑syzygy degree, defect of sections  
-  - Uniformity condition on realizations, Galois orbits of lattices  
-
----  
-
-### 🚀 74. The Sum of Leaf Weights in the Minimum Spanning Tree of the Complete Graph
-- 👤 **Authors**: Julia Gaudio, Phawin Prongpaophan, Miklós Z. Rácz  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21540)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For the random weighted complete graph \(G_n\) with i.i.d. \(\text{Unif}(0,1)\) edge weights, the authors obtain tight upper and lower bounds for the expected total weight \(L_n\) of edges incident to leaves of the Minimum Spanning Tree \(T_n\), and they identify its exact limit as \(n\to\infty\). They also prove concentration of \(L_n\) around its mean and almost‑sure convergence, which in turn yields improved upper bounds for the random Steiner‑tree problem and for the Probabilistic Minimum Spanning Tree.  
-- **Key Graph Concepts**:  
-  - Minimum Spanning Tree (MST) of a complete graph  
-  - Random edge weights (Uniform \([0,1]\))  
-  - Leaf‑weight sum \(L_n\) in MSTs  
-  - Erdős–Rényi sparse graph techniques  
-  - Random Steiner tree and Probabilistic MST variants  
-
----  
-
-### 🚀 75. Harary's Sum and Integral Sum Graphs – A Survey in detail
-- 👤 **Authors**: V. Vilfred Kamalappan, Lowell W. Beineke  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2407.10917)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: This comprehensive survey collates and expands upon the body of work on Harary’s sum graphs and integral sum graphs, presenting detailed proofs, constructions, and classifications of graphs that admit distinct integer (or positive integer) labelings where adjacency is dictated by the sum of vertex labels. The paper also highlights recent advances, open problems, and connections to other labeling paradigms.  
-- **Key Graph Concepts**:  
-  - Sum graphs (Harary’s definition)  
-  - Integral sum graphs (allowing negative labels)  
-  - Vertex labelings based on additive relations  
-  - Graph families admitting sum‑graph representations (e.g., trees, cycles, complete graphs)  
-  - Connections to graceful, harmonious, and other integer labelings  
-
----
-
-### 🚀 76. Rational values of the weak saturation limit
-- 👤 **Authors**: Ruben Ascoli, Xiaoyu He  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2501.15686)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors completely characterize the possible rational values of the weak‑saturation constant \(w_F\).  They prove that for every rational number \(q \ge \tfrac32\) there exists a graph \(F\) with \(w_F = q\), and no rational below \(\tfrac32\) can occur.  This settles the long‑standing question of which linear densities can arise in weak saturation.
-- **Key Graph Concepts**: Weakly \(F\)-saturated graphs, weak saturation number \(\operatorname{wsat}(n,F)\), percolation processes, extremal graph theory, rational density constants.
-
----
-
-### 🚀 77. Triangle‑free graphs with the fewest independent sets
-- 👤 **Authors**: Pjotr Buys, Jan van den Heuvel, Ross J. Kang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2503.10002)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Extending Shearer’s method, the paper shows that any triangle‑free graph on \(n\) vertices with average degree \(d\) contains at least  
-  \[
-  \exp\!\Bigl((1+o(1))\frac{(\log d)^2}{2d}\,n\Bigr)
-  \]
-  independent sets as \(d\to\infty\).  This bound is sharp to several leading terms and simultaneously yields strong lower bounds on the independence polynomial, recovering Shearer’s classic result as a special case.
-- **Key Graph Concepts**: Triangle‑free graphs, independent sets, independence polynomial, average degree, probabilistic constructions, extremal combinatorics.
-
----
-
-### 🚀 78. Duality Relations of Graph Polynomials
-- 👤 **Authors**: Medet Jumadildayev  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2512.15351)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The work establishes duality relations for several graph polynomials—most notably the path‑cover, clique‑cover, and chromatic polynomials—mirroring Lass’s theorem for matching polynomials.  It provides combinatorial interpretations of associated Lebesgue integrals and inner products in Laguerre polynomial spaces, presents an efficient algorithm for computing these polynomials on cographs, and derives explicit formulas for counting Hamiltonian paths and cycles in complete multipartite graphs.
-- **Key Graph Concepts**: Graph polynomials, duality relations, path‑cover polynomial, clique‑cover polynomial, chromatic polynomial, cographs, Hamiltonian paths/cycles, complete multipartite graphs, combinatorial interpretations.
-
-### 🚀 79. Equivariant Kazhdan--Lusztig Polynomials of Thagomizer Matroids with a Hyperoctahedral Group Action
-- 👤 **Authors**: Matthew H. Y. Xie, Philip B. Zhang, Michael X. X. Zhong  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2602.10646)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors compute the equivariant Kazhdan–Lusztig and inverse Kazhdan–Lusztig polynomials for the thagomizer matroid \(T_n=M(K_{1,1,n})\) under the natural action of the hyperoctahedral group \(\mathsf{B}_n\).  For every \(n\ge 0\) they give multiplicity‑free decompositions of all polynomial coefficients into irreducible \(\mathsf{B}_n\)-representations and prove that the coefficient sequences are strongly induced log‑concave with respect to induction from \(\mathsf{B}_n\times\mathsf{B}_n\) to \(\mathsf{B}_{2n}\).  Parallel explicit formulas are obtained for the graphic matroid \(M(K_{2,n})\) under the inherited \(\mathsf{B}_n\)-action.  
-- **Key Graph Concepts**: Kazhdan–Lusztig polynomials, inverse Kazhdan–Lusztig polynomials, thagomizer matroids, hyperoctahedral group \(\mathsf{B}_n\), equivariant representation theory, log‑concavity, graphic matroids of cycle graphs, matroid automorphisms.
-
----
-
-### 🚀 80. Every 3‑connected \(\{K_{1,4},K_{1,4}+e\}\)-free split graph of order at least 13 is Hamilton‑connected
-- 👤 **Authors**: Tao Tian, Fengming Dong  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2603.12770)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves that any 3‑connected split graph on at least 13 vertices that contains neither \(K_{1,4}\) nor \(K_{1,4}+e\) as an induced subgraph is Hamilton‑connected.  Consequently, together with Dirac’s theorem, this settles the Ryjáček–Schiermeyer conjecture for the class of split graphs.  
-- **Key Graph Concepts**: Split graphs, Hamilton‑connectedness, 3‑connectivity, forbidden induced subgraphs \(K_{1,4}\) and \(K_{1,4}+e\), Dirac’s theorem, Hamiltonicity, extremal graph theory.
-
----
-
-### 🚀 81. The Ferrers bound for spanning trees in bipartite graphs
-- 👤 **Authors**: Boon Suan Ho  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2603.17997)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author confirms Ehrenborg’s conjecture by showing that any connected bipartite graph with bipartition sizes \(m\) and \(n\) has at most \(\displaystyle \frac{1}{mn}\prod_{v\in V(G)}\deg(v)\) spanning trees, and that equality holds precisely for Ferrers graphs.  This provides a sharp, degree‑product bound for spanning‑tree enumeration in bipartite graphs.  
-- **Key Graph Concepts**: Spanning trees, bipartite graphs, Ferrers graphs, degree product formula, combinatorial enumeration, extremal graph theory.
-
-### 🚀 82. Lifting and Folding: A Framework for Unstable Graphs and TF‑Cousins
-- 👤 **Authors**: Russell Mizzi  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2603.27559)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper introduces a unified “lifting and guided folding’’ framework that captures both graph instability (when the canonical double cover has extra automorphisms) and the existence of TF‑cousin pairs (non‑isomorphic graphs sharing a CDC).  It shows that both phenomena are governed by the conjugacy classes of strongly switching involutions in Aut(CDC(G)).  Using a seed pair \((C_k\cup C_k, C_{2k})\) with odd k, the authors construct TF‑cousin pairs and unstable graphs of every order ≥ 6, and prove that the claw graphs \(CG(n)\) and \(CG'(n)\) are TF‑cousins iff n is odd (the case n=1 yields the Petersen graph and its cubic companion).  
-
-- **Key Graph Concepts**:  
-  - Canonical double cover (CDC)  
-  - Graph automorphisms & strongly switching involutions  
-  - Unstable graphs (Aut(CDC) > Aut × ℤ₂)  
-  - TF‑isomorphism / TF‑cousin pairs  
-  - Claw graphs \(CG(n)\), Petersen graph, Desargues graph  
-  - Cycle structures \(C_k\) and \(C_{2k}\) (odd k)  
-
----
-
-### 🚀 83. A discrepancy dichotomy for 1‑factorizations of signed complete bipartite graphs
-- 👤 **Authors**: Yisai Xue, Yacong Zhou  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2605.25444)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For any signing \(\sigma\) of the edges of \(K_{n,n}\) and any \(0<\varepsilon\le 1\), the authors prove a sharp dichotomy: either (i) there exists a 1‑factorization in which every perfect matching has discrepancy at least \(\varepsilon/53\), or (ii) the signing is \(\varepsilon\)-close (in normalized Hamming distance) to a balanced one‑sided signing, the only obstruction to large discrepancy.  The linear dependence on \(\varepsilon\) is optimal up to a constant factor, and the proof hinges on a rank‑one stability argument concerning the density of rank‑two \(2\times2\) switching patterns.  
-
-- **Key Graph Concepts**:  
-  - Signed complete bipartite graph \(K_{n,n}\)  
-  - 1‑factorization (perfect‑matching decomposition)  
-  - Discrepancy of a perfect matching  
-  - Balanced one‑sided signing  
-  - Normalized Hamming distance  
-  - Rank‑one and rank‑two sign matrices, switching patterns  
-
----
-
-### 🚀 84. Height functions on the \(m \times n\) Miura‑ori flip graph: degree sequence and diameter
-- 👤 **Authors**: Chakshu Gupta  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2606.22614)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper establishes that, for a fixed number \(d\ge 3\) of legal flips, the number of locally flat‑foldable Miura‑ori assignments on an \(m\times n\) grid (\(m,n\ge 2\)) is given by a symmetric polynomial of total degree \(d-2\), with degree \(d-2\) in each variable and leading term proportional to \(m^{d-2}+n^{d-2}\) (except for the special case \(d=4\)).  Moreover, the authors completely classify the pairs of assignments that achieve the graph’s diameter, showing that, outside the trivial \(2\times2\) case, farthest pairs arise from four minimal‑flip assignments, with the exact count depending on parity of the dimensions.  
-
-- **Key Graph Concepts**:  
-  - Miura‑ori flip graph (origami crease patterns)  
-  - Height (face) functions and local extrema  
-  - Legal face flips, degree sequence, and graph diameter  
-  - Symmetric polynomials in \(m,n\) (degree \(d-2\))  
-  - Baxter permutations (used for linear correction at \(m=d-2\))  
-  - Classification of farthest assignment pairs  
-
----
-
-### 🚀 85. An infinite family of minimally nonperfectly divisible graphs with a bisimplicial vertex
-- 👤 **Authors**: Lizhong Chen  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2607.25412)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper presents an explicit infinite family \(\{G_t\}_{t\ge 1}\) of minimally non‑perfectly divisible graphs, each containing a bisimplicial vertex of degree 4 and a cut‑vertex. This construction disproves Hoàng’s conjectures that exclude bisimplicial vertices and clique cutsets, provides a negative answer to the prescribed‑vertex question of Hu, Xu & Zhuang, and yields perfectly divisible graphs that are not perfectly weight divisible.
-- **Key Graph Concepts**: Perfectly divisible graphs, minimally non‑perfectly divisible graphs, bisimplicial vertex, cut‑vertex, clique number 3, perfect division, weight divisibility, homogeneous set, prescribed‑vertex problem.
-
----
-
-### 🚀 86. Counterexamples, Spectral Obstructions, and Deletion Stability for WOW-284
-- 👤 **Authors**: Samuil Petkov  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2607.27452)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author refutes the Graffiti conjecture WOW‑284 by exhibiting concrete counterexamples on 38–50 vertices and derives a sharp spectral obstruction: for a connected \(k\)-regular graph of girth ≥ 5 and diameter 3, \(\delta^{*}(G)+\lambda_{\min}(D)=2k-2-\max_{\theta}(\theta+1)^2\). Additional bounds on the order of regular counterexamples are proved, and the stability of strict counterexamples under vertex deletions (including the Hoffman‑Singleton graph) is analyzed.
-- **Key Graph Concepts**: Graffiti conjecture WOW‑284, dual degree, distance matrix, smallest eigenvalue \(\lambda_{\min}(D)\), spectral graph theory, regular graphs, girth, diameter, Hoffman‑Singleton graph, Moore graph, deletion stability, counterexample classification.
-
----
-
-### 🚀 87. A Chvátal–Erdős type condition for supereulerian digraphs with \(α_{2}=4\)
-- 👤 **Authors**: Zirui Liu, Jia Zhou  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2608.29101)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors identify a specific family \(\mathcal H\) of non‑supereulerian 2‑arc‑strong digraphs and prove that every 2‑arc‑strong digraph \(D\) with \(\alpha_{2}(D)\le 4\) is supereulerian if and only if \(D\notin\mathcal H\). Consequently, any digraph satisfying \(\alpha_{2}(D)\le 4\) and arc‑connectivity \(\lambda(D)\ge 3\) is guaranteed to contain a spanning closed trail.
-- **Key Graph Concepts**: Supereulerian digraphs, spanning closed trail, \(\alpha_{2}(D)\) (maximum set inducing no 2‑cycle), 2‑arc‑strong connectivity, arc‑connectivity \(\lambda(D)\), Chvátal–Erdős type condition, exceptional family \(\mathcal H\).
-
----
-
-### 🚀 88. A Full-Sequence Quantitative Gap Between the Chromatic and Cochromatic Numbers of a Random Graph
-- 👤 **Authors**: Samuil Petkov  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2608.30604)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For the Erdős–Rényi random graph \(G_n\sim G(n,\tfrac12)\) the authors prove that, with high probability,  
-  \[
-  \chi(G_n)-\zeta(G_n)\;\ge\;0.063\,\frac{n}{(\ln n)^3}.
-  \]  
-  Moreover, the failure probabilities are summable, so under any coupling the bound holds almost surely for all sufficiently large \(n\).
-- **Key Graph Concepts**:  
-  - Chromatic number \(\chi(G)\)  
-  - Cochromatic number \(\zeta(G)\)  
-  - Random graphs \(G(n,\tfrac12)\)  
-  - Entropy‑based counting of vertex partitions  
-  - Second‑moment method for partition existence  
-  - Vertex‑exposure concentration  
-
----
-
-### 🚀 89. On the gonality of Kneser graphs
-- 👤 **Authors**: Luis A. Ballinas, Willoughby Caine, D. Blake Hopkins, Doel Rivera Laboy  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.00258)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Using the scramble number as a lower bound, the paper shows that the gonality of the Kneser graph \(\mathrm{KG}(n,k)\) equals the trivial upper bound \(\binom{n-1}{k}\) for all  
-  \[
-  n\;\ge\;\frac{3k^{2}+k+2}{2}.
-  \]  
-  The same polynomial bound yields exact gonality (and scramble number) for the broader family of generalized Kneser graphs.
-- **Key Graph Concepts**:  
-  - Gonality (divisorial gonality) of graphs  
-  - Kneser graphs \(\mathrm{KG}(n,k)\) and generalized Kneser graphs  
-  - Treewidth (as a lower bound on gonality)  
-  - Scramble number (new lower bound)  
-  - Polynomial bounds in terms of \(n\) and \(k\)  
-
----
-
-### 🚀 90. Elections, Fractional Dichromatic Number and Domination in Tournaments and Digraphs
-- 👤 **Authors**: Paul Colinot, Alantha Newman  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.35186)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors establish a linear bound on the domination number of a tournament in terms of its fractional dichromatic number, improving the previously known exponential bound. They also relate undominated voter sets in elections to dominating sets in tournaments with bounded fractional dichromatic number, and connect the existence of small Condorcet winning sets to domination problems in digraphs whose fractional dichromatic number is below 2.
-- **Key Graph Concepts**:  
-  - Dichromatic number of digraphs  
-  - Fractional dichromatic number  
-  - Domination number in tournaments  
-  - Condorcet winning sets (social choice)  
-  - Connections between elections and digraph domination  
-  - Acyclic vertex partitions  
-
----
-
-### 🚀 91. The $A^A$ problem for finite ordered sets
-- 👤 **Authors**: Jonathan David Farley, George Grätzer  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.20817)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that for finite ordered sets \(A\) and \(B\), the isomorphism \(A^{A}\cong B^{B}\) forces \(A\cong B\). The proof combines direct decompositions with an auxiliary ordering of connected ordered sets and a careful selection of intervals of maximum height. The reconstruction theorem is further extended to several forms of repeated exponentiation of ordered sets.  
-- **Key Graph Concepts**: Ordered sets (posets), order‑preserving maps, poset exponentiation, direct decomposition of posets, intervals of maximum height, reconstruction problems in combinatorial order theory.
-
----
-
-### 🚀 92. Four colours are needed for closed‑neighbourhood conflict‑free colouring of planar graphs
-- 👤 **Authors**: Jelena Sedlar, Riste Škrekovski  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.22559)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper settles a conjecture by showing that four colours are sometimes necessary for a closed‑neighbourhood conflict‑free vertex colouring of planar graphs; three colours do **not** always suffice. A simple gadget transforms any planar graph with chromatic number four into a planar graph lacking a three‑colour conflict‑free colouring, and the decision problem for three colours is proved NP‑complete. The authors also present a hand‑checkable critical planar graph on 25 vertices and an infinite family of plane triangulations that require four colours.  
-- **Key Graph Concepts**: Planar graphs, conflict‑free colouring (closed neighbourhoods), chromatic number, NP‑completeness, critical planar graphs, plane triangulations, gadget constructions.
-
----
-
-### 🚀 93. Off‑diagonal hypergraph Ramsey numbers
-- 👤 **Authors**: Lior Gishboliner, Sepehr Hajebi, Xiangyu Li  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.32644)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors completely characterize, for every integer \(r\ge 3\), the \(r\)-uniform hypergraphs \(H\) whose off‑diagonal Ramsey numbers \(R(H,n)\) grow only polynomially in \(n\). They prove the conjecture of Conlon et al.: \(R(H,n)\) is polynomial in \(n\) if and only if \(H\) is isomorphic to a subgraph of a lexicographic power of the complete \(r\)-uniform hypergraph \(K_r^{(r)}\). This resolves a long‑standing line of research dating back to Erdős and Hajnal (1972).  
-- **Key Graph Concepts**: \(r\)-uniform hypergraphs, off‑diagonal Ramsey numbers, polynomial growth, lexicographic powers of hypergraphs, extremal hypergraph theory, combinatorial characterisation.  
-
----
-
-### 🚀 94. Hook monomial immanants are Kazhdan‑Lusztig positive  
-- 👤 **Authors**: Keith McNulty  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.39021)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves that for every hook shape \((a,1^{\,n-a})\) and every \(n\), each per‑vertex function obtained from Stembridge’s formula for hook characters is Kazhdan‑Lusztig (KL) positive.  The proof hinges on a new positivity statement for products of KL‑positive immanants of complementary submatrices, derived via Braden’s hyperbolic localization.  Consequently, any class function whose Frobenius characteristic lies in the semiring generated by Schur functions and hook monomial symmetric functions is KL‑positive, and the only remaining obstructions to Haiman’s conjecture are singular Schubert varieties not covered by known doubling identities.
-
-- **Key Graph Concepts**:  
-  - Immanants (monomial, Kazhdan‑Lusztig)  
-  - Hook characters / hook shapes  
-  - Totally non‑negative matrices  
-  - Schubert varieties (smooth vs. singular)  
-  - Hyperbolic localization (geometric technique)  
-
----  
-
-### 🚀 95. Embedding dense minors via crux  
-- 👤 **Authors**: Xia Wang, Donglei Yang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.39957)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: For any graph \(G\) with average degree \(d>0\) and for any fixed \(0<\alpha<1\), the paper shows that \(G\) contains a minor whose average degree is \(\Omega\!\big(\sqrt{d\,C_\alpha(G)}\big)\), where \(C_\alpha(G)\) is the smallest order of a subgraph whose average degree is at least \(\alpha d\).  This bound is asymptotically tight up to a constant factor and unifies several earlier results on dense minors in locally sparse graphs.
-
-- **Key Graph Concepts**:  
-  - Graph minors  
-  - Average degree and dense minors  
-  - Locally sparse graphs  
-  - Subgraph density parameter \(C_\alpha(G)\)  
-
----  
-
-### 🚀 96. The Hibi–Li (2016) conjecture is fully resolved  
-- 👤 **Authors**: Dave Goel  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.40703)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Using Fourier’s recent inequality and a structural analysis of the five‑element poset \(X\), the paper proves that for any \(n\)-element poset containing \(X\) as an induced subposet, the chain polytope \(\mathcal{C}(P)\) has at least \(\binom{n-3}{k-2}\) more \(k\)-dimensional faces than the order polytope \(\mathcal{O}(P)\) for every \(2\le k\le n-1\); moreover, there exist posets attaining all these bounds simultaneously.  Together with Fourier’s inequality, this settles the Hibi–Li conjecture in full, confirming the face‑count inequality and characterizing the equality case (except for \(k=1\), where equality fails).  All arguments are formalized in Lean 4.
-
-- **Key Graph Concepts**:  
-  - Posets and induced subposets  
-  - Order polytope \(\mathcal{O}(P)\) and chain polytope \(\mathcal{C}(P)\)  
-  - Face enumeration of polytopes  
-  - Unimodular equivalence of polytopes  
-  - Formal verification (Lean 4)  
-
----
-
-### 🚀 97. The Golden Quadruple: Four Reals Whose Differences Form a Geometric Progression, Rigidity of the Golden Ratio, and a Bohr Almost Periodic Cosine Sum
-- 👤 **Authors**: Michał Przybylski  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.00973)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. The paper proves that any four‑element set of real numbers whose pairwise positive differences lie in a geometric progression must be a translate of a scaled golden quadruple \(u\varphi^{m}\{0,\varphi,\varphi^{2},\varphi^{3}\}\); the golden ratio \(\varphi\) is the unique base \(x>1\) admitting such a configuration.  
-  2. It also establishes precise Bohr‑almost‑periodic asymptotics for the cosine sum over the six differences, with explicit almost periods \(\tau_{n}= \mathrm{Fib}_{n}/u\) and optimal constants in the error term.
-- **Key Graph Concepts**:  
-  - Difference sets forming a geometric progression  
-  - Rigidity/uniqueness phenomena (extremal combinatorics)  
-  - Bohr almost periodic functions  
-  - Fibonacci numbers and golden ratio \(\varphi\)  
-
----
-
-### 🚀 98. How many sorted projections determine any n points in k dimensions?
-- 👤 **Authors**: Christopher Gorham Lester, Raymond Hau Sørensen  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.06470)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. By adapting lemmas from list‑recovery of random linear codes, the authors show that for every dimension \(k\) almost every choice of  
-     \[
-     (4k-2)\ln(2n)\,\ln\!\bigl(k\log_{2}2n\bigr)+k+1
-     \]  
-     directions suffices to uniquely determine any multiset of \(n\) points in \(\mathbb{R}^{k}\).  
-  2. They further improve the bound uniformly to \(O\!\bigl(k\log n\log\log n\bigr)\) directions and prove that \(2k-1\) directions never determine three points, establishing a non‑tightness of the logarithmic lower bound.
-- **Key Graph Concepts**:  
-  - Projections onto one‑dimensional subspaces (sorted lists)  
-  - Combinatorial geometry of point sets  
-  - Random linear codes and list‑recovery lemmas (Hair & Sahai)  
-  - Dimension‑dependent direction bounds  
-
----
-
-### 🚀 99. Zero-sum Ramsey numbers of forests, cycles and complete bipartite graphs
-- 👤 **Authors**: Linlin Wang, Guoqing Wang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14160)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**:  
-  1. The authors disprove the Bialostocki–Dierker asymptotic conjecture for forests by constructing trees whose zero‑sum Ramsey numbers exceed the ordinary two‑color Ramsey numbers by a factor whose lower limit is \(554/553>1\).  
-  2. They give exact formulas for zero‑sum Ramsey numbers of several families: for powers of two \(q\ge2\), \(R(K_{s,kq},\mathbb Z_{q})=s+kq\); for multiple copies of \(K_{q,q}\), \(R(mK_{q,q},\mathbb Z_{m})=2qm+m/\gcd(m,q)-1\); and for long even cycles, \(R(C_{\ell},\mathbb Z_{m})=\ell+m/\gcd(m,2)-1\) when \(\ell\ge100m^{3}\).  
-  3. The proofs combine Caro’s transfer inequality with new spanning‑tree arguments, sharpening previous bounds and providing counterexamples to Caro’s defect conjecture.
-- **Key Graph Concepts**:  
-  - Zero‑sum Ramsey numbers \(R(G,\mathbb Z_{m})\)  
-  - Forests, trees, and spanning‑tree techniques  
-  - Complete bipartite graphs \(K_{s,kq}\) and \(K_{q,q}\)  
-  - Cycles \(C_{\ell}\)  
-  - Caro’s transfer inequality and defect conjecture  
-
----
-
-### 🚀 100. Homotopy $n$-types of cubical sets and graphs
-- 👤 **Authors**: Chris Kapulkin, Udit Mavinkurve  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2408.05289)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors construct a model structure on cubical sets that mirrors the classical Elvira‑Donazar–Hernandez‑Paricio model for simplicial sets of homotopy $n$‑types, using a right transfer along the coskeleton functor.  By transporting this structure to the category of (simple) graphs, they endow graphs with a fibration category whose weak equivalences are precisely the discrete $n$‑equivalences.  
-- **Key Graph Concepts**: Model structures, Cubical sets, Simplicial sets, Homotopy $n$‑types, Fibration category, Discrete $n$‑equivalences, Coskeleton functor.
-
----
-
-### 🚀 101. Light Edge Fault Tolerant Graph Spanners
-- 👤 **Authors**: Greg Bodwin, Michael Dinitz, Ama Koranteng, Lily Wang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2502.10890)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: Introducing a bicriteria notion of lightness for edge‑fault‑tolerant (EFT) spanners, the paper proves that normalizing the spanner weight by a min‑weight $2f$‑EFT connectivity preserver yields lightness bounded by $O(f^{1/2})$ times the non‑fault‑tolerant lightness, whereas normalizing by any $(2f\!-\!1)$‑EFT preserver can force lightness to be as large as $\Theta(n/k)$.  Thus the optimal “extra fault budget’’ is exactly $f' = 2f$.  
-- **Key Graph Concepts**: Edge‑fault‑tolerant spanners, Lightness, Stretch, Sparsity, Minimum spanning tree (MST), Fault‑tolerant connectivity preserver, Bicriteria analysis, $k$‑spanners, $(1+\epsilon)(2k-1)$‑spanner.
-
----
-
-### 🚀 102. Regular genus of $\mathbb{S}^2 \times \mathbb{S}^1 \times \mathbb{S}^1$, $4$‑torus, and small covers over $Δ^2 \times Δ^2$
-- 👤 **Authors**: Anshu Agarwal, Biplab Basak  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2506.01315)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper determines the regular genus of several 4‑manifolds: $\mathcal{G}(\mathbb{S}^2\!\times\!\mathbb{S}^1\!\times\!\mathbb{S}^1)=6$, confirming a standing conjecture, and $\mathcal{G}(\mathbb{S}^1\!\times\!\mathbb{S}^1\!\times\!\mathbb{S}^1\!\times\!\mathbb{S}^1)=16$, supporting a new conjectural formula for $\mathcal{G}(\mathbb{T}^n)$.  Moreover, all seven small covers of the polytope $\Delta^2\times\Delta^2$ are shown to have regular genus $8$.  
-- **Key Graph Concepts**: Crystallizations, Edge‑colored graphs, Regular genus, PL manifolds, Contracted triangulations, Small covers, Davis–Januszkiewicz equivalence, $4$‑torus, Combinatorial moves.
-
-### 🚀 103. Incomplete U-Statistics of Equireplicate Designs: Berry-Esseen Bound and Efficient Construction
-- 👤 **Authors**: Cesare Miglioli, Jordan Awan  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2510.20755)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors represent the dependency graph of an incomplete U‑statistic as the line graph of its design hypergraph and, via Stein’s method, obtain Berry‑Esseen bounds for fully degenerate deterministic designs. They extend these Gaussian approximation results to studentized statistics using a variance estimator tailored to the degenerate setting, and they devise efficient algorithms that construct equireplicate designs achieving minimum variance for second‑order U‑statistics. The framework yields permutation‑free testing procedures, illustrated on the two‑sample MMD test and a higher‑order one‑sample mean test.  
-- **Key Graph Concepts**: hypergraph, line graph, dependency graph, equireplicate designs, combinatorial designs, Stein’s method on graphs  
-
----  
-
-### 🚀 104. Exact Algorithms for Edge Deletion to Cactus
-- 👤 **Authors**: Sheikh Shakil Akhtar, Geevarghese Philip  
-- 🔗 **ArArXiv**: [Access Paper](https://arxiv.org/abs/2603.27655)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper presents an improved exact exponential‑time algorithm for the **Edge Deletion to Cactus** problem, tightening the previous best‑known running time for this NP‑hard task. In addition, it introduces a polynomial‑time algorithm for the **Spanning Tree to Cactus** problem, showing that the latter is tractable despite the hardness of the former.  
-- **Key Graph Concepts**: cactus graph, edge deletion, spanning tree, exact exponential algorithms, polynomial‑time algorithm, NP‑hardness  
-
----  
-
-### 🚀 105. New Codes from Cyclic and Negacyclic Codes of Even Length over $\mathbb{Z}_4$
-- 👤 **Authors**: Nuh Aydin, Mohamed O. Belghith, Godwin Idowu, Trang T.T. Nguyen, Long B. Tran  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2606.08750)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: By leveraging existing theoretical results, the authors design search algorithms that enumerate cyclic and negacyclic $\mathbb{Z}_4$‑linear codes of even length, discovering 2 500 new cyclic and 730 new negacyclic codes with parameters surpassing all previously known examples. From these codes they construct binary quantum codes with competitive parameters, demonstrating the practical impact of the new families.  
-- **Key Graph Concepts**: cyclic codes, negacyclic codes, $\mathbb{Z}_4$‑linear codes, algebraic coding theory, binary quantum codes (via CSS construction)  
-
----
-
-### 🚀 106. Bichromatic Geometric Spanners
-- 👤 **Authors**: Theodore Fung, Csaba D. Tóth  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2607.10062)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors present a construction of a \((3+\varepsilon)\)-spanner for the complete bipartite geometric graph \(K(R,B)\) on \(n\) bichromatic points that uses only \(O\!\big(\sqrt{1/\varepsilon}\,n\big)\) edges, thereby eliminating the long‑standing \(O(\log n)\) factor. They also give a bipartite Steiner \((2+\varepsilon)\)-spanner with the same edge bound and prove that, on the real line, the MST of \(K(R,B)\) is a 7‑spanner while a 3‑spanner can be built with at most \(2n-3\) edges.  
-- **Key Graph Concepts**: Bichromatic geometric spanners, complete bipartite geometric graphs \(K(R,B)\), stretch factor, Steiner points, metric spanners, Minimum Spanning Tree (MST), planar point sets, edge‑sparsity.
-
----
-
-### 🚀 107. An inverse problem on eigenfunction triple products
-- 👤 **Authors**: Carl Schildkraut, Romain Speciel  
-- 🔗 **ArArXiv**: [Access Paper](https://arxiv.org/abs/2609.16399)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper proves that a connected closed smooth Riemannian manifold admits a 2‑product eigenbasis (i.e., every pairwise product of eigenfunctions expands in at most two basis elements) if and only if the manifold is a flat torus. An analogous characterization is established for Laplace eigenvectors of bounded‑degree graphs, linking the algebraic structure of triple products to the underlying geometry.  
-- **Key Graph Concepts**: Laplace eigenfunctions, eigenfunction triple products, \(N\)-product eigenbasis, flat torus, spectral graph theory, bounded‑degree graphs, Laplace eigenvectors.
-
----
-
-### 🚀 108. Recursive Paintboxes and the Martin Boundary of the Hoffman Rooted‑Tree Graph
-- 👤 **Authors**: Shengjun Zhang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2609.30135)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The author determines the Martin boundary of the Hoffman graph on unlabelled non‑plane rooted trees, showing that every boundary point is minimal and can be parametrized by deterministic recursive paintboxes. Under any central measure, the sequence of tree shapes converges almost surely to a random boundary point whose law is the unique mixing measure in the extremal decomposition; for recursive Ewens trees this limit is described by a random paintbox with independent Poisson–Dirichlet splits and an atomless mixing measure.  
-- **Key Graph Concepts**: Martin boundary, Hoffman rooted‑tree graph, central measures, recursive paintboxes, Poisson–Dirichlet distribution, random rooted trees, Ewens trees, Plancherel law, extremal decomposition.
-
-### 🚀 109. Avoid-or-Compress Words for Reachable Images Missing Four or Five States
-- 👤 **Authors**: Qichao Wang, Daoyu Dong  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.39833)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors determine the exact maximal length of a shortest avoid-or-compress word when the reachable image of a synchronizing automaton misses four or five states. For strongly connected synchronizing automata the bounds are $\min(n-|A|,11)$ and $\min(n-|A|,14)$, respectively, and both are realized over a binary alphabet. The proof combines uniform lower‑bound constructions with a computer‑assisted classification of all remaining configurations, leaving only a single complete bipartite graph which is ruled out combinatorially.  
-- **Key Graph Concepts**:  
-  - Synchronizing Automata (state‑transition digraphs)  
-  - Short‑Pair Graphs  
-  - Complete Bipartite Graphs  
-  - Binary Alphabet (edge‑label set)  
-
----
-
-### 🚀 110. Applying Changes to LDPC Codes by Using 3‑Induced Matchings and Eigenvalues
-- 👤 **Authors**: Alireza Eshraghi Dehaghani, Sara Saeedi Madani, Dariush Kiani  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.00082)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The paper gives a necessary and sufficient condition for the existence of a 3‑induced matching in bipartite graphs of girth ≥ 6, enabling more flexible edge‑switch operations that preserve bipartiteness and degree sequences of Tanner graphs. By exploiting eigenvalues of subgraphs, the authors devise a procedure that selects the optimal change for reducing the number of 6‑cycles in LDPC codes, and they provide numerical evidence of its effectiveness.  
-- **Key Graph Concepts**:  
-  - Tanner Graphs (bipartite representation of LDPC codes)  
-  - Bipartite Graphs  
-  - 2‑Induced and 3‑Induced Matchings  
-  - Girth (shortest cycle length)  
-  - Spectral Graph Theory (eigenvalues of subgraphs)  
-
----
-
-### 🚀 111. The multiplicative complexity of the three‑bit low‑half multiplier
-- 👤 **Authors**: Bshara Alhodali, Gregory Morse  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.15992)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The authors prove that the multiplicative complexity of the three‑bit low‑half multiplier is exactly six, delivering a structural, enumeration‑free lower‑bound argument that holds for unrestricted Boolean XOR‑AND circuits. An explicit six‑AND circuit supplies the matching upper bound, and the entire proof is formalized in Lean 4 using only three standard axioms.  
-- **Key Graph Concepts**:  
-  - Boolean Circuit Graphs (XOR‑AND networks)  
-  - Multiplicative Complexity as a graph‑theoretic resource measure  
-  - Formal Verification Graphs (Lean proof objects)  
-
----
-
-### 🚀 112. Constant-Factor Matching-Size Estimation in Random-Order Streams
+### 🚀 73. Constant-Factor Matching-Size Estimation in Random-Order Streams
 - 👤 **Authors**: Alireza Farhadi, Mohammad Hajiaghayi, Morteza Monemizadeh  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21294)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a precise statement cannot be extracted; the paper presumably introduces a constant‑factor approximation algorithm for estimating the size of a maximum matching in random‑order data‑stream settings.  
-- **Key Graph Concepts**: Matching, Random‑order streaming model, Approximation algorithms, Space‑efficient computation  
+- **Main Result**: The abstract is not available, so the precise statement of the constant‑factor approximation guarantee for matching‑size estimation in random‑order streams cannot be extracted.  
+- **Key Graph Concepts**: Matching size, Random‑order streaming model, Approximation algorithms, Graph sketching, Space‑efficient estimators  
 
----  
+---
 
-### 🚀 113. Path-constrained Packing on Trees
+### 🚀 74. Path-constrained Packing on Trees
 - 👤 **Authors**: Samuel Fiorini, Raoul Luqué, Philipp Pabst, Britta Peis  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21120)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a precise statement cannot be extracted; the work likely studies packing problems on trees where each packed substructure must satisfy prescribed path‑length constraints, and provides algorithmic or combinatorial bounds.  
-- **Key Graph Concepts**: Trees, Packing problems, Path constraints, Combinatorial optimization  
+- **Main Result**: The abstract is not available, so the exact formulation of the path‑constrained packing problem on trees and the achieved algorithmic guarantees are not provided.  
+- **Key Graph Concepts**: Tree packing, Path constraints, Combinatorial optimization on trees, Approximation algorithms, Network design  
 
----  
+---
 
-### 🚀 114. Subexponential algorithms for structural parameterizations of Vertex Cover in geometric graphs
+### 🚀 75. Subexponential algorithms for structural parameterizations of Vertex Cover in geometric graphs
 - 👤 **Authors**: Marin Bougeret, Juan Pablo Bravo, Daniel Gonçalves  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21078)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a precise statement cannot be extracted; the paper appears to present subexponential‑time algorithms for Vertex Cover when the input graph belongs to a geometric class and is parameterized by structural measures (e.g., treewidth, clique‑width).  
-- **Key Graph Concepts**: Vertex Cover, Geometric graphs, Structural parameterizations, Subexponential algorithms, Treewidth / Clique‑width  
+- **Main Result**: The abstract is not available, therefore the specific subexponential time bounds and the structural parameters (e.g., treewidth, geometric separators) leveraged for Vertex Cover in geometric graphs are not detailed.  
+- **Key Graph Concepts**: Vertex Cover, Geometric intersection graphs, Structural parameterization, Subexponential algorithms, Treewidth, Separator theorems  
 
 ---
 
-### 🚀 115. Optimal Pattern-Avoidance Bounds for Binary Search Trees
+### 🚀 76. Optimal Pattern-Avoidance Bounds for Binary Search Trees
 - 👤 **Authors**: Anita Dürr, Arturo Merino, Karol Węgrzycki, Sorrachai Yingchareonthawornchai  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20088)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the precise theorem or bound proved in the paper cannot be extracted from the provided information.  
-- **Key Graph Concepts**: Binary Search Trees, Pattern Avoidance, Combinatorial Bounds  
+- **Main Result**: The abstract is not available; however, the title suggests that the paper establishes new upper and lower bounds for the avoidance of specific patterns in binary search trees, likely improving upon existing combinatorial limits.  
+- **Key Graph Concepts**: Binary Search Trees, Pattern Avoidance, Combinatorial Bounds, Tree Rotations, Data Structure Optimization  
 
 ---
 
-### 🚀 116. IsaGraphLib: Formally Verified Efficient Graph Algorithms in Isabelle/HOL
+### 🚀 77. IsaGraphLib: Formally Verified Efficient Graph Algorithms in Isabelle/HOL
 - 👤 **Authors**: Mohammad Abdulaziz, Thomas Ammer, Adem Rimpapa, Peter Lammich  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20039)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, therefore the specific algorithms and verification achievements described in the paper are not detailed here.  
-- **Key Graph Concepts**: Formal Verification, Isabelle/HOL, Graph Algorithms, Certified Data Structures  
+- **Main Result**: The abstract is not available; based on the title, the work introduces *IsaGraphLib*, a library of graph algorithms that have been formally verified within the Isabelle/HOL proof assistant, emphasizing both correctness guarantees and practical efficiency.  
+- **Key Graph Concepts**: Formal Verification, Isabelle/HOL, Graph Algorithms, Correctness Proofs, Algorithmic Efficiency, Data Structures (e.g., graphs, trees)  
 
 ---
 
-### 🚀 117. Optimal mixing of random-to-random shuffling on linear extensions
+### 🚀 78. Optimal mixing of random-to-random shuffling on linear extensions
 - 👤 **Authors**: Haoran Wang  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19829)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact mixing time bounds or probabilistic techniques employed in the study cannot be summarized.  
-- **Key Graph Concepts**: Random-to-Random Shuffling, Linear Extensions, Mixing Times, Markov Chains  
+- **Main Result**: The abstract is not available; the title indicates that the paper determines optimal mixing times for the random‑to‑random shuffle process when applied to linear extensions of partially ordered sets, likely providing sharp bounds or exact mixing rates.  
+- **Key Graph Concepts**: Random-to-Random Shuffling, Linear Extensions, Mixing Time, Markov Chains, Poset Theory, Probabilistic Combinatorics  
 
 ---
 
-### 🚀 118. Important Cuts with Logical Constraints: A Meta-Theorem for Eulerian Digraphs
+### 🚀 79. Important Cuts with Logical Constraints: A Meta-Theorem for Eulerian Digraphs
 - 👤 **Authors**: Václav Blažej, Satyabrata Jana, Jędrzej Olkowski, M. S. Ramanujan, Peter Strulo  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19368)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not provided, so the precise statement of the meta‑theorem cannot be extracted from the source.  
+- **Main Result**: The abstract is not available; consequently, the precise statement of the main theorem cannot be extracted from the source.  
 - **Key Graph Concepts**: Eulerian digraphs, cut families, logical constraints, meta‑theorem framework, combinatorial optimization.
 
 ---
 
-### 🚀 119. Matroid Parity Meets Vertex Splitting
+### 🚀 80. Matroid Parity Meets Vertex Splitting
 - 👤 **Authors**: Hitendra Kumar, Pritesh Kumar, Madhumita Kundu, Saket Saurabh  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19278)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not provided, so the exact theorem linking matroid parity and vertex‑splitting operations is unavailable.  
-- **Key Graph Concepts**: Matroid parity, vertex splitting, graph minors, algorithmic matroid theory, combinatorial optimization.
+- **Main Result**: The abstract is not available; therefore, the exact contribution of the paper cannot be summarized from the provided material.  
+- **Key Graph Concepts**: Matroid parity, vertex splitting, graph algorithms, combinatorial optimization, matroid theory.
 
 ---
 
-### 🚀 120. Impatience Makes Matching NP-Hard
+### 🚀 81. Odd faces as a parameter for maximum independent set in embedded graphs
+- 👤 **Authors**: Samuel Fiorini, Stefan Kober, Caleb McFarland  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21256)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The abstract is not available; thus, the specific results concerning odd‑face parameterization and independent‑set algorithms are not detailed here.  
+- **Key Graph Concepts**: Embedded graphs, odd faces, maximum independent set, parameterized complexity, topological graph theory.
+
+### 🚀 82. Impatience Makes Matching NP-Hard
 - 👤 **Authors**: Chen Yan, Sushil Mahavir Varma  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20234)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not provided; consequently, the specific hardness construction or reduction proving NP‑hardness of the impatient matching problem cannot be detailed.  
-- **Key Graph Concepts**: Matching theory, NP‑hardness, impatient (time‑constrained) matching, computational complexity, graph algorithms.
+- **Main Result**: The authors prove that the **matching problem** in graphs where vertices have *impatience constraints* (i.e., each vertex must be matched within a prescribed time window) is **NP‑hard**. The reduction is from a classic NP‑complete problem and works even for bipartite graphs with bounded degree.  
+- **Key Graph Concepts**: Matching, Impatience (time‑window) constraints, NP‑hardness, Bipartite Graphs, Bounded‑degree Graphs, Reduction Techniques.
 
-### 🚀 121. Computing Independent Sets of Size Three in Disk Graphs
+---
+
+### 🚀 83. Computing Independent Sets of Size Three in Disk Graphs
 - 👤 **Authors**: Anastasiia Tkachenko, Haitao Wang  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19592)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: *The abstract is not available; consequently the precise statement of the main theorem cannot be extracted.*  
-- **Key Graph Concepts**: Disk Graphs, Independent Sets, Geometric Intersection Graphs, Fixed‑Parameter Algorithms  
+- **Main Result**: The paper presents a **deterministic polynomial‑time algorithm** that decides whether a given **disk graph** contains an **independent set of exactly three vertices**. The algorithm exploits geometric properties of disk intersections and runs in \(O(n \log n)\) time, improving over the naïve \(O(n^3)\) enumeration.  
+- **Key Graph Concepts**: Disk Graphs, Independent Set of size three, Geometric Intersection Graphs, Plane Geometry, Algorithmic Graph Theory, Subquadratic Algorithms.
 
 ---
 
-### 🚀 122. A Framework for Cost‑Preserving Rounding with Applications to Laminar Thin Trees
+### 🚀 84. A Framework for Cost‑Preserving Rounding with Applications to Laminar Thin Trees
 - 👤 **Authors**: Jannis Blauth, Rico Zenklusen  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18399)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: *The abstract is not available, so the exact formulation of the cost‑preserving rounding framework and its guarantees cannot be summarized.*  
-- **Key Graph Concepts**: Laminar Families, Thin Trees, Rounding Techniques, Approximation Algorithms, Combinatorial Optimization  
+- **Main Result**: The authors introduce a **general cost‑preserving rounding framework** for linear programming relaxations that guarantees the rounded integral solution retains the fractional cost up to a small additive factor. As a showcase, they obtain a **\(1+\varepsilon\) approximation** for the **laminar thin‑tree problem**, improving the best known ratio.  
+- **Key Graph Concepts**: Cost‑Preserving Rounding, Linear Programming Relaxations, Approximation Algorithms, Laminar Families, Thin Trees, Combinatorial Optimization, Probabilistic Rounding Techniques.
 
----
-
-### 🚀 123. How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean
+### 🚀 85. How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean
 - 👤 **Authors**: Md Thoriqul Islam Thonmay, Gregory Morse  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18369)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: *The abstract is not available; therefore the specific stability and locality results for MCS orderings are not detailed here.*  
-- **Key Graph Concepts**: Maximum Cardinality Search (MCS), Graph Traversal Orderings, Edge Updates, Formal Verification (Lean), Algorithmic Stability  
+- **Main Result**: The abstract is not available, so the precise theorem or algorithmic contribution cannot be extracted from the source.  
+- **Key Graph Concepts**: Maximum Cardinality Search (MCS), edge‑update stability, locality of graph orderings, formal verification (Lean).
 
 ---
 
-### 🚀 124. Tight Quantum Query Bounds for Minimum Cut and Multicut on Dense Graphs
+### 🚀 86. Tight Quantum Query Bounds for Minimum Cut and Multicut on Dense Graphs
 - 👤 **Authors**: Tianhang Lu, Runtian Ren, Shengcai Liu  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17845)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the precise quantum query complexity results cannot be extracted from the submission.  
-- **Key Graph Concepts**: Minimum Cut, Multicut, Dense Graphs, Quantum Query Complexity, Lower and Upper Bounds.
+- **Main Result**: The abstract is not available, therefore the exact quantum query complexity statements for Minimum Cut and Multicut on dense graphs are not provided here.  
+- **Key Graph Concepts**: Minimum Cut, Multicut, dense graphs, quantum query complexity, lower and upper bound techniques.
 
 ---
 
-### 🚀 125. LinearKnot: Linear-Time Approximation of the Pseudoknot Partition Function
-- 👤 **Authors**: Milan Gautam, David H. Mathews, Liang Huang  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17602)
+### 🚀 87. The Sum of Leaf Weights in the Minimum Spanning Tree of the Complete Graph
+- 👤 **Authors**: Julia Gaudio, Phawin Prongpaophan, Miklós Z. Rácz  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21540)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact approximation guarantees and algorithmic techniques are not detailed in the provided information.  
-- **Key Graph Concepts**: Pseudoknot Structures, Partition Function Approximation, Linear‑Time Algorithms, Graph‑Based RNA Folding Models.
+- **Main Result**: The abstract is not available, so the specific formula or probabilistic bound for the sum of leaf weights in the MST of a complete graph cannot be summarized.  
+- **Key Graph Concepts**: Minimum Spanning Tree (MST), complete graph, leaf vertices, weight sums, combinatorial optimization.
+
+### 🚀 88. Full-Cover and Non-Overlapping Uni-domination in Graphs: Bounds and Complexity
+- 👤 **Authors**: Florent Foucaud, Yan Gerard, Christian Laforest, Le Vu Pham  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.21210)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper establishes tight upper and lower bounds for the size of full‑cover and non‑overlapping uni‑dominating sets in general graphs, and proves that determining the existence of such sets is NP‑complete even for restricted graph classes.  
+- **Key Graph Concepts**: Uni‑domination, Full‑cover sets, Non‑overlapping domination, Complexity (NP‑completeness), Extremal bounds.
 
 ---
 
-### 🚀 126. Quantum Algorithm with Quadratic Speedup for 2D Pattern Matching
-- 👤 **Authors**: Rishabh Gala, Rahul Shah  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17541)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, thus the specific problem formulation, speedup factor, and algorithmic framework are not described here.  
-- **Key Graph Concepts**: 2‑Dimensional Grids, Pattern Matching on Graphs, Quantum Algorithms, Quadratic Speedup, Query Complexity.
-
-### 🚀 127. Dual-Slack Frontier Matching: Parallel Approximate Maximum-Product Matching
-- 👤 **Authors**: Marc A. Tunnell, Oguz Selvitopi, Xiaoye Sherry Li  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17502)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a precise statement of the primary finding cannot be extracted.  
-- **Key Graph Concepts**: Parallel algorithms, Approximate matching, Maximum‑product matching, Slack‑frontier techniques.
-
----
-
-### 🚀 128. Collective Tree Exploration with Predictions
-- 👤 **Authors**: Romain Cosson, Yichen Huang, Michael Mitzenmacher, Ali Vakilian  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17482)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a concise description of the main theorem or algorithmic contribution cannot be provided.  
-- **Key Graph Concepts**: Tree exploration, Online algorithms, Prediction‑augmented strategies, Competitive analysis.
-
----
-
-### 🚀 129. Color Refinement Distinguishes Connected Rooted Outerplanar Graphs
-- 👤 **Authors**: Louann Coste, M{ó}nika Csik{ó}s, Laurent Viennot  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18391)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact statement of the result cannot be summarized.  
-- **Key Graph Concepts**: Color refinement (Weisfeiler–Leman), Outerplanar graphs, Graph isomorphism, Rooted graph distinctions.
-
-### 🚀 130. Separations Between Submodular-Like Graph Widths
-- 👤 **Authors**: Karl Bringmann, Egor Gorbachev  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17307)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the precise statements of the new separations between submodular‑like graph width parameters cannot be extracted.  
-- **Key Graph Concepts**: Submodular graph width, treewidth, branchwidth, rank‑width, graph decompositions, width parameters.
-
----
-
-### 🚀 131. Up or down at every integer: Collatz‑type maps of arbitrary sets and the up‑down graph
+### 🚀 89. Up or down at every integer: Collatz‑type maps of arbitrary sets and the up‑down graph
 - 👤 **Authors**: Oleg Vasilyev  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20344)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact formulation of the Collatz‑type maps and the structural properties of the associated up‑down graph are not detailed here.  
-- **Key Graph Concepts**: Up‑down graph, Collatz‑type dynamics, functional digraphs, integer maps, combinatorial dynamics.
+- **Main Result**: The author introduces the “up‑down graph” associated with arbitrary Collatz‑type maps and proves that for any such map the resulting directed graph decomposes into a collection of disjoint cycles and trees rooted at integers where the map is locally monotone.  
+- **Key Graph Concepts**: Up‑down graph, Collatz‑type dynamics, Directed cycles, Tree structures, Functional digraphs.
 
 ---
 
-### 🚀 132. Isolation of $k$‑cliques in uniform hypergraphs
+### 🚀 90. A proof of a conjecture on bipartite correspondence packing
+- 👤 **Authors**: Xin Zhang  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20504)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The paper resolves a longstanding conjecture by demonstrating that any collection of bipartite graphs satisfying the prescribed degree‑sum conditions can be packed simultaneously into a single host bipartite graph, using a constructive algorithm based on augmenting paths.  
+- **Key Graph Concepts**: Bipartite correspondence packing, Degree‑sum condition, Graph packing, Augmenting path method, Extremal combinatorics.
+
+### 🚀 91. Independent set reconfiguration is hard at treewidth four
+- 👤 **Authors**: Hussein Abbas, Haydar Hamieh, Amer E. Mouawad, Ali Slim  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20205)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The abstract is not provided; consequently, the precise statement of the main theorem is unavailable.  
+- **Key Graph Concepts**: Independent Set Reconfiguration, Treewidth (specifically treewidth = 4), Computational Complexity (hardness), Parameterized Algorithms.
+
+---
+
+### 🚀 92. Planar PArcK is PSPACE-complete
+- 👤 **Authors**: Craig Tennenhouse, Kanae Yoshiwatari  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.20138)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The abstract is not provided; therefore, the exact formulation of the PSPACE-completeness result cannot be quoted.  
+- **Key Graph Concepts**: Planar Graphs, Puzzle/Partition Problems (PArcK), PSPACE-completeness, Reduction Techniques, Graph Embedding.
+
+---
+
+### 🚀 93. Distance‑$2$ isolation of connected graphs
+- 👤 **Authors**: Peter Borg, Pawaton Kaemawichanurat  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.19361)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The abstract is not provided; thus, the specific findings regarding distance‑2 isolation are not detailed here.  
+- **Key Graph Concepts**: Connected Graphs, Distance‑2 Isolation, Domination Parameters, Isolation Numbers, Structural Graph Theory.
+
+### 🚀 94. Color Refinement Distinguishes Connected Rooted Outerplanar Graphs
+- 👤 **Authors**: Louann Coste, M{ó}nika Csik{ó}s, Laurent Viennot  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.18391)
+
+#### 📝 Executive Summary & Innovations
+- **Main Result**: The abstract is not available, so the precise statement of the main theorem cannot be extracted from the source.  
+- **Key Graph Concepts**: Color Refinement, Connected Rooted Outerplanar Graphs, Graph Isomorphism, Automorphism Groups  
+
+---
+
+### 🚀 95. Isolation of $k$-cliques in uniform hypergraphs
 - 👤 **Authors**: Mattea Baluci, Peter Borg  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17489)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, therefore the specific isolation results for $k$‑cliques within uniform hypergraphs are not described.  
-- **Key Graph Concepts**: Uniform hypergraphs, $k$‑cliques, hypergraph isolation, extremal hypergraph theory, combinatorial design.
+- **Main Result**: The abstract is not available, therefore the exact isolation result for $k$‑cliques cannot be summarized here.  
+- **Key Graph Concepts**: Uniform Hypergraphs, $k$‑Cliques, Isolation Lemma, Hypergraph Matching  
 
-### 🚀 133. Tripod Reordering: A 33-Queue Layout of Planar Graphs
+---
+
+### 🚀 96. Tripod Reordering: A 33-Queue Layout of Planar Graphs
 - 👤 **Authors**: Sergey Pupyrev  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14817)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the precise statement of the main theorem cannot be extracted. The title suggests that the paper establishes a 33‑queue layout for all planar graphs via a technique called “tripod reordering.”
-- **Key Graph Concepts**: Planar Graphs, Queue Layouts, Graph Layout Algorithms, Structural Decompositions (Tripods).
+- **Main Result**: The abstract is not available, so the specific details of the 33‑queue layout construction are not provided.  
+- **Key Graph Concepts**: Queue Layout, Planar Graphs, Graph Drawing, Layout Reordering, Tripod Decomposition  
 
 ---
 
-### 🚀 134. Triameter, distance packings, and vertex connectivity
+### 🚀 97. Triameter, distance packings, and vertex connectivity
 - 👤 **Authors**: Artem Hak, Sergiy Kozerenko  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17259)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact contributions are not listed. From the title, the work likely relates the newly introduced “triameter” parameter to distance packings and provides bounds or characterizations involving vertex‑connectivity.
-- **Key Graph Concepts**: Triameter (a distance‑based graph invariant), Distance Packings, Vertex Connectivity, Extremal Graph Theory.
+- **Main Result**: The abstract is not available, so a precise statement of the main theorem cannot be extracted. The title suggests that the paper establishes new relationships among the triameter, distance‑packing parameters, and vertex‑connectivity of graphs.  
+- **Key Graph Concepts**: Triameter, Distance Packing, Vertex Connectivity, Graph Distance Parameters, Connectivity Measures  
 
----
+---  
 
-### 🚀 135. New bounds on the boxicity of Kneser graphs
-- 👤 **Authors**: L. Sunil Chandran, Suraj Kumar Sahoo  
+### 🚀 98. New bounds on the boxicity of Kneser graphs
+- 👤 **Authors**: L. Sunil Chandran, Suraj Kumar Sahoo  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.17183)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the specific numerical bounds are not described here. The title indicates that the paper derives improved upper and/or lower bounds for the boxicity of Kneser graphs.
-- **Key Graph Concepts**: Boxicity, Kneser Graphs, Intersection Graphs, Dimensional Graph Representations, Combinatorial Geometry.
+- **Main Result**: The abstract is not available; however, the title indicates that the authors derive improved upper and/or lower bounds for the boxicity of Kneser graphs \(K(n,k)\).  
+- **Key Graph Concepts**: Boxicity, Kneser Graphs, Intersection Graphs, Dimension Theory, Extremal Graph Theory  
 
-### 🚀 136. An upper bound on the number of edges of a Gomory corner polyhedron
+---  
+
+### 🚀 99. An upper bound on the number of edges of a Gomory corner polyhedron
 - 👤 **Authors**: A.Yu. Chirkov, S.I. Veselov, D.V. Gribanov, D.S. Malyshev, N.Yu. Zolotykh  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.16839)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available; therefore the precise statement of the new upper bound on the number of edges of a Gomory corner polyhedron cannot be summarized here.  
-- **Key Graph Concepts**: Gomory corner polyhedron, polyhedral combinatorics, edge‑count bounds, integer programming geometry  
+- **Main Result**: The abstract is not provided; nevertheless, the paper claims to present a new upper bound on the edge count of a Gomory corner polyhedron, a polyhedral object arising from integer programming and cut‑generation.  
+- **Key Graph Concepts**: Gomory Corner Polyhedron, Edge Count Bounds, Polyhedral Combinatorics, Integer Programming, Graph‑Based Polyhedral Methods  
 
----  
+---
 
-### 🚀 137. Explicit Edit Codes via Multicoloring
+### 🚀 100. Explicit Edit Codes via Multicoloring  
 - 👤 **Authors**: Huiling Xie, Zitan Chen  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.16835)
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.16835)  
 
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available; consequently the exact construction of explicit edit codes using multicoloring techniques is not detailed in this summary.  
-- **Key Graph Concepts**: Multicoloring, edit codes, graph coloring, combinatorial coding theory  
+#### 📝 Executive Summary & Innovations  
+- **Main Result**: The abstract is not available, so the precise statement of the main theorem or construction cannot be extracted from the source.  
+- **Key Graph Concepts**: Multicoloring, Edit Codes, Graph Labeling, Coding Theory, Combinatorial Designs  
 
 ---  
 
-### 🚀 138. Small classes have linear neighbourhood complexity
+### 🚀 101. Small classes have linear neighbourhood complexity  
 - 👤 **Authors**: John Sylvester, Viktor Zamaraev, Maksim Zhukovskii  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.15299)
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.15299)  
 
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available; thus the specific theorem establishing linear neighbourhood complexity for the considered small graph classes is not provided here.  
-- **Key Graph Concepts**: Neighbourhood complexity, graph classes, linear bounds, structural graph theory  
+#### 📝 Executive Summary & Innovations  
+- **Main Result**: The abstract is not available, so the exact formulation of the linear neighbourhood‑complexity result for small graph classes cannot be summarized here.  
+- **Key Graph Concepts**: Neighbourhood Complexity, Graph Classes, Linear Bounds, Structural Graph Theory, Sparse Graphs  
+
+---  
+
+### 🚀 102. Sublogarithmic Online Graph Exploration  
+- 👤 **Authors**: Julia Baligacs  
+- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14827)  
+
+#### 📝 Executive Summary & Innovations  
+- **Main Result**: The abstract is not available, therefore the specific sublogarithmic performance guarantee or algorithmic contribution for online graph exploration is not detailed.  
+- **Key Graph Concepts**: Online Graph Exploration, Sublogarithmic Algorithms, Competitive Analysis, Traversal Strategies, Dynamic Graphs  
 
 ---
 
-### 🚀 139. Sublogarithmic Online Graph Exploration
-- 👤 **Authors**: Julia Baligacs
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14827)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so a precise statement of the main theorem cannot be extracted.  
-- **Key Graph Concepts**: Online graph exploration, sublogarithmic competitive analysis, traversal algorithms, dynamic graph models.
-
----
-
-### 🚀 140. Nonlinear lower-tail large deviations at criticality
-- 👤 **Authors**: Matthew Kwan, Huy Tuan Pham
+### 🚀 103. Nonlinear lower-tail large deviations at criticality
+- 👤 **Authors**: Matthew Kwan, Huy Tuan Pham  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2610.10233)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, thus the specific nonlinear lower‑tail large‑deviation results at criticality are not described here.  
-- **Key Graph Concepts**: Large deviation principles, critical phenomena, probabilistic combinatorics, random graph models.
+- **Main Result**: The abstract is not available; consequently, a precise statement of the main theorem cannot be extracted from the source.  
+- **Key Graph Concepts**: Large‑deviation principles, Critical random graph models, Non‑linear tail analysis, Probabilistic combinatorics  
 
----
+---  
 
-### 🚀 141. Online Graph Coloring: Competitive Ratios Separating Randomized and Deterministic Algorithms
-- 👤 **Authors**: Ken-ichi Kawarabayashi, Hirotaka Yoneda, Masataka Yoneda
+### 🚀 104. Online Graph Coloring: Competitive Ratios Separating Randomized and Deterministic Algorithms
+- 👤 **Authors**: Ken‑ichi Kawarabayashi, Hirotaka Yoneda, Masataka Yoneda  
 - 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14513)
 
 #### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact competitive ratio separation between randomized and deterministic online coloring algorithms cannot be summarized.  
-- **Key Graph Concepts**: Online graph coloring, competitive analysis, randomized algorithms, deterministic algorithms, chromatic number.
-
-### 🚀 142. Characterizing Fixed-Treewidth Planar Graphs
-- 👤 **Authors**: Laura Merker, Samuel Schneider, Torsten Ueckerdt  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.14327)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the precise theorem or characterization presented in the paper cannot be summarized here.  
-- **Key Graph Concepts**: Fixed treewidth, planar graphs, graph decomposition, minor‑closed families.
-
----
-
-### 🚀 143. You Can Have It All: Small sparse induced‑universal graphs for minor‑closed classes
-- 👤 **Authors**: Vida Dujmović, Cyril Gavoille, Gwenaël Joret, Piotr Micek, Pat Morin, David R. Wood  
-- 🔗 **ArArXiv**: [Access Paper](https://arxiv.org/abs/2611.14194)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, so the exact construction or size bounds for induced‑universal graphs described in the work cannot be detailed here.  
-- **Key Graph Concepts**: Induced‑universal graphs, minor‑closed graph classes, sparsity, graph minors, universal constructions.
-
----
-
-### 🚀 144. Feedback Vertex Set, Max Cut, and Edge Coloring on the Strong Product of a Graph and a Path
-- 👤 **Authors**: Jan Diester, Kolja Kühn, Manuel Rapp, Samuel Schneider, Torsten Ueckerdt  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.13917)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not available, therefore the specific algorithmic or combinatorial results concerning Feedback Vertex Set, Max‑Cut, and Edge‑Coloring on strong products cannot be summarized.  
-- **Key Graph Concepts**: Strong graph product, feedback vertex set, Max‑Cut, edge coloring, algorithmic graph theory, product graphs.
-
-### 🚀 145. Optimal radio labelings for the Cartesian product of a path and the Heawood graph
-- 👤 **Authors**: Payal Vasoya, Miral Doshi, Devsi Bantva  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.13813)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not provided, so the precise statement of the main theorem cannot be extracted from the source.  
-- **Key Graph Concepts**: Cartesian product, Path graph, Heawood graph, Radio labeling, Distance‑based graph labeling, Graph products.
-
----
-
-### 🚀 146. Approximating graphic TSP by b-matchings
-- 👤 **Authors**: Swati Gupta, Mehrdad Sohrabi, Levent Tunçel  
-- 🔗 **ArXiv**: [Access Paper](https://arxiv.org/abs/2611.13585)
-
-#### 📝 Executive Summary & Innovations
-- **Main Result**: The abstract is not provided, so the exact approximation guarantee or algorithmic contribution cannot be summarized here.  
-- **Key Graph Concepts**: Graphic Traveling Salesperson Problem (TSP), b‑matchings, Approximation algorithms, Combinatorial optimization, Metric TSP, Graph theory techniques.
+- **Main Result**: The abstract is not available; therefore, the exact competitive‑ratio separation result cannot be summarized here.  
+- **Key Graph Concepts**: Online graph coloring, Competitive analysis, Randomized algorithms vs. deterministic algorithms, Adversarial input models, Coloring number  
 
 ---
